@@ -1,0 +1,21 @@
+{% set path = "../static/img/" ~ img %}
+<div class="my-6">
+<div class="columns is-vcentered">
+<div class="column">
+{% if side == "left" %}
+<img src="{{ resize_image(path=path, width=500, op="fit_width") }}" style="width: 100%;">
+{% else %}
+
+{{ body | safe }}
+{% endif %}
+</div>
+<div class="column">
+{% if side == "left" %}
+
+{{ body | safe }}
+{% else %}
+<img src="{{ resize_image(path=path, width=500, op="fit_width") }}" style="width: 100%;">
+{% endif %}
+</div>
+</div>
+</div>

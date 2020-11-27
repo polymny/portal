@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="/bulma.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        {% block extracss %}{% endblock extracss %}
+        <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    </head>
+    <body class="layout-documentation page-components">
+        <nav class="navbar is-success" role="navigation" aria-label="main navigation">
+            {% if not config.extra.wide_navbar %}
+            <div class="container">
+                {% endif %}
+                <div class="navbar-brand">
+                    <a class="navbar-item is-size-4" href="{{ config.base_url | safe }}">
+                        <strong>{{ config.title }}</strong>
+                    </a>
+                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item is-size-6" href="/tutoriels/">
+                            <strong>Tutoriels</strong>
+                        </a>
+                    </div>
+                </div>
+                <div class="navbar-menu">
+                    <div class="navbar-end">
+                        <div class="buttons">
+                        <a class="navbar-item is-size-6 button is-rounded" href="https://polymny.studio">
+                            <strong>Ouvrir Polymny</strong>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        {% block content %}{% endblock content %}
+        {% block footer %}{% endblock footer %}
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+                if ($navbarBurgers.length > 0) {
+                    $navbarBurgers.forEach( el => {
+                        el.addEventListener('click', () => {
+                            const target = el.dataset.target;
+                            const $target = document.getElementById(target);
+                            el.classList.toggle('is-active');
+                            $target.classList.toggle('is-active');
+                        });
+                    });
+                }
+            });
+        </script>
+    </body>
+</html>
