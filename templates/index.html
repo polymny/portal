@@ -1,4 +1,5 @@
-{% extends "page.html" %}
-{% block innercontent %}
+{% extends "base.html" %}
+{% set alternate = true %}
+{% block content %}
 {{ section.content | safe }}
-{% endblock innercontent %}
+{% endblock content %}

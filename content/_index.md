@@ -1,7 +1,13 @@
 +++
 +++
 
-# Polymny Studio
+<section class="section hero">
+<div class="hero-body">
+<div class="container">
+<div class="columns is-desktop">
+<div class="column is-8 is-offset-2 content has-text-centered">
+
+<h1 class="title is-1">Polymny Studio</h1>
 
 Polymny est le studio web des formateurs qui créent, modifient et gèrent des
 vidéos pédagogiques ! A partir d’une présentation existante (libre office,
@@ -13,6 +19,14 @@ Polymny est un logiciel libre, utilisable gratuitement, 100% web, indépendant
 du système d’exploitation de votre ordinateur (windows, macOS, linux). Il
 suffit de créer un compte pour enregistrer une première capsule vidéo. Besoin
 d'aide, de support : [contacter@polymny.studio](mailto:contacter@polymny.studio)
+
+<a class="button is-rounded is-success" href="{{ polymnyurl() }}"><strong>Aller sur Polymny</strong></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
 
 {% side(img="moodle.png", side="left") %}
 ## Partage des capsules
@@ -90,6 +104,8 @@ disposition :
 
 {% end %}
 
+
+{% section(class="is-light") %}
 La préparation et la gestion de projet opérées en amont, sur le web et sur le
 socle open-source, limitent le temps de réservation des studios, accélèrent et
 fluidifient la production professionnelle pour un coût de la minute de vidéo
@@ -98,3 +114,7 @@ recherches  [Bakkay et al. 2019]  à l’IRIT (Toulouse INP – ENSEEIHT) depuis
 2016. La région Occitanie finance actuellement le développement de Polymny au
 travers d’un projet de pré-maturation et de l’accompagnement de Toulouse Tech
 Transfer.
+
+> [Bakkay et al (2019). Protocols and software for simplified educational video capture and editing. Journal of Computers in Education, 6(2), 257-276.](https://oatao.univ-toulouse.fr/24824/1/bakkay_24824.pdf)
+
+{% end %}

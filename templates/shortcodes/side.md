@@ -1,5 +1,15 @@
 {% set path = "../static/img/" ~ img %}
-<div class="my-6">
+
+{% if side == "left" %}
+<section class="section hero is-light">
+{% else %}
+<section class="section hero">
+{% endif %}
+<div class="hero-body">
+<div class="container">
+<div class="columns is-desktop">
+<div class="column is-10 is-offset-1 content has-text-justified">
+
 <div class="columns is-vcentered">
 <div class="column">
 {% if side == "left" %}
@@ -19,3 +29,9 @@
 </div>
 </div>
 </div>
+
+</div>
+</div>
+</div>
+</div>
+</section>
