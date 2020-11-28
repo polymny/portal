@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" type="image/png" href="/img/favicon.png"/>
-        <link rel="stylesheet" href="/main.css">
+        <link rel="icon" type="image/png" href="{{ get_url(path="img/favicon.png") | safe }}"/>
+        <link rel="stylesheet" href="{{ get_url(path="main.css") | safe }}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         {% block extracss %}{% endblock extracss %}
         <title>{% block title %}{{ config.title }}{% endblock title %}</title>
@@ -25,13 +25,13 @@
                 </div>
                 <div class="navbar-menu" id="navbarBasicExample">
                     <div class="navbar-end">
-                        <a class="navbar-item is-size-6" href="/presentation/">
+                        <a class="navbar-item is-size-6" href="{{ get_url(path="@/presentation/index.md") | safe }}">
                             <strong>Présentation</strong>
                         </a>
-                        <a class="navbar-item is-size-6" href="/notes-de-versions/">
+                        <a class="navbar-item is-size-6" href="{{ get_url(path="@/notes-de-versions/_index.md") | safe }}">
                             <strong>Nouveautés</strong>
                         </a>
-                        <a class="navbar-item is-size-6 mr-6" href="/tutoriels/">
+                        <a class="navbar-item is-size-6 mr-6" href="{{ get_url(path="@/tutoriels.md") | safe }}">
                             <strong>Tutoriels</strong>
                         </a>
                         <div class="buttons">
@@ -65,8 +65,8 @@
                             <h6 class="title is-6 has-text-success">Resources</h6>
                             <ul>
                                 <li><a href="https://github.com/polymny/polymny/">Code source</a></li>
-                                <li><a href="/tutoriels/">Tutoriels</a></li>
-                                <li><a href="/protection-des-donnees/">Données personnelles</a></li>
+                                <li><a href="{{ get_url(path="@/tutoriels.md") | safe }}">Tutoriels</a></li>
+                                <li><a href="{{ get_url(path="@/protection-des-donnees.md") | safe }}">Données personnelles</a></li>
                                 <li><a href="https://github.com/polymny/polymny/blob/master/LICENSE">License GNU Affero V3</a></li>
                             </ul>
                         </div>
