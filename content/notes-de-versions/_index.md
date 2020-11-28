@@ -1,4 +1,4 @@
 +++
-title = "Notes de versions"
+title = "Nouveautés"
 template = "notesdeversions.html"
 +++

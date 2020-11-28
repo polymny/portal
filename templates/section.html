@@ -1,10 +1,6 @@
 {% extends "base.html" %}
 
-{% if section.title %}
-    {% block title %}
-        {{ config.title }} - {{ section.title }}
-    {% endblock title %}
-{% endif %}
+{% block title %}{{ config.title }} - {{ section.title }}{% endblock title %}
 
 {% block content %}
 <section class="section">
