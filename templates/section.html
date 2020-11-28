@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% if section.title %}
+    {% block title %}
+        {{ config.title }} - {{ section.title }}
+    {% endblock title %}
+{% endif %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <div class="columns is-desktop">
+            <div class="column is-8 is-offset-2">
+                <div class="content">
+                    {% block innercontent %}
+                    {{ section.content | safe }}
+                    {% endblock innercontent %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}

@@ -1,0 +1,16 @@
+{% extends "page.html" %}
+{% block innercontent %}
+
+{% for version in section.subsections %}
+{% set section = get_section(path=version) %}
+
+<h1><a href="{{ section.path }}">{{ section.title }}</a></h1>
+
+<ul>
+{% for change in section.toc %}
+<li>{{ change.title }}</li>
+{% endfor %}
+</ul>
+
+{% endfor %}
+{% endblock innercontent %}
