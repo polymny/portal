@@ -56,37 +56,6 @@ if (testCookie("EXAUTH")) {
 </div>
 </section>
 
-{% section(class="is-light") %}
-
-<div class="columns is-desktop">
-<div class="column is-8 is-offset-2 content has-text-centered">
-Polymny est un logiciel libre, utilisable gratuitement, 100% web, indépendant
-du système d’exploitation de votre ordinateur (windows, macOS, linux). Il
-suffit de créer un compte pour enregistrer une première capsule vidéo.
-Polymny.studio est issu d'un programme 2020-2021 de pré-maturation de la Région
-Occitanie.
-
-<div class="has-text-centered m-1">
-<img src="/img/logoRegionOccitanie.png">
-</div>
-
-Les acteurs, les utilisateurs et les soutiens :
-
-<div class="columns is-vcentered is-centered">
-<img class="m-1" src="/img/logoTTT.png">
-<img class="m-1" src="/img/logoIRIT.png">
-<img class="m-1" src="/img/logoCEPFOR.png">
-<img class="m-1" src="/img/logoCERESA.png">
-<img class="m-1" src="/img/logoDYP.png">
-<img class="m-1" src="/img/logoINP.png">
-<img class="m-1" src="/img/logoUT2J.png">
-</div>
-
-</div>
-</div>
-
-{% end %}
-
 {% side(img="moodle.png", side="left") %}
 ## Partage des capsules
 
@@ -175,5 +144,36 @@ travers d’un projet de pré-maturation et de l’accompagnement de Toulouse Te
 Transfer.
 
 > [Bakkay et al (2019). Protocols and software for simplified educational video capture and editing. Journal of Computers in Education, 6(2), 257-276.](https://oatao.univ-toulouse.fr/24824/1/bakkay_24824.pdf)
+
+{% end %}
+
+{% section(class="") %}
+
+<div class="columns is-desktop">
+<div class="column is-8 is-offset-2 content has-text-centered">
+Polymny est un logiciel libre, utilisable gratuitement, 100% web, indépendant
+du système d’exploitation de votre ordinateur (windows, macOS, linux). Il
+suffit de créer un compte pour enregistrer une première capsule vidéo.
+Polymny.studio est issu d'un programme 2020-2021 de pré-maturation de la Région
+Occitanie.
+
+<div class="has-text-centered m-1">
+<img src="/img/logoRegionOccitanie.png">
+</div>
+
+Les acteurs, les utilisateurs et les soutiens :
+
+<div class="columns is-vcentered is-centered">
+<img class="m-1" src="/img/logoTTT.png">
+<img class="m-1" src="/img/logoIRIT.png">
+<img class="m-1" src="/img/logoCEPFOR.png">
+<img class="m-1" src="/img/logoCERESA.png">
+<img class="m-1" src="/img/logoDYP.png">
+<img class="m-1" src="/img/logoINP.png">
+<img class="m-1" src="/img/logoUT2J.png">
+</div>
+
+</div>
+</div>
 
 {% end %}
