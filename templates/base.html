@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" type="image/png" href="/img/favicon.png"/>
         <link rel="stylesheet" href="/main.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         {% block extracss %}{% endblock extracss %}
@@ -13,7 +14,7 @@
             <div class="container">
                 <div class="navbar-brand">
                     <a class="navbar-item is-size-4" href="{{ config.base_url | safe }}">
-                        <img class="mr-1" src="{{ get_url(path="img/logo.png") | safe }}">
+                        <img class="mr-1" src="{{ get_url(path="img/favicon.png") | safe }}">
                         <strong>{{ config.title }}</strong>
                     </a>
                     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -24,6 +25,9 @@
                 </div>
                 <div class="navbar-menu" id="navbarBasicExample">
                     <div class="navbar-end">
+                        <a class="navbar-item is-size-6" href="/presentation/">
+                            <strong>Présentation</strong>
+                        </a>
                         <a class="navbar-item is-size-6" href="/notes-de-versions/">
                             <strong>Nouveautés</strong>
                         </a>

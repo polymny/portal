@@ -28,7 +28,7 @@ d'aide, de support : [contacter@polymny.studio](mailto:contacter@polymny.studio)
 <div class="field is-grouped is-grouped-centered">
 <div class="control"><input class="input" type="text" name="username" placeholder="Nom d'utilisateur"></div>
 <div class="control"><input class="input" type="password" name="password" placeholder="Mot de passe"></div>
-<div class="control"><button type="submit" class="button is-rounded is-success" href="{{ polymnyurl() }}" value="Aller sur Polymny" form="form"><strong>Aller sur Polymny</strong></button></div>
+<div class="control"><button type="submit" class="button is-rounded is-success" value="Aller sur Polymny" form="form"><strong>Aller sur Polymny</strong></button></div>
 </div>
 
 <script>
