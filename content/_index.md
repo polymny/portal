@@ -24,11 +24,11 @@ d'aide, de support : [contacter@polymny.studio](mailto:contacter@polymny.studio)
 <a class="button is-rounded is-success" href="{{ polymnyurl() }}"><strong>Aller sur Polymny</strong></a>
 </div>
 <div id="notloggedin" style="display: none;">
-<form method="POST" action="{{ polymnyurl() }}login/">
+<form id="form" method="POST" action="{{ polymnyurl() }}login/">
 <div class="field is-grouped is-grouped-centered">
 <div class="control"><input class="input" type="text" name="username" placeholder="Nom d'utilisateur"></div>
 <div class="control"><input class="input" type="password" name="password" placeholder="Mot de passe"></div>
-<div class="control"><input type="submit" class="button is-rounded is-success" href="{{ polymnyurl() }}" value="Aller sur Polymny"></div>
+<div class="control"><button type="submit" class="button is-rounded is-success" href="{{ polymnyurl() }}" value="Aller sur Polymny" form="form"><strong>Aller sur Polymny</strong></button></div>
 </div>
 
 <script>
@@ -38,11 +38,7 @@ function testCookie(cookiename) {
     var expires = "expires=" + d.toUTCString();
 
     document.cookie = cookiename + "=new_value;path=/;" + expires;
-    if (document.cookie.indexOf(cookiename + '=') == -1) {
-        return true;
-    } else {
-        return false;
-    }
+    return Boolean(document.cookie.indexOf(cookiename + '=') == -1);
 }
 
 if (testCookie("EXAUTH")) {
