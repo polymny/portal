@@ -10,8 +10,7 @@ partager à partir d'un simple lien/URL.
 
 ## Des exemples rapides
 
-![Exemples](bonjour.gif)
-
+{{ polymny(id="757685ed-56d0-44b5-9fff-777f8a9e0909") }}
 
 ### Que fait polymny.studio ?
 
