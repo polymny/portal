@@ -8,9 +8,11 @@ template = "notesdeversion.html"
 Il est maintenant possible de téléchargée la capsule vidéo réalisée au format mp4.
 
 Depuis la vue produire,
+
 ![Télécharger une vidéo depuis la vue produire](dlVideo1.png)
 
 ou bien directement sur la page d'acceuil,
+
 ![Télécharger une vidéo depuis la page d'accueil](dlVideo2.png)
 
 ## Ajout d'un lien vers les tutoriels
