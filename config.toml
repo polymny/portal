@@ -16,4 +16,4 @@ build_search_index = false
 
 [extra]
 # The polymny url
-polymny_url = "https://dev.polymny.studio"
+polymny_url = "http://localhost:8000/"
