@@ -8,6 +8,7 @@
         <div class="columns is-desktop">
             <div class="column is-8 is-offset-2">
                 <div class="content has-text-justified">
+                    {% if section.title %}<h1 class="title is-1 has-text-centered">{{ section.title }}</h1>{% endif %}
                     {% block innercontent %}
                     {{ section.content | safe }}
                     {% endblock innercontent %}

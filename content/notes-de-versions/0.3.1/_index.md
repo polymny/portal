@@ -1,6 +1,6 @@
 +++
 title = "Nouveautés de la v0.3.1"
-template = "notesdeversion.html"
+template = "section.html"
 +++
 
 ## Ajout de boutons pour télécharger la vidéo réalisée
