@@ -31,16 +31,9 @@ d'aide, de support : [contacter@polymny.studio](mailto:contacter@polymny.studio)
 <div class="control"><button type="submit" class="button is-rounded is-success" value="Aller sur Polymny" form="form"><strong>Aller sur Polymny</strong></button></div>
 </div>
 
+
 <script>
-function testCookie(cookiename) {
-    var d = new Date();
-    d.setTime(d.getTime() + (1000));
-    var expires = "expires=" + d.toUTCString();
-
-    document.cookie = cookiename + "=new_value;path=/;" + expires;
-    return Boolean(document.cookie.indexOf(cookiename + '=') == -1);
-}
-
+{{ testcookie() }}
 if (testCookie("EXAUTH")) {
     document.getElementById('loggedin').style.display = "block";
 } else {
@@ -49,6 +42,9 @@ if (testCookie("EXAUTH")) {
 </script>
 
 </form>
+</div>
+
+</div>
 </div>
 </div>
 </div>
