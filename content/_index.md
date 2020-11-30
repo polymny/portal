@@ -62,15 +62,21 @@ Occitanie.
 
 Les acteurs, les utilisateurs et les soutiens :
 
-<div class="columns is-vcentered is-centered">
+<div class="columns is-vcentered is-centered m-1">
 <img class="m-1" src="/img/logoTTT.png">
 <img class="m-1" src="/img/logoIRIT.png">
 <img class="m-1" src="/img/logoCEPFOR.png">
 <img class="m-1" src="/img/logoCERESA.png">
 <img class="m-1" src="/img/logoDYP.png">
-<img class="m-1" src="/img/logoINP.png">
-<img class="m-1" src="/img/logoUT2J.png">
 </div>
+</div>
+
+<div class="columns is-vcentered is-centered m-1">
+<img class="m-1" src="/img/logoUFT.png">
+<img class="m-1" src="/img/logoINP.png">
+<img class="m-1" src="/img/logoN7.png">
+<img class="m-1" src="/img/logoUT2J.png">
+<img class="m-1" src="/img/logoINRAE.png">
 </div>
 
 {% end %}
