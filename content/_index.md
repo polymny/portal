@@ -52,6 +52,36 @@ if (testCookie("EXAUTH")) {
 </div>
 </div>
 </div>
+</section>
+
+<section class="section hero is-light">
+<div class="hero-body">
+<div class="container">
+<div class="columns is-desktop">
+<div class="column is-8 is-offset-2 content has-text-centered">
+
+
+Polymny.studio est issu d'un programme 2020-2021 de pré-maturation de la Région
+Occitanie.
+
+<div class="has-text-centered m-1">
+<img src="/img/logoRegionOccitanie.png">
+</div>
+
+Les acteurs, les utilisateurs et les soutiens :
+
+<div class="columns is-vcentered is-centered">
+<img class="m-1" src="/img/logoTTT.png">
+<img class="m-1" src="/img/logoIRIT.png">
+<img class="m-1" src="/img/logoCEPFOR.png">
+<img class="m-1" src="/img/logoCERESA.png">
+<img class="m-1" src="/img/logoDYP.png">
+<img class="m-1" src="/img/logoINP.png">
+<img class="m-1" src="/img/logoUT2J.png">
+</div>
+
+</div>
+</div>
 </div>
 </div>
 </section>
@@ -133,7 +163,7 @@ disposition :
 {% end %}
 
 
-{% section(class="is-light") %}
+{% section(class="") %}
 La préparation et la gestion de projet opérées en amont, sur le web et sur le
 socle open-source, limitent le temps de réservation des studios, accélèrent et
 fluidifient la production professionnelle pour un coût de la minute de vidéo
@@ -147,33 +177,3 @@ Transfer.
 
 {% end %}
 
-{% section(class="") %}
-
-<div class="columns is-desktop">
-<div class="column is-8 is-offset-2 content has-text-centered">
-Polymny est un logiciel libre, utilisable gratuitement, 100% web, indépendant
-du système d’exploitation de votre ordinateur (windows, macOS, linux). Il
-suffit de créer un compte pour enregistrer une première capsule vidéo.
-Polymny.studio est issu d'un programme 2020-2021 de pré-maturation de la Région
-Occitanie.
-
-<div class="has-text-centered m-1">
-<img src="/img/logoRegionOccitanie.png">
-</div>
-
-Les acteurs, les utilisateurs et les soutiens :
-
-<div class="columns is-vcentered is-centered">
-<img class="m-1" src="/img/logoTTT.png">
-<img class="m-1" src="/img/logoIRIT.png">
-<img class="m-1" src="/img/logoCEPFOR.png">
-<img class="m-1" src="/img/logoCERESA.png">
-<img class="m-1" src="/img/logoDYP.png">
-<img class="m-1" src="/img/logoINP.png">
-<img class="m-1" src="/img/logoUT2J.png">
-</div>
-
-</div>
-</div>
-
-{% end %}

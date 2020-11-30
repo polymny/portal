@@ -25,14 +25,14 @@
                 </div>
                 <div class="navbar-menu" id="navbarBasicExample">
                     <div class="navbar-end">
-                        <a class="navbar-item is-size-6" href="{{ get_url(path="@/presentation/index.md") | safe }}">
-                            <strong>Présentation</strong>
-                        </a>
-                        <a class="navbar-item is-size-6" href="{{ get_url(path="@/notes-de-versions/_index.md") | safe }}">
-                            <strong>Nouveautés</strong>
-                        </a>
-                        <a class="navbar-item is-size-6 mr-6" href="{{ get_url(path="@/tutoriels.md") | safe }}">
+                        <a class="navbar-item is-size-6" href="{{ get_url(path="@/tutoriels.md") | safe }}">
                             <strong>Tutoriels</strong>
+                        </a>
+                        <a class="navbar-item is-size-6" href="{{ get_url(path="@/caracteristiques/index.md") | safe }}">
+                            <strong>Caractéristiques</strong>
+                        </a>
+                        <a class="navbar-item is-size-6 mr-6" href="{{ get_url(path="@/notes-de-versions/_index.md") | safe }}">
+                            <strong>Nouveautés</strong>
                         </a>
                         <div class="buttons">
                             <a class="navbar-item is-size-6 button is-rounded" href="{{ config.extra.polymny_url | safe }}">
@@ -55,14 +55,14 @@
                             <p>Polymny est un logiciel écrit en <a href="https://www.rust-lang.org/">Rust</a> et <a href="https://elm-lang.org/">Elm</a>.</p>
                             <p>Développé par Thomas Forgione, Nicolas Bertrand, Axel Carlier et Vincent Charvillat.</p>
                         </div>
-                        <div class="column is-2 is-offset-1">
+                        <div class="column is-2">
                             <h6 class="title is-6 has-text-success">Contact</h6>
                             <ul>
                                 <li><a href="mailto:contacter@polymny.studio">contacter@polymny.studio</a></li>
                             </ul>
                         </div>
                         <div class="column is-2">
-                            <h6 class="title is-6 has-text-success">Resources</h6>
+                            <h6 class="title is-6 has-text-success">Ressources</h6>
                             <ul>
                                 <li><a href="{{ get_url(path="@/cgu.md") | safe }}">Conditions d'utilisation</a></li>
                                 <li><a href="{{ get_url(path="@/protection-des-donnees.md") | safe }}">Données personnelles</a></li>

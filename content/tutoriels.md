@@ -19,7 +19,7 @@ template = "page.html"
 
 {{ polymny(id="ce1b9dfa-44cb-4b4a-9d1d-a4dafe0116fc") }}
 
-## Étape 5 : Utiliser le prompteur
+## Étape 5 : Organiser les planches
 
 {{ polymny(id="b8edf9bc-5ebc-4c9e-8b3b-af4c50fbb6f1") }}
 

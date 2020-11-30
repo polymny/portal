@@ -1,5 +1,5 @@
 +++
-title = "Présentation de Polymny"
+title = "Caractéristiques de Polymny"
 template = "page.html"
 +++
 
