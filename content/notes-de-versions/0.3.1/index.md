@@ -1,6 +1,7 @@
 +++
 title = "Nouveautés de la v0.3.1"
-template = "section.html"
+template = "news.html"
+date = 2020-11-30
 +++
 
 ## Ajout de boutons pour télécharger la vidéo réalisée

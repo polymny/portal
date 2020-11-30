@@ -10,7 +10,7 @@
             <div class="column is-8 is-offset-2">
                 <div class="content has-text-justified">
                     {% if page.title %}<h1 class="title is-1 has-text-centered">{{ page.title }}</h1>{% endif %}
-                    {% if page.date %}<p class="is-size-7 is-italic">Publié le {{ page.day }}/{{ page.month }}/{{ page.year }}</p>{% endif %}
+                    {% if page.date %}<p class="is-size-7 is-italic">Sortie le {{ page.day }}/{{ page.month }}/{{ page.year }}</p>{% endif %}
                     {% block innercontent %}
                     {{ page.content | safe }}
                     {% endblock innercontent %}
