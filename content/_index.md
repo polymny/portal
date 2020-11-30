@@ -54,13 +54,9 @@ if (testCookie("EXAUTH")) {
 </div>
 </section>
 
-<section class="section hero is-light">
-<div class="hero-body">
-<div class="container">
-<div class="columns is-desktop">
-<div class="column is-8 is-offset-2 content has-text-centered">
+{% section(class="has-background-grey-lighter") %}
 
-
+<div class="has-text-centered">
 Polymny.studio est issu d'un programme 2020-2021 de pré-maturation de la Région
 Occitanie.
 
@@ -79,12 +75,9 @@ Les acteurs, les utilisateurs et les soutiens :
 <img class="m-1" src="/img/logoINP.png">
 <img class="m-1" src="/img/logoUT2J.png">
 </div>
+</div>
 
-</div>
-</div>
-</div>
-</div>
-</section>
+{% end %}
 
 {% side(img="moodle.png", side="left") %}
 ## Partage des capsules

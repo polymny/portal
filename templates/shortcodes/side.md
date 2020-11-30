@@ -3,7 +3,7 @@
 {% if side == "left" %}
 <section class="section hero">
 {% else %}
-<section class="section hero is-light">
+<section class="section hero has-background-grey-lighter">
 {% endif %}
 <div class="hero-body">
 <div class="container">
