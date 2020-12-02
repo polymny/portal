@@ -4,8 +4,8 @@
 <div id="notloggedin" style="display: none;">
     <form id="loginform" method="POST" action="{{ config.extra.polymny_url | safe }}login/">
         <div class="field is-grouped is-grouped-centered">
-            <div class="control"><input class="input" type="text" name="username" placeholder="Nom d'utilisateur"></div>
-            <div class="control"><input class="input" type="password" autocomplete="current-password" name="password" placeholder="Mot de passe"></div>
+            <div class="control"><input class="input" type="text" name="username" placeholder="Nom d'utilisateur" required></div>
+            <div class="control"><input class="input" type="password" autocomplete="current-password" name="password" placeholder="Mot de passe" required></div>
             <div class="control"><button type="submit" class="button is-rounded is-success" value="Ouvrir Polymny" form="loginform"><strong>Ouvrir Polymny</strong></button></div>
         </div>
         <div class="field is-grouped is-grouped-centered">
