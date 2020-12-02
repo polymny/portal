@@ -1,0 +1,212 @@
+<div id="loggedin" style="display: none;">
+    <a class="button is-rounded is-success" href="{{ config.extra.polymny_url | safe }}"><strong>Aller sur Polymny</strong></a>
+</div>
+<div id="notloggedin" style="display: none;">
+    <form id="loginform" method="POST" action="{{ config.extra.polymny_url | safe }}login/">
+        <div class="field is-grouped is-grouped-centered">
+            <div class="control"><input class="input" type="text" name="username" placeholder="Nom d'utilisateur"></div>
+            <div class="control"><input class="input" type="password" name="password" placeholder="Mot de passe"></div>
+            <div class="control"><button type="submit" class="button is-rounded is-success" value="Aller sur Polymny" form="loginform"><strong>Aller sur Polymny</strong></button></div>
+        </div>
+        <div class="field is-grouped is-grouped-centered">
+            <div class="control"><a id="opensignup" href="" onclick="return false;">Pas encore inscrit ?</a></div>
+        </div>
+    </form>
+</div>
+
+
+<div id="signup" style="display:none;">
+    <div class="form" id="signupform">
+        <div id="signupsuccess" style="display:none;" class="notification is-success has-text-left">
+            Inscritpion terminée ! Un mail contenant un lien permettant de valider votre inscription vous a été envoyé.
+        </div>
+        <div id="signupnotification" style="display:none;" class="notification is-danger has-text-left">
+            <p>Il y a des erreurs dans le formulaire : <div id="signupnotificationcontent"></div></p>
+        </div>
+        <div class="field">
+            <p class="control">
+                <input id="username" class="input" type="text" placeholder="Nom d'utilisateur" required>
+            </p>
+        </div>
+        <div class="field">
+            <p class="control">
+                <input id="email" class="input" type="email" placeholder="Adresse e-mail" required>
+            </p>
+        </div>
+        <div class="field">
+            <p class="control">
+                <input id="password" class="input" type="password" placeholder="Mot de passe" required>
+            </p>
+        </div>
+        <div class="field">
+            <p class="control">
+                <input id="passwordConfirmation" class="input" type="password" placeholder="Retapez votre mot de passe" required>
+            </p>
+        </div>
+        <div class="field">
+            <p class="control">
+                <button id="signupbutton" class="button is-success is-rounded"><strong>S'inscrire</strong></button>
+            </p>
+        </div>
+    </div>
+</div>
+
+<script>
+    function testCookie(cookiename) {
+        let d = new Date();
+        d.setTime(d.getTime() + (1000));
+        let expires = "expires=" + d.toUTCString();
+
+        document.cookie = cookiename + "=new_value;domain={{ config.extra.cookie_domain }};path=/;" + expires;
+        return Boolean(document.cookie.indexOf(cookiename + '=') == -1);
+    }
+
+    function isAllowed(c) {
+        let regex = /^[0-9a-zA-Z_-]+$/;
+        return c.match(regex);
+    }
+
+    function toUl(list) {
+        let content = "<ul>"
+        for (let child of list) {
+            content += "<li>" + child + "</li>";
+        }
+        return content + "</ul>";
+    }
+
+    function testUsername(u) {
+        let errored = [];
+        for (let c of u) {
+            if (!isAllowed(c)) {
+                errored.push(c);
+            }
+        }
+
+        return errored;
+    }
+
+    function testEmail(email) {
+        let split = email.split("@");
+
+        if (split.length !== 2) {
+            return false;
+        }
+
+        if (split[0].length === 0) {
+            return false;
+        }
+
+        split = split[1].split('.');
+
+        if (split.length < 2) {
+            return false;
+        }
+
+        if (split[0].length === 0) {
+            return false;
+        }
+
+        if (split[1].length === 0) {
+            return false;
+        }
+
+        return true;
+    }
+
+    function signUp() {
+        signingUp = true;
+        signUpButton.classList.add("is-loading");
+        signUpButton.disabled = true;
+
+        let xhr = new XMLHttpRequest();
+
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === xhr.DONE) {
+                console.log(xhr.status);
+                if (xhr.status === 200) {
+                    signUpSuccess.style.display = "block";
+                } else if (xhr.status === 404) {
+                    signUpNotificationContent.innerHTML = toUl(["Ce nom d'utilisateur ou cette adresse e-mail est déjà utilisée"]);
+                    signUpNotification.style.display = "block";
+                    signUpButton.disabled = false;
+                } else {
+                    signUpNotificationContent.innerHTML = toUl(["Une erreur inconnue s'est produite"]);
+                    signUpNotification.style.display = "block";
+                    signUpButton.disabled = false;
+                }
+                signUpButton.classList.remove('is-loading');
+                signingUp = false;
+            }
+        };
+
+        xhr.open('POST', '{{ config.extra.polymny_url | safe }}api/new-user/');
+
+        xhr.setRequestHeader('Content-Type', 'application/json');
+
+        xhr.send(JSON.stringify({
+            username: username.value,
+            email: email.value,
+            password: password.value,
+        }));
+    }
+
+    let signingUp = false;
+    let username = document.getElementById('username');
+    let email = document.getElementById('email');
+    let password = document.getElementById('password');
+    let passwordConfirmation = document.getElementById('passwordConfirmation');
+    let signUpNotification = document.getElementById('signupnotification');
+    let signUpNotificationContent = document.getElementById('signupnotificationcontent');
+    let signUpSuccess = document.getElementById('signupsuccess');
+    let openSignUp = document.getElementById('opensignup');
+    let signUpButton = document.getElementById('signupbutton');
+
+    document.getElementById('signupbutton').addEventListener('click', function(event) {
+        if (signingUp) {
+            return;
+        }
+
+        let errorMessages = [];
+
+        // Test username
+        let errors = testUsername(username.value);
+        errorMessages.push(...errors.map((x) => "Le caractère \"" + x + "\" n'est pas accepté dans les noms d'utilisateurs"));
+        if (username.length < 3) {
+            errorMessages.push("Le nom d'utilisateur doit faire plus de 3 caractères");
+        }
+
+        // Test passwords
+        if (password.value !== passwordConfirmation.value) {
+            errorMessages.push("Les deux mots de passe ne correspondent pas");
+        }
+
+        // Test email
+        if (!testEmail(email.value)) {
+            errorMessages.push("L'adresse e-mail est incorrecte");
+        }
+
+        if (errorMessages.length > 0) {
+            signUpNotificationContent.innerHTML = toUl(errorMessages);
+            signUpNotification.style.display = "block";
+            return;
+        } else {
+            signUpNotification.style.display = "none";
+        }
+
+        // Send sign up request
+        signUp();
+    });
+
+    openSignUp.addEventListener('click', function() {
+        document.getElementById('loggedin').style.display = "none";
+        document.getElementById('notloggedin').style.display = "none";
+        document.getElementById('signup').style.display = "block";
+        openSignUp.style.display = "none";
+    });
+
+    if (testCookie("EXAUTH")) {
+        document.getElementById('loggedin').style.display = "block";
+    } else {
+        document.getElementById('notloggedin').style.display = "block";
+    }
+</script>

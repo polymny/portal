@@ -20,29 +20,7 @@ du système d’exploitation de votre ordinateur (windows, macOS, linux). Il
 suffit de créer un compte pour enregistrer une première capsule vidéo. Besoin
 d'aide, de support : [contacter@polymny.studio](mailto:contacter@polymny.studio)
 
-<div id="loggedin" style="display: none;">
-<a class="button is-rounded is-success" href="{{ polymnyurl() }}"><strong>Aller sur Polymny</strong></a>
-</div>
-<div id="notloggedin" style="display: none;">
-<form id="form" method="POST" action="{{ polymnyurl() }}login/">
-<div class="field is-grouped is-grouped-centered">
-<div class="control"><input class="input" type="text" name="username" placeholder="Nom d'utilisateur"></div>
-<div class="control"><input class="input" type="password" name="password" placeholder="Mot de passe"></div>
-<div class="control"><button type="submit" class="button is-rounded is-success" value="Aller sur Polymny" form="form"><strong>Aller sur Polymny</strong></button></div>
-</div>
-
-
-<script>
-{{ testcookie() }}
-if (testCookie("EXAUTH")) {
-    document.getElementById('loggedin').style.display = "block";
-} else {
-    document.getElementById('notloggedin').style.display = "block";
-}
-</script>
-
-</form>
-</div>
+{{ loginform() }}
 
 </div>
 </div>

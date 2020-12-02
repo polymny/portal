@@ -1,8 +1,0 @@
-function testCookie(cookiename) {
-    var d = new Date();
-    d.setTime(d.getTime() + (1000));
-    var expires = "expires=" + d.toUTCString();
-
-    document.cookie = cookiename + "=new_value;domain={{ config.extra.cookie_domain }};path=/;" + expires;
-    return Boolean(document.cookie.indexOf(cookiename + '=') == -1);
-}
