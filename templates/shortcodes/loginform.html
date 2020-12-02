@@ -239,7 +239,7 @@
         // Test username
         let errors = testUsername(signUpUsername.value);
         errorMessages.push(...errors.map((x) => "Le caractère \"" + x + "\" n'est pas accepté dans les noms d'utilisateurs"));
-        if (username.length < 3) {
+        if (signUpUsername.length < 3) {
             errorMessages.push("Le nom d'utilisateur doit faire plus de 3 caractères");
         }
 
@@ -301,7 +301,7 @@
 
     openSignUp.addEventListener('click', function() {
         document.getElementById('loggedin').style.display = "none";
-        document.getElementById('notloggedin').style.display = "none";
+        document.getElementById('login').style.display = "none";
         document.getElementById('signup').style.display = "block";
         openSignUp.style.display = "none";
         openNewPassword.style.display = "none";
@@ -309,7 +309,7 @@
 
     openNewPassword.addEventListener('click', function() {
         document.getElementById('loggedin').style.display = "none";
-        document.getElementById('notloggedin').style.display = "none";
+        document.getElementById('login').style.display = "none";
         document.getElementById('newpassword').style.display = "block";
         openSignUp.style.display = "none";
         openNewPassword.style.display = "none";
