@@ -7,7 +7,7 @@ template = "page.html"
 
 Les présentes conditions générales d'utilisation (dites « CGU ») ont pour objet
 l'encadrement juridique des modalités de mise à disposition du site et des
-services par tetaneutral.net et de définir les conditions d’accès et
+services par Polymny et de définir les conditions d’accès et
 d’utilisation des services par « l'Utilisateur ».
 
 Les présentes CGU sont accessibles sur le site à la rubrique « CGU ».
@@ -19,7 +19,7 @@ accepte expressément les présentes CGU en cochant la case précédant le texte
 suivant : « Je reconnais avoir lu et compris les CGU et je les accepte ». En
 cas de non-acceptation des CGU stipulées dans le présent contrat, l'Utilisateur
 se doit de renoncer à l'accès des services proposés par le site.
-tetaneutral.net se réserve le droit de modifier unilatéralement et à tout
+Polymny se réserve le droit de modifier unilatéralement et à tout
 moment le contenu des présentes CGU.
 
 ## Article 1 : Les mentions légales
@@ -57,8 +57,8 @@ Ainsi :
     streaming en dash. Le partage de la vidéo se fait par URL (exemple
     https://video.polymny.studio/?v=757685ed-56d0-44b5-9fff-777f8a9e0909/).
   - Les fichiers vidéos de streaming sont stockés sur le serveur à tetaneutral.
-    L'utilisateur final est le seul à utiliser les vidéos réalisées. Personne
-    d'autre n'utilise ces vidéos. Il n’y a pas d'usage commercial des données.
+    L'utilisateur final est le seul à gérer et distribuer les vidéos réalisées.
+    Il n’y a pas d'usage commercial des données.
 
 Seul les administrateurs de polymny ont accès (ssh) au serveur hébergent
 polymny. Le serveur héberge :
@@ -68,7 +68,7 @@ polymny. Le serveur héberge :
     + elm),
   - le service de streaming video.polymny (Dash en js).
 
-Un backup chiffrées des données est prévu sur une autre machine.
+Un backup chiffrés des données est prévu sur une autre machine.
 
 Les données sont conservées sans limite dans le temps. L'utilisateur peut les
 supprimer s'il le souhaite.
@@ -89,8 +89,7 @@ sincères et exactes concernant son état civil et ses coordonnées, notamment s
 adresse email.
 
 Pour accéder aux services, l’Utilisateur doit ensuite s'identifier à l'aide de
-son identifiant et de son mot de passe qui lui seront communiqués après son
-inscription.
+son identifiant et de son mot de passe (créer lors de la première connexion).
 
 Tout Utilisateur membre régulièrement inscrit pourra également solliciter sa
 désinscription en se rendant à la page dédiée sur son espace personnel.
@@ -99,7 +98,7 @@ Celle-ci sera effective dans un délai raisonnable.
 Tout événement dû à un cas de force majeure ayant pour conséquence un
 dysfonctionnement du site ou serveur et sous réserve de toute interruption ou
 modification en cas de maintenance, n'engage pas la responsabilité de
-http://exemple.fr. Dans ces cas, l’Utilisateur accepte ainsi ne pas tenir
+Polymny studio. Dans ces cas, l’Utilisateur accepte ainsi ne pas tenir
 rigueur à l’éditeur de toute interruption ou suspension de service, même sans
 préavis.
 
@@ -117,6 +116,14 @@ declaration>.
 En vertu de la loi Informatique et Libertés, en date du 6 janvier 1978,
 l'Utilisateur dispose d'un droit d'accès, de rectification, de suppression et
 d'opposition de ses données personnelles. L'Utilisateur exerce ce droit :
+
+Pour exercer ces droits ou pour toute question sur le traitement de vos
+données dans ce dispositif, vous pouvez contacter l'équipe polymny à
+l'adresse dpd@polymny.studio.
+
+Si vous estimez, après avoir contacté cette adresse, que votre demande n'a pas
+été prise en compte, vous pouvez contacter le délégué à la protection des
+données (DPD) de Toulouse INP.
 
   - Contacter le DPD par voie électronique :
     [dpd@inp-toulouse.fr](mailto:dpd@inp-toulouse.fr)
@@ -186,8 +193,7 @@ contrôle sur les pages web sur lesquelles aboutissent ces liens et ne saurait,
 en aucun cas, être responsable de leur contenu.
 
 ## Article 7 : Cookies
-L’Utilisateur est informé que lors de ses visites sur le site, un cookie peut
-s’installer automatiquement sur son logiciel de navigation.
+Seul des cookies nécessaires au fonctionement du site sont utilisés. Il n'y a pas de cookiers tiers utilisé sur le site  [https://polymny.studio](https://polymny.studio).
 
 Les cookies sont de petits fichiers stockés temporairement sur le disque dur de
 l’ordinateur de l’Utilisateur par votre navigateur et qui sont nécessaires à
@@ -218,16 +224,7 @@ modération sur les publications et se réserve le droit de refuser leur mise en
 ligne, sans avoir à s’en justifier auprès du membre.
 
 L’utilisateur reste titulaire de l’intégralité de ses droits de propriété
-intellectuelle. Mais en publiant une publication sur le site, il cède à la
-société éditrice le droit non exclusif et gratuit de représenter, reproduire,
-adapter, modifier, diffuser et distribuer sa publication, directement ou par un
-tiers autorisé, dans le monde entier, sur tout support (numérique ou physique),
-pour la durée de la propriété intellectuelle. L’utilisateur cède notamment le
-droit d'utiliser sa publication sur internet et sur les réseaux de téléphonie
-mobile.
-
-L'équipe/Reva s'engage à faire figurer le nom de l’utilisateur à proximité de
-chaque utilisation de sa publication.
+intellectuelle.
 
 Tout contenu mis en ligne par l'Utilisateur est de sa seule responsabilité.
 L'Utilisateur s'engage à ne pas mettre en ligne de contenus pouvant porter
