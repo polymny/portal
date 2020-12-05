@@ -28,7 +28,21 @@ d'aide, de support : [contacter@polymny.studio](mailto:contacter@polymny.studio)
 </div>
 </section>
 
-{% section(class="has-background-grey-lighter") %}
+<section class="section hero has-background-grey-lighter">
+<div class="hero-body">
+<div class="container">
+<div class="columns is-desktop">
+<div class="column is-8 is-offset-2 content has-text-centered">
+
+{{ polymny(id="757685ed-56d0-44b5-9fff-777f8a9e0909") }}
+
+</div>
+</div>
+</div>
+</div>
+</section>
+
+{% section(class="") %}
 
 <div class="has-text-centered">
 Polymny.studio est issu d'un programme 2020-2021 de pré-maturation de la Région
@@ -136,7 +150,7 @@ disposition :
 {% end %}
 
 
-{% section(class="") %}
+{% section(class="has-background-grey-lighter") %}
 La préparation et la gestion de projet opérées en amont, sur le web et sur le
 socle open-source, limitent le temps de réservation des studios, accélèrent et
 fluidifient la production professionnelle pour un coût de la minute de vidéo

@@ -1,9 +1,9 @@
 {% set path = "../static/img/" ~ img %}
 
 {% if side == "left" %}
-<section class="section hero">
-{% else %}
 <section class="section hero has-background-grey-lighter">
+{% else %}
+<section class="section hero">
 {% endif %}
 <div class="hero-body">
 <div class="container">
