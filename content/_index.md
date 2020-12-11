@@ -55,20 +55,21 @@ Occitanie.
 Les acteurs, les utilisateurs et les soutiens :
 
 <div class="columns is-vcentered is-centered m-1">
-<img class="m-1" src="/img/logoTTT.png">
-<img class="m-1" src="/img/logoIRIT.png">
-<img class="m-1" src="/img/logoCEPFOR.png">
-<img class="m-1" src="/img/logoCERESA.png">
-<img class="m-1" src="/img/logoDYP.png">
+<a href="https://www.toulouse-tech-transfer.com/"><img class="m-1" src="/img/logoTTT.png"></a>
+<a href="https://www.irit.fr/"><img class="m-1" src="/img/logoIRIT.png"></a>
+<a href="https://www.cepfor.com/"><img class="m-1" src="/img/logoCEPFOR.png"></a>
+<a href="http://www.ceresa.fr"><img class="m-1" src="/img/logoCERESA.png"></a>
+<a href="https://www.inp-toulouse.fr/fr/toulouse-inp/dynamique-pedagogique.html"><img class="m-1" src="/img/logoDYP.png"></a>
 </div>
 </div>
 
 <div class="columns is-vcentered is-centered m-1">
-<img class="m-1" src="/img/logoUFT.png">
-<img class="m-1" src="/img/logoINP.png">
-<img class="m-1" src="/img/logoN7.png">
-<img class="m-1" src="/img/logoUT2J.png">
-<img class="m-1" src="/img/logoINRAE.png">
+<a href="https://www.univ-toulouse.fr/"><img class="m-1" src="/img/logoUFT.png"></a>
+<a href="https://www.inp-toulouse.fr/"><img class="m-1" src="/img/logoINP.png"></a>
+<a href="https://www.enseeiht.fr/"><img class="m-1" src="/img/logoN7.png"></a>
+<a href="https://www.univ-tlse2.fr/"><img class="m-1" src="/img/logoUT2J.png"></a>
+<a href="https://www.inrae.fr/"><img class="m-1" src="/img/logoINRAE.png"></a>
+<a href="https://www.tice-education.fr/"><img class="m-1" src="/img/logoTiceEducation.png"></a>
 </div>
 
 {% end %}
