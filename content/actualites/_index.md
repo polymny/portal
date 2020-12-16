@@ -3,14 +3,6 @@ title = "On parle de nous !"
 template = "section.html"
 +++
 
-{% media(icon="/img/logoCEPFOR.png") %}
-
-<em>Le CEPFOR se doit de proposer toujours plus de numérique dans ses formations et la transition n'est pas toujours facile pour nos formateurs historiques. Avec polymny.studio nous avons trouvé le graal, la simplicité de l'outil permet à chaque formateur de se concentrer sur le contenu, quand il est disponible, en collaborant à distance avec un ingénieur pédagogique. Le passage en studio physique permet d'aller encore plus loin dans la qualité tout en gardant la simplicité de mise en œuvre.</em>
-
-[CEPFOR](https://www.cepfor.com/)
-
-{% end %}
-
 {% media(icon="lesoutilstice.png") %}
 
 <em>Polymny est un logiciel libre, utilisable gratuitement pour réaliser des
@@ -27,6 +19,14 @@ surprise.</em>
 simple d’utilisation.</em>
 
 [Enseigner avec le numérique, Académie de Normandie](http://numeriques.ac-normandie.fr/?Polymny-Studio)
+
+{% end %}
+
+{% media(icon="/img/logoCEPFOR.png") %}
+
+<em>Le CEPFOR se doit de proposer toujours plus de numérique dans ses formations et la transition n'est pas toujours facile pour nos formateurs historiques. Avec polymny.studio nous avons trouvé le graal, la simplicité de l'outil permet à chaque formateur de se concentrer sur le contenu, quand il est disponible, en collaborant à distance avec un ingénieur pédagogique. Le passage en studio physique permet d'aller encore plus loin dans la qualité tout en gardant la simplicité de mise en œuvre.</em>
+
+[CEPFOR](https://www.cepfor.com/)
 
 {% end %}
 
