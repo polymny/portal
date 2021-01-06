@@ -5,9 +5,11 @@
 <form id="login" style="display: none;">
     <div id="loginnotification" style="display:none;" class="notification is-danger has-text-left"></div>
     <div class="field is-grouped is-grouped-centered">
-        <div class="control"><input class="input" type="text" id="loginusername" placeholder="Nom d'utilisateur" required></div>
-        <div class="control"><input class="input" type="password" autocomplete="current-password" id="loginpassword" placeholder="Mot de passe" required></div>
-        <div class="control"><button type="submit" class="button is-rounded is-success" value="Ouvrir Polymny" id="loginbutton"><strong>Ouvrir Polymny</strong></button></div>
+        <div class="columns is-desktop">
+            <div class="column is-narrow p-2"><input class="input" type="text" id="loginusername" placeholder="Nom d'utilisateur" required></div>
+            <div class="column is-narrow p-2"><input class="input" type="password" autocomplete="current-password" id="loginpassword" placeholder="Mot de passe" required></div>
+            <div class="column is-narrow p-2"><button type="submit" class="button is-rounded is-success" value="Ouvrir Polymny" id="loginbutton"><strong>Ouvrir Polymny</strong></button></div>
+        </div>
     </div>
     <div class="field is-grouped is-grouped-centered">
         <div class="control"><a id="opennewpassword" href="" onclick="return false;">Mot de passe oublié ?</a></div>
