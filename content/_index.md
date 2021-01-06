@@ -18,7 +18,8 @@ ou vos collègues.
 Polymny est un logiciel libre, utilisable gratuitement, 100% web, indépendant
 du système d’exploitation de votre ordinateur (windows, macOS, linux). Il
 suffit de créer un compte pour enregistrer une première capsule vidéo. Besoin
-d'aide, de support : [contacter@polymny.studio](mailto:contacter@polymny.studio)
+d'aide, de support : visitez [la F.A.Q.](/faq/) ou envoyez nous un e-mail à
+[contacter@polymny.studio](mailto:contacter@polymny.studio).
 
 {{ loginform() }}
 
