@@ -52,7 +52,7 @@ ou d'utiliser un autre navigateur web.
 Vous pouvez choisir votre caméra ou votre micro en cliquant sur le bouton
 "paramètres" de la vue Filmer.
 
-![Modifier les paramètres audio et vidéo.](paramsWebcam.png)
+<center><img src="paramsWebcam.png" alt="modifier les paramètres audio et vidéo"></center>
 
 Vous avez le choix entre utiliser la caméra et le micro ou bien le micro
 seul. Le micro seul permet de faire des enregistrements plus léger, notament

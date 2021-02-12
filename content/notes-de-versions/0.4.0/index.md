@@ -12,8 +12,7 @@ l'audio.
 
 Ces réglages ce font dans la vue "Filmer" à travers le bouton "Paramètres".
 
-![Modifier les paramètres audio et vidéo.](paramsWebcam.png)
-
+<center><img src="paramsWebcam.png" alt="modifier les paramètres de la vidéo"></center>
 
 
 ## Welcome HLS
@@ -28,11 +27,9 @@ Il est néamoins regrettable qu'Apple refuse de supporter le streaming adaptatif
 
 Le design de Polymny a été retouchée afin d'avoi un rendu plus cohérent entre les vues.
 
-![Les projets gérés dans polymny.](vueProjet.png)
+<center><img src="vueProjet.png" alt="les projets gérés dans polymny"></center>
 
-![Préparer une caspule pour l'enregistrement](vuePresentation.png)
-
-
+<center><img src="vuePresentation.png" alt="préparer une capsule pour l'enregistrement"></center>
 
 ## Corrections de bugs
   -  Correction de décalage entre l'audio et la vidéo. Les vidéos en 30 fps
