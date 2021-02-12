@@ -49,10 +49,14 @@ ou d'utiliser un autre navigateur web.
 
 {% question(title = "Comment changer de caméra ou de micro ?") %}
 
-Vous pouvez choisir votre caméra ou votre micro dans les paramètres de votre
-navigateur web.
+Vous pouvez choisir votre caméra ou votre micro en cliquant sur le bouton
+"paramètres" de la vue Filmer.
 
-Vous pouvez trouver de l'aide <a href="https://support.mozilla.org/fr/kb/gerer-permissions-camera-et-microphone">pour Mozilla Firefox</a> et <a href="https://support.google.com/chrome/answer/2693767?co=GENIE.Platform%3DDesktop&hl=fr">pour Google Chrome</a>.
+![Modifier les paramètres audio et vidéo.](paramsWebcam.png)
+
+Vous avez le choix entre utiliser la caméra et le micro ou bien le micro
+seul. Le micro seul permet de faire des enregistrements plus léger, notament
+dans le cas de connexion internet à faible débit.
 
 {% end %}
 
