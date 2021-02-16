@@ -30,23 +30,6 @@ essayer de vous connecter normalement via <a href="/">le formulaire de connexion
 
 {% end %}
 
-{% question(title = "L'onglet <em>filmer</em> affiche une page blanche") %}
-
-Cette erreur vient du fait que Polymny n'est pas parvenu à accéder à votre
-webcam. Cela peut-être du à plusieurs causes :
-
-  - votre ordinateur n'a pas de webcam ou aucune webcam n'est branchée
-  - votre webcam est déjà utilisée par un autre logiciel
-
-Pour résoudre ce problème, assurez-vous que votre webcam est bien branchée et
-fonctionne correctement, et fermez les autres logiciels susceptibles d'utiliser
-la webcam.
-
-Si cela ne fonctionne pas, vous pouvez essayer de redémarrer votre ordinateur,
-ou d'utiliser un autre navigateur web.
-
-{% end %}
-
 {% question(title = "Comment changer de caméra ou de micro ?") %}
 
 Vous pouvez choisir votre caméra ou votre micro en cliquant sur le bouton
