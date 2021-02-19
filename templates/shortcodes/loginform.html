@@ -69,6 +69,11 @@
             <input id="signupaccept" checked=false type="checkbox" class="mr-1">J'ai lu les <a href="/cgu/">conditions d'utilisation</a> et les accepte
         </label>
     </div>
+    <div class="field has-text-left">
+        <label class="checkbox">
+            <input id="signupsubscribed" checked=true type="checkbox" class="mr-1">Je m'inscris à la newsletter de Polymny Studio
+        </label>
+    </div>
     <div class="field">
         <p class="control">
             <button id="signupbutton" type="submit" class="button is-success is-rounded"><strong>S'inscrire</strong></button>
@@ -169,6 +174,7 @@
             username: signUpUsername.value,
             email: signUpEmail.value,
             password: signUpPassword.value,
+            subscribed: signUpSubscribed.checked,
         }));
     }
 
@@ -188,6 +194,7 @@
     let signUpPassword = document.getElementById('signuppassword');
     let signUpPasswordConfirmation = document.getElementById('signuppasswordconfirmation');
     let signUpAccept = document.getElementById('signupaccept'); signUpAccept.checked = false;
+    let signUpSubscribed = document.getElementById('signupsubscribed'); signUpSubscribed.checked = true;
     let signUpNotification = document.getElementById('signupnotification');
     let signUpNotificationContent = document.getElementById('signupnotificationcontent');
     let signUpSuccess = document.getElementById('signupsuccess');
