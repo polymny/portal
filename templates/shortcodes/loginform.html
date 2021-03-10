@@ -82,13 +82,8 @@
 </form>
 
 <script>
-    function testCookie(cookiename) {
-        let d = new Date();
-        d.setTime(d.getTime() + (1000));
-        let expires = "expires=" + d.toUTCString();
-
-        document.cookie = cookiename + "=new_value;domain={{ config.extra.cookie_domain }};path=/;" + expires;
-        return Boolean(document.cookie.indexOf(cookiename + '=') == -1);
+    function testCookie() {
+        return document.cookie.match(/^(.*;)?\s*EXAUTH2\s*=\s*[^;]+(.*)?$/);
     }
 
     function isAllowed(c) {
@@ -324,7 +319,7 @@
         openNewPassword.style.display = "none";
     });
 
-    if (testCookie("EXAUTH")) {
+    if (testCookie()) {
         document.getElementById('loggedin').style.display = "block";
     } else {
         document.getElementById('login').style.display = "block";
