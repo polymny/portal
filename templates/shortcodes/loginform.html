@@ -13,7 +13,10 @@
     </div>
     <div class="field is-grouped is-grouped-centered">
         <div class="control"><a id="opennewpassword" href="" onclick="return false;">Mot de passe oublié ?</a></div>
-        <div class="control"><a id="opensignup" href="" onclick="return false;">Pas encore inscrit ?</a></div>
+
+        {% if not config.extra.disable_registration %}
+            <div class="control"><a id="opensignup" href="" onclick="return false;">Pas encore inscrit ?</a></div>
+        {% endif %}
     </div>
 </form>
 
@@ -37,6 +40,7 @@
     </div>
 </form>
 
+{% if not config.extra.disable_registration %}
 <form class="form" id="signup" style="display: none;">
     <div id="signupsuccess" style="display:none;" class="notification is-success has-text-left">
         Inscritpion terminée ! Un mail contenant un lien permettant de valider votre inscription vous a été envoyé.
@@ -80,6 +84,7 @@
         </p>
     </div>
 </form>
+{% endif %}
 
 <script>
     function testCookie() {
@@ -183,26 +188,6 @@
     let hiddenUsername = document.getElementById('hiddenusername');
     let hiddenPassword = document.getElementById('hiddenpassword');
 
-    let signUpForm = document.getElementById('signup');
-    let signUpUsername = document.getElementById('signupusername');
-    let signUpEmail = document.getElementById('signupemail');
-    let signUpPassword = document.getElementById('signuppassword');
-    let signUpPasswordConfirmation = document.getElementById('signuppasswordconfirmation');
-    let signUpAccept = document.getElementById('signupaccept'); signUpAccept.checked = false;
-    let signUpSubscribed = document.getElementById('signupsubscribed'); signUpSubscribed.checked = true;
-    let signUpNotification = document.getElementById('signupnotification');
-    let signUpNotificationContent = document.getElementById('signupnotificationcontent');
-    let signUpSuccess = document.getElementById('signupsuccess');
-    let openSignUp = document.getElementById('opensignup');
-    let openNewPassword = document.getElementById('opennewpassword');
-    let signUpButton = document.getElementById('signupbutton');
-
-    let newPasswordForm = document.getElementById('newpassword');
-    let newPasswordButton = document.getElementById('newpasswordbutton');
-    let newPasswordEmail = document.getElementById('newpasswordemail');
-    let newPasswordNotification = document.getElementById('newpasswordnotification');
-    let newPasswordSuccess = document.getElementById('newpasswordsuccess');
-
     loginForm.onsubmit = function(event) {
         event.preventDefault();
 
@@ -235,6 +220,20 @@
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.send("username=" + loginUsername.value + "&password=" + loginPassword.value);
     }
+
+    {% if not config.extra.disable_registration %}
+    let signUpForm = document.getElementById('signup');
+    let signUpUsername = document.getElementById('signupusername');
+    let signUpEmail = document.getElementById('signupemail');
+    let signUpPassword = document.getElementById('signuppassword');
+    let signUpPasswordConfirmation = document.getElementById('signuppasswordconfirmation');
+    let signUpAccept = document.getElementById('signupaccept'); signUpAccept.checked = false;
+    let signUpSubscribed = document.getElementById('signupsubscribed'); signUpSubscribed.checked = true;
+    let signUpNotification = document.getElementById('signupnotification');
+    let signUpNotificationContent = document.getElementById('signupnotificationcontent');
+    let signUpSuccess = document.getElementById('signupsuccess');
+    let openSignUp = document.getElementById('opensignup');
+    let signUpButton = document.getElementById('signupbutton');
 
     signUpForm.onsubmit = function(event) {
         event.preventDefault();
@@ -275,6 +274,23 @@
         signUp();
     };
 
+    openSignUp.addEventListener('click', function() {
+        document.getElementById('loggedin').style.display = "none";
+        document.getElementById('login').style.display = "none";
+        document.getElementById('signup').style.display = "block";
+        openSignUp.style.display = "none";
+        openNewPassword.style.display = "none";
+    });
+
+    {% endif %}
+
+    let openNewPassword = document.getElementById('opennewpassword');
+    let newPasswordForm = document.getElementById('newpassword');
+    let newPasswordButton = document.getElementById('newpasswordbutton');
+    let newPasswordEmail = document.getElementById('newpasswordemail');
+    let newPasswordNotification = document.getElementById('newpasswordnotification');
+    let newPasswordSuccess = document.getElementById('newpasswordsuccess');
+
     newPasswordForm.onsubmit = function() {
         event.preventDefault();
         newPasswordButton.classList.add("is-loading");
@@ -303,19 +319,13 @@
         }));
     };
 
-    openSignUp.addEventListener('click', function() {
-        document.getElementById('loggedin').style.display = "none";
-        document.getElementById('login').style.display = "none";
-        document.getElementById('signup').style.display = "block";
-        openSignUp.style.display = "none";
-        openNewPassword.style.display = "none";
-    });
-
     openNewPassword.addEventListener('click', function() {
         document.getElementById('loggedin').style.display = "none";
         document.getElementById('login').style.display = "none";
         document.getElementById('newpassword').style.display = "block";
+        {% if not config.extra.disable_registration %}
         openSignUp.style.display = "none";
+        {% endif %}
         openNewPassword.style.display = "none";
     });
 

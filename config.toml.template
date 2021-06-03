@@ -18,3 +18,4 @@ build_search_index = false
 # The polymny url
 polymny_url = "https://app.polymny.localhost/"
 cookie_domain = "polymny.localhost"
+disable_registration = false
