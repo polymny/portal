@@ -110,8 +110,7 @@ L'Utilisateur a la possibilité de contacter le site par messagerie électroniqu
 Le site assure à l'Utilisateur une collecte et un traitement d'informations
 personnelles dans le respect de la vie privée conformément à la loi n°78-17 du
 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés. Le site
-est déclaré au Registre RGPD de TOULOUSE-INP sous le numéro <en cours de
-declaration>.
+est déclaré au Registre RGPD de TOULOUSE-INP sous le numéro INP-9.
 
 En vertu de la loi Informatique et Libertés, en date du 6 janvier 1978,
 l'Utilisateur dispose d'un droit d'accès, de rectification, de suppression et
