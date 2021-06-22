@@ -210,6 +210,8 @@
                     loginButton.classList.remove('is-loading');
                 } else {
                     loginNotification.innerHTML = "Une erreur inconnue s'est produite";
+                    loginNotification.style.display = "block";
+                    loginButton.disabled = false;
                     loginButton.classList.remove('is-loading');
                 }
             }
