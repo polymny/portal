@@ -29,7 +29,7 @@ de caméra et micro amélioré
 
 {% sidelocal(img="./notes-de-versions/1.0.0/ProjetExport.png", side="right") %}
 Histoire d'être sérieusement conforme à la RGPD: Il est maintenant possible de récupérer
-toutes les données (planches, rush, prompteur et vidéo produites) d'un projet Polymny.
+toutes les données (planches, rush, prompteur et vidéo produites) d'une capsule Polymny.
 Les données sont téléchargeables sous d'archives zip.
 
 {% end %}
