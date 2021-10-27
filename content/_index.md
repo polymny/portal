@@ -45,18 +45,19 @@ d'aide, de support : visitez [la F.A.Q.](/faq/) ou envoyez nous un e-mail à
 
 {% section(class="") %}
 
-<div class="has-text-centered">
-Polymny.studio est issu d'un programme 2020-2021 de pré-maturation de la Région
-Occitanie.
+<div class="column is-8 is-offset-2 content has-text-centered">
+Polymny.studio est issu d'un programme de pré-maturation de la Région
+Occitanie, qui se poursuit par un programme de maturation de Toulouse Tech
+Transfer en 2022.
 
-<div class="has-text-centered m-1">
+<div class="columns is-vcentered is-centered m-1">
 <img src="/img/logoRegionOccitanie.png">
+<a href="https://www.toulouse-tech-transfer.com/"><img class="m-1" src="/img/logoTTT.png"></a>
 </div>
 
 Les acteurs, les utilisateurs et les soutiens :
 
 <div class="columns is-vcentered is-centered m-1">
-<a href="https://www.toulouse-tech-transfer.com/"><img class="m-1" src="/img/logoTTT.png"></a>
 <a href="https://www.irit.fr/"><img class="m-1" src="/img/logoIRIT.png"></a>
 <a href="https://www.cepfor.com/"><img class="m-1" src="/img/logoCEPFOR.png"></a>
 <a href="http://www.ceresa.fr"><img class="m-1" src="/img/logoCERESA.png"></a>
