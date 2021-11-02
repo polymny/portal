@@ -115,9 +115,9 @@ Installé pour de bon à Toulouse, c’est avec les cinémas Utopia et l’IRIT,
 finalise ainsi une thèse CIFRE sur le logiciel libre et le cinéma numérique. À
 l'issue de son doctorat, il porte le montage d'une structure associative de
 distribution de copies numériques des films vers les salles de cinémas d’art et
-essai. Après 3 ans d’effort pour essayer de rendre l’activité soutenable,
-Nicolas pivote vers l’aventure Polymny Studio associé à Thomas Forgione,
-Vincent Charvillat et Axel Charvillat. C’est lui qui propose à ses complices le
+essai. Après 3 ans d’effort pour essayer de rendre l'activité soutenable,
+Nicolas pivote vers l'aventure Polymny Studio associé à Thomas Forgione,
+Vincent Charvillat et Axel Carlier. C’est lui qui propose à ses complices le
 montage d’une SCIC qui ne tardera pas à convaincre Jean-Paul Beyssen et Pascale
 Chateau-Terrisse qui complètent les compétences de ce collectif d’ingénieurs.
 

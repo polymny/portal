@@ -12,7 +12,7 @@
 <section class="title is-5">
 <div class="box">
 
-Polymny studio se transforme en association (avant de devenir une ccopérative) !
+Polymny studio se transforme en association (avant de devenir une coopérative) !
 L'assemblée générale constitutive aura lieu le 18 novembre à 18h à l'ENSEEIHT
 à Toulouse. Venez nombreux!
 
