@@ -3,16 +3,6 @@ title = "On parle de nous !"
 template = "section.html"
 +++
 
-{% media(icon="universityrh.png") %}
-
-<em>Bref réaliser une vidéo pédagogique impactante ( aie aie du jargon !) est un exercice long et périlleux entre les attentes relatives aux connaissances à transmettre et le nécessaire habillage de tout contenu web pour le rendre attractif et mémorable.
-Ce défi a été relevé par l’équipe de Polymny Studio. Cette solution est une réalisation de l’équipe universitaire de l‘INP à Toulouse. Elle permet de créer des vidéos pédagogiques facilement.</em>
-
-[Stéphane Poignant, UniversityRH](https://www.universityrh.net/creer-une-video-pedagogique-avec-polymny-studio/)
-
-{% end %}
-
-
 {% media(icon="lesoutilstice.png") %}
 
 <em>Polymny est un logiciel libre, utilisable gratuitement pour réaliser des
@@ -75,5 +65,14 @@ etc.), vous fournissez vos diapositives en PDF et enregistrez une vidéo
 pédagogique ou petite conférence.</em>
 
 [LinuxFr](https://linuxfr.org/news/sortie-de-polymny-studio)
+
+{% end %}
+
+{% media(icon="universityrh.png") %}
+
+<em>Bref réaliser une vidéo pédagogique impactante ( aie aie du jargon !) est un exercice long et périlleux entre les attentes relatives aux connaissances à transmettre et le nécessaire habillage de tout contenu web pour le rendre attractif et mémorable.
+Ce défi a été relevé par l’équipe de Polymny Studio. Cette solution est une réalisation de l’équipe universitaire de l‘INP à Toulouse. Elle permet de créer des vidéos pédagogiques facilement.</em>
+
+[Stéphane Poignant, UniversityRH](https://www.universityrh.net/creer-une-video-pedagogique-avec-polymny-studio/)
 
 {% end %}
