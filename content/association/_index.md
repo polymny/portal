@@ -143,7 +143,7 @@ acteurs publics.
 {% sideface(img="./association/pascale.png", side="right") %}
 
 
-Pascale Chateau-Terrisse est Maître de Conférences en Sciences de Gestion à
+Pascale Chateau-Terrisse est Maîtresse de Conférences en Sciences de Gestion à
 l’ENSAT (laboratoire AGIR, UMR INRAE, Toulouse INP) depuis 3 ans après un début
 de carrière à  l’université Paris-Est Marne-La-Vallée.
 
