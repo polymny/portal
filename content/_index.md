@@ -60,8 +60,9 @@ d'aide, de support : visitez [la F.A.Q.](/faq/) ou envoyez nous un e-mail à
 
 <div class="column is-8 is-offset-2 content has-text-centered">
 Polymny.studio est issu d'un programme de pré-maturation de la Région
-Occitanie, qui se poursuit par un programme de maturation de Toulouse Tech
-Transfer en 2022.
+Occitanie.<br/>
+Il se poursuit par un programme de maturation de Toulouse Tech Transfer en
+2022.
 
 <div class="columns is-vcentered is-centered m-1">
 <img src="/img/logoRegionOccitanie.png">
