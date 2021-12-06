@@ -3,8 +3,12 @@ title = "L'association Polymny Studio"
 template = "section.html"
 +++
 
+<h3 class="has-text-centered">
+<a href="/statuts.pdf">Cliquez ici</a> pour voir les statuts.
+</h3>
 
 ## Une association qui préfigure une coopérative !
+
 
 Né à l'université et dans un laboratoire de recherche (l'IRIT à Toulouse), le
 projet Polymny Studio évolue ! Une association, dont l'AG constitutive est
