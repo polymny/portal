@@ -12,7 +12,7 @@
 <section class="title is-5">
 <div class="box">
 
-L'association Polymny Studio est officiellement créée<br/>depuis le 18 Novembre 2021!
+L'association de préfiguration de la SCIC Polymny Studio <br/>est officiellement créée depuis le 18 Novembre 2021!
 
 [Cliquez ici](/statuts.pdf) pour voir les statuts.
 
