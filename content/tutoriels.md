@@ -11,7 +11,7 @@ template = "page.html"
 
 {{ polymny(id="a60ee619-48f0-49ca-9a01-2c6611842980") }}
 
-## Étape 3: Insérer une vidéo additionelle
+## Étape 3: Insérer une vidéo additionnelle
 
 {{ polymny(id="c7c42c13-52cd-47ea-8e6e-35b1209ca1b4") }}
 
