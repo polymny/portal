@@ -124,7 +124,7 @@ la clarté de la vidéo.
 {% end %}
 
 {% side(img="addresource.png", side="left") %}
-## Vidéos additionelles
+## Vidéos additionnelles
 
 Parmi les fonctionnalités plébiscitées, Polymny permet d’insérer, en lieu et
 place d’une diapositive, toute vidéo externe (captures de vos écrits sur
