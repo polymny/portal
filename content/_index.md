@@ -36,6 +36,38 @@ d'aide, de support : visitez [la F.A.Q.](/faq/) ou envoyez nous un e-mail à
 </div>
 </section>
 
+<section class="hero has-background-grey-lighter">
+<div class="container">
+<div class="hero-body columns is-mobile is-centered content">
+
+<div class="column is-3 has-text-centered">
+<img style="height: 64px; margin: 16px;" src="/img/agpl.png">
+<h6>Logiciel libre</h6>
+<p class="is-size-6">Polymny Studio est un logiciel libre et utilisable gratuitement, il vous suffit de créer un compte pour commencer à créer vos vidéos.</p>
+</div>
+
+<div class="column is-3 has-text-centered">
+<img style="height: 64px; margin: 16px;" src="/img/portability.png">
+<h6>Portabilité</h6>
+<p class="is-size-6">Polymny Studio est 100% web, il fonctionne sous Windows, MacOS et Linux, Mozilla Firefox ou Google Chrome suffit pour créer vos vidéos.</p>
+</div>
+
+<div class="column is-3 has-text-centered">
+<img style="height: 64px; margin: 16px;" src="/img/pdf.png">
+<h6>Planches en PDF</h6>
+<p class="is-size-6">Utilisez votre outil préféré pour préparer vos contenus, exportez au format PDF et enregsitrez-vous sur Polymny Studio.</p>
+</div>
+
+<div class="column is-3 has-text-centered">
+<img style="height: 64px; margin: 16px;" src="/img/mp4.png">
+<h6>Production automatique</h6>
+<p class="is-size-6">Téléchargez votre vidéo finale au format MP4, ou publiez la directement sur le serveur de streaming de Polymny Studio.</p>
+</div>
+
+</div>
+</div>
+</section>
+
 <section class="section hero has-background-success stamp">
 <div class="hero-body">
 <div class="container">
