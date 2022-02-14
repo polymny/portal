@@ -29,7 +29,7 @@ d'aide, de support : visitez [la F.A.Q.](/faq/) ou envoyez nous un e-mail à
 </div>
 </section>
 
-<section class="section hero has-background-grey-lighter">
+<section class="section hero has-background-success stamp">
 <div class="hero-body">
 <div class="container">
 <div class="columns is-desktop">
