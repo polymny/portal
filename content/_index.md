@@ -7,7 +7,8 @@
 <div class="columns is-desktop">
 <div class="column is-8 is-offset-2 content has-text-centered">
 
-<h1 class="title is-1">Polymny Studio</h1>
+<img style="opacity: 0.2; height: 6rem;" src="/img/stamp.png">
+<h1 class="title is-1 mt-0">Polymny Studio</h1>
 
 Polymny est le studio web des formateurs qui créent, modifient et gèrent des
 vidéos pédagogiques ! A partir d’une présentation existante (libre office,
