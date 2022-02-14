@@ -38,7 +38,7 @@ d'aide, de support : visitez [la F.A.Q.](/faq/) ou envoyez nous un e-mail à
 
 <section class="hero has-background-grey-lighter">
 <div class="container">
-<div class="hero-body columns is-mobile is-centered content">
+<div class="hero-body columns is-desktop is-centered content">
 
 <div class="column is-3 has-text-centered">
 <img style="height: 64px; margin: 16px;" src="/img/agpl.png">
