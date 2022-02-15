@@ -36,7 +36,7 @@ d'aide, de support : visitez [la F.A.Q.](/faq/) ou envoyez nous un e-mail à
 </div>
 </section>
 
-<section class="hero has-background-grey-lighter">
+<section class="hero has-background-grey-lighter" style="overflow: hidden;">
 <div class="container">
 <div class="hero-body columns is-desktop is-centered content">
 
