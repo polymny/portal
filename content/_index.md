@@ -68,10 +68,6 @@ d'aide, de support : visitez [la F.A.Q.](/faq/) ou envoyez nous un e-mail à
 </div>
 </section>
 
-
-
-
-
 <section class="hero is-large has-carousel">
 <div id="features" class="hero-carousel">
 {% side(img="moodle.png", side="left") %}
