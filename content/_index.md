@@ -7,7 +7,8 @@
 <div class="columns is-desktop">
 <div class="column is-6 content">
 
-<h1 class="title is-1" style="font-size: 4rem;">Le studio web des formateurs</h1>
+<h1 class="title is-1" style="font-size: 5rem;">Polymny Studio</h1>
+<h2 class="subtitle is-1">Le studio des formateurs</h2>
 
 <p class="subtitle">
 À partir d’une présentation existante (libre office powerpoint, beamer, etc.),
