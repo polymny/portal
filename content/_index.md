@@ -96,7 +96,9 @@ Il se poursuit par un programme de maturation de Toulouse Tech Transfer en
 <a href="https://www.toulouse-tech-transfer.com/"><img class="m-1" src="/img/logoTTT.png"></a>
 </div>
 
+<div class="column is-8 is-offset-2 content has-text-centered">
 Les acteurs, les utilisateurs et les soutiens :
+</div>
 
 <div class="columns is-vcentered is-centered m-1">
 <a href="https://www.irit.fr/"><img class="m-1" src="/img/logoIRIT.png"></a>
