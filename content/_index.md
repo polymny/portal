@@ -49,17 +49,17 @@ d'aide, de support : visitez [la F.A.Q.](/faq/) ou envoyez nous un e-mail à
 <div class="column is-3 has-text-centered">
 <img style="height: 64px; margin: 16px;" src="/img/portability.png">
 <h6>Portabilité</h6>
-<p class="is-size-6">Polymny Studio est 100% web, il fonctionne sous Windows, MacOS et Linux, Mozilla Firefox ou Google Chrome suffit pour créer vos vidéos.</p>
+<p class="is-size-6">Polymny Studio fonctionne sous Windows, MacOS et Linux, un simple navigateur, Firefox ou Chrome, suffit pour créer vos vidéos.</p>
 </div>
 
 <div class="column is-3 has-text-centered">
 <img style="height: 64px; margin: 16px;" src="/img/pdf.png">
 <h6>Planches en PDF</h6>
-<p class="is-size-6">Utilisez votre outil préféré pour préparer vos contenus, exportez au format PDF et enregsitrez-vous sur Polymny Studio.</p>
+<p class="is-size-6">Utilisez votre outil préféré pour préparer vos contenus, exportez au format PDF et enregistrez-vous sur Polymny Studio.</p>
 </div>
 
 <div class="column is-3 has-text-centered">
-<img style="height: 64px; margin: 16px;" src="/img/mp4.png">
+<img style="height: 64px; margin: 16px;" src="/img/play.png">
 <h6>Production automatique</h6>
 <p class="is-size-6">Téléchargez votre vidéo finale au format MP4, ou publiez la directement sur le serveur de streaming de Polymny Studio.</p>
 </div>
