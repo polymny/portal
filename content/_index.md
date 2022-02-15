@@ -1,14 +1,14 @@
 +++
 +++
 
-<section class="section hero">
+<section class="section hero stamp-mobile">
 <div class="hero-body">
 <div class="container">
 <div class="columns is-desktop">
 <div class="column is-6 content">
 
-<h1 class="title is-1" style="font-size: 5rem;">Polymny Studio</h1>
-<h2 class="subtitle is-2">Le studio web des formateurs</h2>
+<h1 class="title is-spaced is-1">Polymny Studio</h1>
+<h2 class="subtitle is-3">Le studio web des formateurs</h2>
 
 <p class="subtitle">
 À partir d’une présentation existante (libre office powerpoint, beamer, etc.),
@@ -28,7 +28,7 @@ d'aide, de support : visitez [la F.A.Q.](/faq/) ou envoyez nous un e-mail à
 
 </div>
 <div class="column is-4 is-offset-2">
-<img src="/img/favicon2.png">
+<img class="hide-mobile" src="/img/favicon2.png">
 </div>
 
 </div>
@@ -36,7 +36,7 @@ d'aide, de support : visitez [la F.A.Q.](/faq/) ou envoyez nous un e-mail à
 </div>
 </section>
 
-<section class="hero has-background-grey-lighter" style="overflow: hidden;">
+<section class="hero has-background-success" style="overflow: hidden;">
 <div class="container">
 <div class="hero-body columns is-desktop is-centered content">
 
@@ -68,55 +68,9 @@ d'aide, de support : visitez [la F.A.Q.](/faq/) ou envoyez nous un e-mail à
 </div>
 </section>
 
-<section class="section hero has-background-success stamp">
-<div class="hero-body">
-<div class="container">
-<div class="columns is-desktop">
-<div class="column is-8 is-offset-2 content has-text-centered">
 
-{{ polymny(id="6c5e5a9d-578e-4bd8-a45b-52ef08086e3b") }}
 
-</div>
-</div>
-</div>
-</div>
-</section>
 
-{% section(class="") %}
-
-<div class="column is-8 is-offset-2 content has-text-centered">
-Polymny.studio est issu d'un programme de pré-maturation de la Région
-Occitanie.<br/>
-Il se poursuit par un programme de maturation de Toulouse Tech Transfer en
-2022.
-</div>
-
-<div class="columns is-vcentered is-centered m-1">
-<img src="/img/logoRegionOccitanie.png">
-<a href="https://www.toulouse-tech-transfer.com/"><img class="m-1" src="/img/logoTTT.png"></a>
-</div>
-
-<div class="column is-8 is-offset-2 content has-text-centered">
-Les acteurs, les utilisateurs et les soutiens :
-</div>
-
-<div class="columns is-vcentered is-centered m-1">
-<a href="https://www.irit.fr/"><img class="m-1" src="/img/logoIRIT.png"></a>
-<a href="https://www.cepfor.com/"><img class="m-1" src="/img/logoCEPFOR.png"></a>
-<a href="http://www.ceresa.fr"><img class="m-1" src="/img/logoCERESA.png"></a>
-<a href="https://www.inp-toulouse.fr/fr/toulouse-inp/dynamique-pedagogique.html"><img class="m-1" src="/img/logoDYP.png"></a>
-</div>
-
-<div class="columns is-vcentered is-centered m-1">
-<a href="https://www.univ-toulouse.fr/"><img class="m-1" src="/img/logoUFT.png"></a>
-<a href="https://www.inp-toulouse.fr/"><img class="m-1" src="/img/logoINP.png"></a>
-<a href="https://www.enseeiht.fr/"><img class="m-1" src="/img/logoN7.png"></a>
-<a href="https://www.univ-tlse2.fr/"><img class="m-1" src="/img/logoUT2J.png"></a>
-<a href="https://www.inrae.fr/"><img class="m-1" src="/img/logoINRAE.png"></a>
-<a href="https://www.tice-education.fr/"><img class="m-1" src="/img/logoTiceEducation.png"></a>
-</div>
-
-{% end %}
 
 <section class="hero is-large has-carousel">
 <div id="features" class="hero-carousel">
@@ -214,6 +168,56 @@ bulmaCarousel.attach('#features', {
     duration: 1000,
 });
 </script>
+
+<section class="section hero has-background-success stamp">
+<div class="hero-body">
+<div class="container">
+<div class="columns is-desktop">
+<div class="column is-8 is-offset-2 content has-text-centered">
+
+{{ polymny(id="6c5e5a9d-578e-4bd8-a45b-52ef08086e3b") }}
+
+</div>
+</div>
+</div>
+</div>
+</section>
+
+{% section(class="") %}
+
+<div class="column is-8 is-offset-2 content has-text-centered">
+Polymny Studio est issu d'un programme de pré-maturation de la Région
+Occitanie.<br/>
+Il se poursuit par un programme de maturation de Toulouse Tech Transfer en
+2022.
+</div>
+
+<div class="columns is-vcentered is-centered m-1">
+<img src="/img/logoRegionOccitanie.png">
+<a href="https://www.toulouse-tech-transfer.com/"><img class="m-1" src="/img/logoTTT.png"></a>
+</div>
+
+<div class="column is-8 is-offset-2 content has-text-centered">
+Les acteurs, les utilisateurs et les soutiens :
+</div>
+
+<div class="columns is-vcentered is-centered m-1">
+<a href="https://www.irit.fr/"><img class="m-1" src="/img/logoIRIT.png"></a>
+<a href="https://www.cepfor.com/"><img class="m-1" src="/img/logoCEPFOR.png"></a>
+<a href="http://www.ceresa.fr"><img class="m-1" src="/img/logoCERESA.png"></a>
+<a href="https://www.inp-toulouse.fr/fr/toulouse-inp/dynamique-pedagogique.html"><img class="m-1" src="/img/logoDYP.png"></a>
+</div>
+
+<div class="columns is-vcentered is-centered m-1">
+<a href="https://www.univ-toulouse.fr/"><img class="m-1" src="/img/logoUFT.png"></a>
+<a href="https://www.inp-toulouse.fr/"><img class="m-1" src="/img/logoINP.png"></a>
+<a href="https://www.enseeiht.fr/"><img class="m-1" src="/img/logoN7.png"></a>
+<a href="https://www.univ-tlse2.fr/"><img class="m-1" src="/img/logoUT2J.png"></a>
+<a href="https://www.inrae.fr/"><img class="m-1" src="/img/logoINRAE.png"></a>
+<a href="https://www.tice-education.fr/"><img class="m-1" src="/img/logoTiceEducation.png"></a>
+</div>
+
+{% end %}
 
 {% section(class="has-background-grey-lighter") %}
 La préparation et la gestion de projet opérées en amont, sur le web et sur le

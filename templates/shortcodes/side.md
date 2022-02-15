@@ -3,12 +3,13 @@
 <!--
 <section class="section hero">
 <div class="hero-body">
--->
 {% if side == "left" %}
 <div class="has-background-success" style="height: 100%; width: 100%; display: table;">
 {% else %}
 <div class="has-background-danger" style="height: 100%; width: 100%; display: table;">
 {% endif %}
+-->
+<div class="has-background-grey-lighter" style="height: 100%; width: 100%; display: table;">
 <div class="container" style="display: table-cell; vertical-align: middle;">
 <div class="columns is-desktop">
 <div class="column is-10 is-offset-1 content has-text-justified">

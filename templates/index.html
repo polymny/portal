@@ -7,10 +7,34 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
 <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
 <style>
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .hero-head {
         margin: 75%;
     }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .stamp-mobile {
+        position: relative;
+    }
+
+    .stamp-mobile::before {
+        content: "";
+        background: url('/img/stamp.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: right -10% top 50%;
+        position: absolute;
+        opacity: 0.025;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+
 }
 </style>
 {% endblock extracss %}
