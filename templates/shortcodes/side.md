@@ -1,15 +1,17 @@
 {% set path = "../static/img/" ~ img %}
 
-{% if side == "left" %}
-<section class="section hero has-background-grey-lighter">
-{% else %}
+<!--
 <section class="section hero">
-{% endif %}
 <div class="hero-body">
-<div class="container">
+-->
+{% if side == "left" %}
+<div class="has-background-success" style="height: 100%; width: 100%; display: table;">
+{% else %}
+<div class="has-background-danger" style="height: 100%; width: 100%; display: table;">
+{% endif %}
+<div class="container" style="display: table-cell; vertical-align: middle;">
 <div class="columns is-desktop">
 <div class="column is-10 is-offset-1 content has-text-justified">
-
 <div class="columns is-vcentered">
 <div class="column">
 {% if side == "left" %}
@@ -34,5 +36,9 @@
 
 </div>
 </div>
+
+</div>
+<!--
 </div>
 </section>
+-->

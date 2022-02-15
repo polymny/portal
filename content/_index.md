@@ -7,9 +7,9 @@
 <div class="columns is-desktop">
 <div class="column is-6 content">
 
-<h1 class="title mt-0" style="font-size: 4rem;">Le studio web des formateurs</h1>
+<h1 class="title is-1" style="font-size: 4rem;">Le studio web des formateurs</h1>
 
-<p class="is-size-5">
+<p class="subtitle">
 À partir d’une présentation existante (libre office powerpoint, beamer, etc.),
 vous fournissez vos diapositives en PDF et enregistrez une vidéo pédagogique
 pour vos élèves, vos étudiants, vos clients ou vos collègues.
@@ -30,7 +30,6 @@ d'aide, de support : visitez [la F.A.Q.](/faq/) ou envoyez nous un e-mail à
 <img src="/img/favicon2.png">
 </div>
 
-</div>
 </div>
 </div>
 </div>
@@ -89,6 +88,7 @@ Polymny.studio est issu d'un programme de pré-maturation de la Région
 Occitanie.<br/>
 Il se poursuit par un programme de maturation de Toulouse Tech Transfer en
 2022.
+</div>
 
 <div class="columns is-vcentered is-centered m-1">
 <img src="/img/logoRegionOccitanie.png">
@@ -103,7 +103,6 @@ Les acteurs, les utilisateurs et les soutiens :
 <a href="http://www.ceresa.fr"><img class="m-1" src="/img/logoCERESA.png"></a>
 <a href="https://www.inp-toulouse.fr/fr/toulouse-inp/dynamique-pedagogique.html"><img class="m-1" src="/img/logoDYP.png"></a>
 </div>
-</div>
 
 <div class="columns is-vcentered is-centered m-1">
 <a href="https://www.univ-toulouse.fr/"><img class="m-1" src="/img/logoUFT.png"></a>
@@ -116,38 +115,40 @@ Les acteurs, les utilisateurs et les soutiens :
 
 {% end %}
 
+<section class="hero is-large has-carousel">
+<div id="features" class="hero-carousel">
 {% side(img="moodle.png", side="left") %}
-## Partage des capsules
-
+<h2>Partage des capsules</h2>
+<p>
 Aucune expertise technique n’est requise, pas de montage, pas de compression,
 pas de manipulations numériques des vidéos. Les capsules sont automatiquement
 stockées et publiées en ligne sur un serveur vidéo. Elles sont accessibles par
 un lien web (url) partageable par mail ou texto, sur les réseaux sociaux ou sur
 toute plateforme de formation (moodle, 360, etc.). La figure de gauche montre
 des vidéos polymny partagées sur MOODLE.
+</p>
 {% end %}
-
 {% side(img="recording.png", side="right") %}
-## Enregistrement facile
-
-A la différence des logiciels d’enregistrement d’écrans, Polymny guide et
+<h2>Enregistrement facile</h2>
+<p>
+À la différence des logiciels d’enregistrement d’écrans, Polymny guide et
 facilite l’enregistrement des commentaires vidéos (avec la webcam) ou audios
 (avec le micro de votre ordinateur). L’enregistrement se fait simplement depuis
 un navigateur web.
+</p>
 {% end %}
-
 {% side(img="bigpicture.png", side="left") %}
-## 4 étapes
-
+<h2>4 étapes</h2>
+<p>
 Le protocole de Polymny repose sur 4 étapes : préparer (en utilisant ou pas le
 prompteur), filmer (en se limitant éventuellement au son), produire (en plaçant
 les médias selon différents motifs) et publier (en obtenant le lien à partager
 sans aucun effort technique).
+</p>
 {% end %}
-
 {% side(img="management.png", side="right") %}
-## Gérer les caspules
-
+<h2>Gérer les caspules</h2>
+<p>
 Aucune minute passée pour s’enregistrer n’est perdue, chaque effort est
 modifiable et réutilisable plus tard : comme au cinéma, vous pouvez multiplier
 les « prises » pour satisfaire le réalisateur (vous !). Vous n’enregistrez plus
@@ -160,11 +161,11 @@ Gérer chaque capsule comme un projet permet l’intervention d’ingénieurs
 pédagogiques ou de communicants dans la phase de préparation des ressources
 pédagogiques : alignement pédagogique, ajustement de la durée du message ou de
 la clarté de la vidéo.
+</p>
 {% end %}
-
 {% side(img="addresource.png", side="left") %}
-## Vidéos additionnelles
-
+<h2>Vidéos additionnelles</h2>
+<p>
 Parmi les fonctionnalités plébiscitées, Polymny permet d’insérer, en lieu et
 place d’une diapositive, toute vidéo externe (captures de vos écrits sur
 tablettes pour les enseignants, vidéos ou screencasts issus d’un smartphone,
@@ -173,25 +174,43 @@ un jingle vidéo (une animation) insérée en guise de générique d’une vidé
 formation. Polymny est utilisé avec succès par des formateurs des sphères
 publiques (universités, lycées, MOOC FUN) et privées (organismes de formation
 professionnelle).
+</p>
 {% end %}
-
 {% side(img="studio.png", side="right") %}
-## Fonctions avancées
-
+<h2>Fonctions avancées</h2>
+<p>
 Des fonctionnalités avancées sont disponibles sous forme de services
 additionnels et optionnels. Si votre capsule, déjà préparée et prototypée sur
 le web, mérite une version professionnelle, l’équipe de Polymny met à votre
 disposition :
-  - des services de production en studios audiovisuels virtuels (incrustations,
-    keying/matting par deeplearning, génération graphique de background et
-    foreground dynamiques, pointeurs, templates d’édition personnalisés,
-    système de recommandation pour la grammaire du montage),
-  - des services de production en studios physiques accessibles par réservation
-    (incrustations et keying fond vert, caméras et plans multiples, son haute
-    qualité, scénarios de dialogues multi-micros, pré/postproduction).
-
+<ul>
+<li>
+des services de production en studios audiovisuels virtuels (incrustations,
+keying/matting par deeplearning, génération graphique de background et
+foreground dynamiques, pointeurs, templates d’édition personnalisés, système de
+recommandation pour la grammaire du montage),
+</li>
+<li>
+des services de production en studios physiques accessibles par réservation
+(incrustations et keying fond vert, caméras et plans multiples, son haute
+qualité, scénarios de dialogues multi-micros, pré/postproduction).
+</li>
+</ul>
+</p>
 {% end %}
-
+</div>
+<div class="hero-head"></div>
+<div class="hero-body has-text-centered">
+</div>
+</section>
+<script>
+bulmaCarousel.attach('#features', {
+    loop: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    duration: 1000,
+});
+</script>
 
 {% section(class="has-background-grey-lighter") %}
 La préparation et la gestion de projet opérées en amont, sur le web et sur le
