@@ -16,12 +16,6 @@ vous fournissez vos diapositives en PDF et enregistrez une vidéo pédagogique
 pour vos élèves, vos étudiants, vos clients ou vos collègues.
 </p>
 
-<!-- Polymny est un logiciel libre, utilisable gratuitement, 100% web, indépendant
-du système d’exploitation de votre ordinateur (windows, macOS, linux). Il
-suffit de créer un compte pour enregistrer une première capsule vidéo. Besoin
-d'aide, de support : visitez [la F.A.Q.](/faq/) ou envoyez nous un e-mail à
-[contacter@polymny.studio](mailto:contacter@polymny.studio). -->
-
 <div class="has-text-centered">
 {{ loginform() }}
 </div>
