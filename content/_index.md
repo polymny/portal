@@ -4,7 +4,7 @@
 <section class="section hero stamp-mobile">
 <div class="hero-body">
 <div class="container">
-<div class="columns is-desktop">
+<div class="columns is-desktop is-vcentered">
 <div class="column is-6 content">
 
 <h1 class="title is-spaced is-1">Polymny Studio</h1>
