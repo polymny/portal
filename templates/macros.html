@@ -1,0 +1,8 @@
+{% macro resized(path) %}
+
+{% set path = "../static/img/" ~ img %}
+{% set image = resize_image(path=path, height=64, op="fit_height", format="webp") %}
+{% set image256 = resize_image(path=path, height=256, op="fit_height", format="webp") %}
+<img {% if style %}style="{{ style }}" {% endif %}src="{{ image256.url }}" width="{{ image.width }}" height="{{ image.height }}" {% if alt %}alt="{{ alt }}" {% endif %}>
+
+{% endmacro resized %}
