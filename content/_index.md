@@ -165,7 +165,7 @@ bulmaCarousel.attach('#features', {
 <div class="columns is-desktop">
 <div class="column is-8 is-offset-2 content has-text-centered">
 
-{{ polymny(id="6c5e5a9d-578e-4bd8-a45b-52ef08086e3b") }}
+{{ polymny(id="6c5e5a9d-578e-4bd8-a45b-52ef08086e3b", muted=true) }}
 
 </div>
 </div>
