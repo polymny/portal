@@ -22,7 +22,7 @@ pour vos élèves, vos étudiants, vos clients ou vos collègues.
 
 </div>
 <div class="column is-4 is-offset-2">
-<img class="hide-mobile" src="/img/favicon2.png">
+<img class="hide-mobile" src="/img/favicon.webp" alt="Polymny Logo">
 </div>
 
 </div>
@@ -35,25 +35,25 @@ pour vos élèves, vos étudiants, vos clients ou vos collègues.
 <div class="hero-body columns is-desktop is-centered content">
 
 <div class="column is-3 has-text-centered">
-<img style="height: 64px; margin: 16px;" src="/img/agpl.png">
+{{ resize(img="agpl.png", style="height: 64px; margin: 16px;", alt="License AGPLv3") }}
 <h6>Logiciel libre</h6>
 <p class="is-size-6">Polymny Studio est un logiciel libre et utilisable gratuitement, il vous suffit de créer un compte pour commencer à créer vos vidéos.</p>
 </div>
 
 <div class="column is-3 has-text-centered">
-<img style="height: 64px; margin: 16px;" src="/img/portability.png">
+{{ resize(img="portability.png", style="height: 64px; margin: 16px;", alt="Windows, MacOS et Linux") }}
 <h6>Portabilité</h6>
 <p class="is-size-6">Polymny Studio fonctionne sous Windows, MacOS et Linux, un simple navigateur, Firefox ou Chrome, suffit pour créer vos vidéos.</p>
 </div>
 
 <div class="column is-3 has-text-centered">
-<img style="height: 64px; margin: 16px;" src="/img/pdf.png">
+{{ resize(img="pdf.png", style="height: 64px; margin: 16px;", alt="Fichier PDF") }}
 <h6>Planches en PDF</h6>
 <p class="is-size-6">Utilisez votre outil préféré pour préparer vos contenus, exportez au format PDF et enregistrez-vous sur Polymny Studio.</p>
 </div>
 
 <div class="column is-3 has-text-centered">
-<img style="height: 64px; margin: 16px;" src="/img/play.png">
+{{ resize(img="play.png", style="height: 64px; margin: 16px;", alt="Bouton de lecture de vidéo") }}
 <h6>Production automatique</h6>
 <p class="is-size-6">Téléchargez votre vidéo finale au format MP4, ou publiez la directement sur le serveur de streaming de Polymny Studio.</p>
 </div>
@@ -64,7 +64,7 @@ pour vos élèves, vos étudiants, vos clients ou vos collègues.
 
 <section class="hero is-large has-carousel">
 <div id="features" class="hero-carousel">
-{% side(img="moodle.png", side="left") %}
+{% side(img="moodle.png", alt="Vidéo Polymny dans Moodle", side="left") %}
 <h2>Partage des capsules</h2>
 <p>
 Aucune expertise technique n’est requise, pas de montage, pas de compression,
@@ -75,7 +75,7 @@ toute plateforme de formation (moodle, 360, etc.). La figure de gauche montre
 des vidéos polymny partagées sur MOODLE.
 </p>
 {% end %}
-{% side(img="recording.png", side="right") %}
+{% side(img="recording.png", alt="Écran d'enregistrement", side="right") %}
 <h2>Enregistrement facile</h2>
 <p>
 À la différence des logiciels d’enregistrement d’écrans, Polymny guide et
@@ -84,7 +84,7 @@ facilite l’enregistrement des commentaires vidéos (avec la webcam) ou audios
 un navigateur web.
 </p>
 {% end %}
-{% side(img="bigpicture.png", side="left") %}
+{% side(img="bigpicture.png", alt="Fonctionnement en 4 étapes de Polymny", side="left") %}
 <h2>4 étapes</h2>
 <p>
 Le protocole de Polymny repose sur 4 étapes : préparer (en utilisant ou pas le
@@ -93,7 +93,7 @@ les médias selon différents motifs) et publier (en obtenant le lien à partage
 sans aucun effort technique).
 </p>
 {% end %}
-{% side(img="management.png", side="right") %}
+{% side(img="management.png", alt="Gestion des projets et capsules", side="right") %}
 <h2>Gérer les caspules</h2>
 <p>
 Aucune minute passée pour s’enregistrer n’est perdue, chaque effort est
@@ -110,7 +110,7 @@ pédagogiques : alignement pédagogique, ajustement de la durée du message ou d
 la clarté de la vidéo.
 </p>
 {% end %}
-{% side(img="addresource.png", side="left") %}
+{% side(img="addresource.png", alt="Ajout de ressources externes", side="left") %}
 <h2>Vidéos additionnelles</h2>
 <p>
 Parmi les fonctionnalités plébiscitées, Polymny permet d’insérer, en lieu et
@@ -123,7 +123,7 @@ publiques (universités, lycées, MOOC FUN) et privées (organismes de formation
 professionnelle).
 </p>
 {% end %}
-{% side(img="studio.png", side="right") %}
+{% side(img="studio.png", alt="Enregistrement en studio fond vert", side="right") %}
 <h2>Fonctions avancées</h2>
 <p>
 Des fonctionnalités avancées sont disponibles sous forme de services
@@ -183,8 +183,8 @@ Il se poursuit par un programme de maturation de Toulouse Tech Transfer en
 </div>
 
 <div class="columns is-vcentered is-centered m-1">
-<img src="/img/logoRegionOccitanie.png">
-<a href="https://www.toulouse-tech-transfer.com/"><img class="m-1" src="/img/logoTTT.png"></a>
+<img src="/img/partners/regionoccitanie.webp" alt="Logo Région Occitanie">
+<a href="https://www.toulouse-tech-transfer.com/"><img class="m-1" src="/img/partners/ttt.webp" alt="Logo TTT"></a>
 </div>
 
 <div class="column is-8 is-offset-2 content has-text-centered">
@@ -192,19 +192,19 @@ Les acteurs, les utilisateurs et les soutiens :
 </div>
 
 <div class="columns is-vcentered is-centered m-1">
-<a href="https://www.irit.fr/"><img class="m-1" src="/img/logoIRIT.png"></a>
-<a href="https://www.cepfor.com/"><img class="m-1" src="/img/logoCEPFOR.png"></a>
-<a href="http://www.ceresa.fr"><img class="m-1" src="/img/logoCERESA.png"></a>
-<a href="https://www.inp-toulouse.fr/fr/toulouse-inp/dynamique-pedagogique.html"><img class="m-1" src="/img/logoDYP.png"></a>
+<a href="https://www.irit.fr/"><img class="m-1" src="/img/partners/irit.webp" alt="Logo IRIT"></a>
+<a href="https://www.cepfor.com/"><img class="m-1" src="/img/partners/cepfor.webp" alt="Logo CEPFOR"></a>
+<a href="http://www.ceresa.fr"><img class="m-1" src="/img/partners/ceresa.webp" alt="Logo CERESA"></a>
+<a href="https://www.inp-toulouse.fr/fr/toulouse-inp/dynamique-pedagogique.html"><img class="m-1" src="/img/partners/dyp.webp" alt="Logo DYP"></a>
 </div>
 
 <div class="columns is-vcentered is-centered m-1">
-<a href="https://www.univ-toulouse.fr/"><img class="m-1" src="/img/logoUFT.png"></a>
-<a href="https://www.inp-toulouse.fr/"><img class="m-1" src="/img/logoINP.png"></a>
-<a href="https://www.enseeiht.fr/"><img class="m-1" src="/img/logoN7.png"></a>
-<a href="https://www.univ-tlse2.fr/"><img class="m-1" src="/img/logoUT2J.png"></a>
-<a href="https://www.inrae.fr/"><img class="m-1" src="/img/logoINRAE.png"></a>
-<a href="https://www.tice-education.fr/"><img class="m-1" src="/img/logoTiceEducation.png"></a>
+<a href="https://www.univ-toulouse.fr/"><img class="m-1" src="/img/partners/uft.webp" alt="Logo UFT"></a>
+<a href="https://www.inp-toulouse.fr/"><img class="m-1" src="/img/partners/inp.webp" alt="Logo INPT"></a>
+<a href="https://www.enseeiht.fr/"><img class="m-1" src="/img/partners/n7.webp" alt="Logo ENSEEIHT"></a>
+<a href="https://www.univ-tlse2.fr/"><img class="m-1" src="/img/partners/ut2j.webp" alt="Logo UTF2J"></a>
+<a href="https://www.inrae.fr/"><img class="m-1" src="/img/partners/inrae.webp" alt="Logo INRAE"></a>
+<a href="https://www.tice-education.fr/"><img class="m-1" src="/img/partners/ticeeducation.webp" alt="Logo Tice Education"></a>
 </div>
 
 {% end %}

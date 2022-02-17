@@ -7,8 +7,8 @@
 <div class="columns is-vcentered">
 <div class="column">
 {% if side == "left" %}
-{% set image = resize_image(path=path, width=500, op="fit_width") %}
-<img src="{{ image.url }}" style="width: 100%;">
+{% set image = resize_image(path=path, width=500, op="fit_width", format="webp") %}
+<img src="{{ image.url }}" {% if alt %}alt="{{ alt }}" {% endif %}style="width: 100%;">
 {% else %}
 
 {{ body | safe }}
@@ -19,8 +19,8 @@
 
 {{ body | safe }}
 {% else %}
-{% set image = resize_image(path=path, width=500, op="fit_width") %}
-<img src="{{ image.url }}" style="width: 100%;">
+{% set image = resize_image(path=path, width=500, op="fit_width", format="webp") %}
+<img src="{{ image.url }}" {% if alt %}alt="{{ alt }}" {% endif %}style="width: 100%;">
 {% endif %}
 </div>
 </div>
