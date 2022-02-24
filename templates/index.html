@@ -61,13 +61,13 @@
     </div>
 </section>
 
-<section class="section hero has-background-success" style="overflow: hidden;">
+<section class="section hero is-polymny" style="overflow: hidden;">
     <div class="hero-body container">
         <div class="columns is-desktop is-centered">
             <div class="column is-3 has-text-centered">
                 {% set image = resize_image(path="../static/img/agpl.png", height=64, op="fit_height", format="webp") %}
-                <img style="height: 64px; margin: 16px;" src="{{ image.url }}" alt="License AGPLv3">
-                <h6 class="title is-6">Logiciel libre</h6>
+                <img style="height: 64px; margin: 16px; filter: invert(1);" src="{{ image.url }}" alt="License AGPLv3">
+                <h6 class="title is-6 is-polymny">Logiciel libre</h6>
                 <p class="is-size-6">
                 Polymny Studio est un logiciel libre et utilisable gratuitement, il vous suffit de créer un compte pour
                 commencer à créer vos vidéos.
@@ -76,8 +76,8 @@
 
             <div class="column is-3 has-text-centered">
                 {% set image = resize_image(path="../static/img/portability.png", height=64, op="fit_height", format="webp") %}
-                <img style="height: 64px; margin: 16px;" src="{{ image.url }}" alt="Windows, MacOS et Linux">
-                <h6 class="title is-6">Portabilité</h6>
+                <img style="height: 64px; margin: 16px; filter: invert(1);" src="{{ image.url }}" alt="Windows, MacOS et Linux">
+                <h6 class="title is-6 is-polymny">Portabilité</h6>
                 <p class="is-size-6">
                 Polymny Studio fonctionne sous Windows, MacOS et Linux, un simple navigateur, Firefox ou Chrome, suffit
                 pour créer vos vidéos.
@@ -86,8 +86,8 @@
 
             <div class="column is-3 has-text-centered">
                 {% set image = resize_image(path="../static/img/pdf.png", height=64, op="fit_height", format="webp") %}
-                <img style="height: 64px; margin: 16px;" src="{{ image.url }}" alt="Fichier PDF">
-                <h6 class="title is-6">Planches en PDF</h6>
+                <img style="height: 64px; margin: 16px; filter: invert(1);" src="{{ image.url }}" alt="Fichier PDF">
+                <h6 class="title is-6 is-polymny">Planches en PDF</h6>
                 <p class="is-size-6">
                 Utilisez votre outil préféré pour préparer vos contenus, exportez au format PDF et enregistrez-vous sur
                 Polymny Studio.
@@ -96,8 +96,8 @@
 
             <div class="column is-3 has-text-centered">
                 {% set image = resize_image(path="../static/img/play.png", height=64, op="fit_height", format="webp") %}
-                <img style="height: 64px; margin: 16px;" src="{{ image.url }}" alt="Bouton de lecture vidéo">
-                <h6 class="title is-6">Production automatique</h6>
+                <img style="height: 64px; margin: 16px; filter: invert(1);" src="{{ image.url }}" alt="Bouton de lecture vidéo">
+                <h6 class="title is-6 is-polymny">Production automatique</h6>
                 <p class="is-size-6">
                 Téléchargez votre vidéo finale au format MP4, ou publiez la directement sur le serveur de streaming de
                 Polymny Studio.
@@ -109,7 +109,7 @@
 
 <section class="hero is-large has-carousel">
     <div id="features" class="hero-carousel">
-        <div class="columns is-vcentered is-desktop has-background-danger m-0" style="height: 100%">
+        <div class="columns is-vcentered is-desktop is-polymny-2 m-0" style="height: 100%">
             <div class="column">
                 <h2 class="title is-3">Partage des capsules</h2>
                 <p>
@@ -125,7 +125,7 @@
                 <img src="{{ image.url }}" alt="Vidéo Polymny dans Moodle" style="width: 100%">
             </div>
         </div>
-        <div class="columns is-vcentered is-desktop has-background-info m-0" style="height: 100%">
+        <div class="columns is-vcentered is-desktop is-polymny-yellow m-0" style="height: 100%">
             <div class="column">
                 <h2 class="title is-3">Enregistrement facile</h2>
                 <p>
@@ -139,7 +139,7 @@
                 <img src="{{ image.url }}" alt="Écran d'enregistrement" style="width: 100%">
             </div>
         </div>
-        <div class="columns is-vcentered is-desktop has-background-danger m-0" style="height: 100%">
+        <div class="columns is-vcentered is-desktop is-polymny-2 m-0" style="height: 100%">
             <div class="column">
                 <h2 class="title is-3">4 étapes</h2>
                 <p>
@@ -153,7 +153,7 @@
                 <img src="{{ image.url }}" alt="Fonctionnement en 4 étapes de Polymny" style="width: 100%">
             </div>
         </div>
-        <div class="columns is-vcentered is-desktop has-background-info m-0" style="height: 100%">
+        <div class="columns is-vcentered is-desktop is-polymny-yellow m-0" style="height: 100%">
             <div class="column">
                 <h2 class="title is-3">Gérer les capsules</h2>
                 <p>
@@ -173,7 +173,7 @@
                 <img src="{{ image.url }}" alt="Gestion des projets et capsules" style="width: 100%">
             </div>
         </div>
-        <div class="columns is-vcentered is-desktop has-background-danger m-0" style="height: 100%">
+        <div class="columns is-vcentered is-desktop is-polymny-2 m-0" style="height: 100%">
             <div class="column">
                 <h2 class="title is-3">Vidéos additionnelles</h2>
                 <p>
@@ -190,7 +190,7 @@
                 <img src="{{ image.url }}" alt="Ajout de ressources externes" style="width: 100%">
             </div>
         </div>
-        <div class="columns is-vcentered is-desktop has-background-info m-0" style="height: 100%">
+        <div class="columns is-vcentered is-desktop is-polymny-yellow m-0" style="height: 100%">
             <div class="column">
                 <h2 class="title is-3">Fonctions avancées</h2>
                 <p>
@@ -231,7 +231,7 @@
     });
 </script>
 
-<section class="section hero has-background-success stamp">
+<section class="section hero is-polymny stamp">
     <div class="hero-body">
         <div class="columns is-desktop">
             <div class="column is-8 is-offset-2 content has-text-centered">

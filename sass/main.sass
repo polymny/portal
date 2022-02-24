@@ -4,6 +4,11 @@ $grey-lighter: hsl(0, 0%, 92%);
 
 @import "../bulma/bulma.sass";
 
+$polymny-green-1: rgb(38, 150, 60)
+$polymny-green-2: rgb(127, 204, 40)
+$polymny-green-3: rgb(202, 227, 16)
+$polymny-yellow: rgb(253, 210, 40)
+
 html
   font-size: 12px;
   @include tablet
@@ -55,3 +60,19 @@ body > footer
   max-height: 160%! important;
   position: absolute;
 
+nav.is-polymny
+  background-color: $polymny-green-1;
+  color: $light;
+
+.is-polymny
+  background-color: $polymny-green-1;
+  color: $light;
+
+.is-polymny-2
+  background-color: $polymny-green-2;
+
+.is-polymny-3
+  background-color: $polymny-green-3;
+
+.is-polymny-yellow
+  background-color: $polymny-yellow;
