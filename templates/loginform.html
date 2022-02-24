@@ -1,5 +1,5 @@
 <div id="loggedin" style="display: none;">
-    <a class="button is-rounded is-success" href="{{ config.extra.polymny_url | safe }}"><strong>Ouvrir Polymny</strong></a>
+    <a class="button is-rounded is-polymny" href="{{ config.extra.polymny_url | safe }}"><strong>Ouvrir Polymny</strong></a>
 </div>
 
 <form id="login" style="display: none;">
@@ -8,7 +8,7 @@
         <div class="columns is-desktop">
             <div class="column is-narrow p-2"><input class="input" type="text" id="loginusername" placeholder="Nom d'utilisateur" required></div>
             <div class="column is-narrow p-2"><input class="input" type="password" autocomplete="current-password" id="loginpassword" placeholder="Mot de passe" required></div>
-            <div class="column is-narrow p-2"><button type="submit" class="button is-rounded is-success" value="Ouvrir Polymny" id="loginbutton"><strong>Ouvrir Polymny</strong></button></div>
+            <div class="column is-narrow p-2"><button type="submit" class="button is-rounded is-polymny" value="Ouvrir Polymny" id="loginbutton"><strong>Ouvrir Polymny</strong></button></div>
         </div>
     </div>
     <div class="field is-grouped is-grouped-centered">
@@ -25,7 +25,7 @@
 </form>
 
 <form id="newpassword" class="form" style="display: none;">
-    <div id="newpasswordsuccess" style="display:none;" class="notification is-success has-text-left">
+    <div id="newpasswordsuccess" style="display:none;" class="notification is-polymny has-text-left">
         Un e-mail contenant un lien permettant de réinitialiser votre mot de passe vous a été envoyé.
     </div>
     <div id="newpasswordnotification" style="display:none;" class="notification is-danger has-text-left">Une erreur inconnue s'est produite</div>
@@ -34,14 +34,14 @@
             <input id="newpasswordemail" class="input" type="email" placeholder="Adresse e-mail" required>
         </p>
         <p class="control">
-            <button id="newpasswordbutton" type="submit" class="button is-success is-rounded"><strong>Réinitialiser</strong></button>
+            <button id="newpasswordbutton" type="submit" class="button is-polymny is-rounded"><strong>Réinitialiser</strong></button>
         </p>
     </div>
 </form>
 
 {% if not config.extra.disable_registration %}
 <form class="form" id="signup" style="display: none;">
-    <div id="signupsuccess" style="display:none;" class="notification is-success has-text-left">
+    <div id="signupsuccess" style="display:none;" class="notification is-polymny has-text-left">
         Inscritpion terminée ! Un mail contenant un lien permettant de valider votre inscription vous a été envoyé.
     </div>
     <div id="signupnotification" style="display:none;" class="notification is-danger has-text-left">
@@ -79,7 +79,7 @@
     </div>
     <div class="field">
         <p class="control">
-            <button id="signupbutton" type="submit" class="button is-success is-rounded"><strong>S'inscrire</strong></button>
+            <button id="signupbutton" type="submit" class="button is-polymny is-rounded"><strong>S'inscrire</strong></button>
         </p>
     </div>
 </form>
