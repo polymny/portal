@@ -191,7 +191,7 @@
             </div>
         </div>
         <div class="columns is-vcentered is-desktop is-polymny-yellow m-0" style="height: 100%">
-            <div class="column">
+            <div class="column content">
                 <h2 class="title is-3">Fonctions avancées</h2>
                 <p>
                 Des fonctionnalités avancées sont disponibles sous forme de services additionnels et optionnels. Si
@@ -212,7 +212,7 @@
                 </p>
             </div>
             <div class="column">
-                {% set image = resize_image(path="../static/img/studio.png", width=500, op="fit_width", format="webp") %}
+                {% set image = resize_image(path="../static/img/studio.jpg", width=500, op="fit_width", format="webp") %}
                 <img src="{{ image.url }}" alt="Enregistrement en studio fond vert" style="width: 100%">
             </div>
         </div>
@@ -226,7 +226,7 @@
     bulmaCarousel.attach('#features', {
         loop: true,
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 20000,
         duration: 1000,
     });
 </script>
