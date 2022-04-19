@@ -32,9 +32,9 @@ template = "large-page.html"
 <h3 class="title is-1 has-text-info mb-0 mt-0">12€</h3>
 <p>par utilisateur par mois<br/>entre 1 et 3 utilisateurs</p>
 <ul class="ml-6 mr-6 has-text-left">
+<li>Tous les avantages de l'offre gratuite</li>
 <li>15 Go /utilisateur de stockage (≈ 2h30)</li>
 <li>Travail collaboratif</li>
-<li>Import / export de capsules</li>
 <li>Pointeur / stylet virtuel</li>
 <li>Fond vert virtuel¹</li>
 <li>Amélioration sonore²</li>
@@ -48,7 +48,7 @@ template = "large-page.html"
 <div class="tile is-child has-background-success" style="padding: 20px 2px 2px 2px;">
 <div class="has-background-white-ter" style="height: 100%">
 <h2 class="mt-0">Pro</h2>
-<h3 class="title is-1 has-text-success mb-0 mt-0">12€</h3>
+<h3 class="title is-1 has-text-success mb-0 mt-0">15€</h3>
 <p>par utilisateur par mois<br/>entre 4 et 15 utilisateurs</p>
 <ul class="ml-6 mr-6 has-text-left">
 <li>Tous les avantages de l'offre Standard</li>
@@ -66,7 +66,7 @@ template = "large-page.html"
 <div class="tile is-child has-background-link" style="padding: 20px 2px 2px 2px;">
 <div class="has-background-white-ter" style="height: 100%">
 <h2 class="mt-0">Entreprise</h2>
-<h3 class="title is-1 has-text-link mb-0 mt-0">12€</h3>
+<h3 class="title is-1 has-text-link mb-0 mt-0">15€</h3>
 <p>par utilisateur par mois<br/>plus de 16 utilisateurs</p>
 <ul class="ml-6 mr-6 has-text-left">
 <li>Tous les avantages de l'offre Pro</li>
@@ -91,7 +91,7 @@ template = "large-page.html"
 
 |                                                   | Gratuit         | Standard               | Pro                       | Entreprise & Éducation        |
 |--------------------------------------------------:|:---------------:|:----------------------:|:-------------------------:|:-----------------------------:|
-| Tarif par utilisateur par mois                    | 0€              | 12€                    | 12€                       | 12€                           |
+| Tarif par utilisateur par mois                    | 0€              | 12€                    | 15€                       | 15€                           |
 | Nombre d'utilisateurs                             | 1               | 1 à 3                  | 4 à 15                    | Plus de 16                    |
 |                                                   |                 |                        |                           |                               |
 | **Fonctionnalités générales**                     |                 |                        |                           |                               |
