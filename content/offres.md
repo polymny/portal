@@ -9,14 +9,14 @@ template = "large-page.html"
 <div class="tile is-parent">
 <div class="tile is-child has-background-primary" style="padding: 20px 2px 2px 2px;">
 <div class="has-background-white-ter" style="height: 100%">
-<h2 class="mt-0">Gratuit</h2>
-<h3 class="title is-1 has-text-primary mb-0 mt-0">0€</h3>
-<p>par utilisateur par mois</p>
+<h2 class="mt-0">Libre</h2>
+<h3 class="title is-1 has-text-primary mb-0 mt-0">Gratuit</h3>
+<!--<p>HT, par utilisateur par mois</p>-->
 <ul class="ml-6 mr-6 has-text-left">
 <li>3 Go de stockage (≈ 30 min)</li>
 <li>Production de vidéo avec ou sans webcam</li>
 <li>Téléchargement en MP4 en HD</li>
-<li>URL de streaming</li>
+<li>URL de streaming pour partager les vidéos</li>
 <li>Ajout de vidéos externes</li>
 <li>Texte de prompteur</li>
 </ul>
@@ -30,16 +30,16 @@ template = "large-page.html"
 <div class="has-background-white-ter" style="height: 100%">
 <h2 class="mt-0">Standard</h2>
 <h3 class="title is-1 has-text-info mb-0 mt-0">12€</h3>
-<p>par utilisateur par mois<br/>entre 1 et 3 utilisateurs</p>
+<p>HT, par utilisateur par mois<br/>entre 1 et 3 utilisateurs</p>
 <ul class="ml-6 mr-6 has-text-left">
-<li>Tous les avantages de l'offre gratuite</li>
+<li>Tous les avantages de l'offre Libre</li>
 <li>15 Go /utilisateur de stockage (≈ 2h30)</li>
 <li>Travail collaboratif</li>
 <li>Pointeur / stylet virtuel</li>
 <li>Fond vert virtuel¹</li>
 <li>Amélioration sonore²</li>
 </ul>
-<a class="button is-info mb-3" href="/">S'abonner</a>
+<a class="button is-info mb-3" href="mailto:contacter@polymny.studio">S'abonner</a>
 </div>
 </div>
 </div>
@@ -49,7 +49,7 @@ template = "large-page.html"
 <div class="has-background-white-ter" style="height: 100%">
 <h2 class="mt-0">Pro</h2>
 <h3 class="title is-1 has-text-success mb-0 mt-0">15€</h3>
-<p>par utilisateur par mois<br/>entre 4 et 15 utilisateurs</p>
+<p>HT, par utilisateur par mois<br/>entre 4 et 15 utilisateurs</p>
 <ul class="ml-6 mr-6 has-text-left">
 <li>Tous les avantages de l'offre Standard</li>
 <li>30 Go / utilisateur de stockage (≈ 5h)</li>
@@ -67,7 +67,7 @@ template = "large-page.html"
 <div class="has-background-white-ter" style="height: 100%">
 <h2 class="mt-0">Entreprise</h2>
 <h3 class="title is-1 has-text-link mb-0 mt-0">15€</h3>
-<p>par utilisateur par mois<br/>plus de 16 utilisateurs</p>
+<p>HT, par utilisateur par mois<br/>plus de 16 utilisateurs</p>
 <ul class="ml-6 mr-6 has-text-left">
 <li>Tous les avantages de l'offre Pro</li>
 <li>Instance individuelle</li>
@@ -85,13 +85,13 @@ template = "large-page.html"
 
 
 **¹** : fonctionnalité disponible d'ici juillet 2022\
-**²** : fonctionnalité prévue d'ici 2023
+**²** : fonctionnalité prévue pour 2023
 
 ## Détails des offres
 
-|                                                   | Gratuit         | Standard               | Pro                       | Entreprise & Éducation        |
+|                                                   | Libre           | Standard               | Pro                       | Entreprise & Éducation        |
 |--------------------------------------------------:|:---------------:|:----------------------:|:-------------------------:|:-----------------------------:|
-| Tarif par utilisateur par mois                    | 0€              | 12€                    | 15€                       | 15€                           |
+| Tarif par utilisateur par mois                    | Gratuit         | 12€ HT                 | 15€ HT                    | 15€ HT                        |
 | Nombre d'utilisateurs                             | 1               | 1 à 3                  | 4 à 15                    | Plus de 16                    |
 |                                                   |                 |                        |                           |                               |
 | **Fonctionnalités générales**                     |                 |                        |                           |                               |
@@ -147,4 +147,4 @@ template = "large-page.html"
 
 
 **¹** : fonctionnalité disponible d'ici juillet 2022\
-**²** : fonctionnalité prévue d'ici 2023
+**²** : fonctionnalité prévue pour 2023

@@ -19,6 +19,21 @@ L'Association Polymny Studio est une association loi 1901 déclarée à la préf
 **SIRET (siège)** : 90983413700012\
 **Numéro de TVA intracommunautaire** : FR23909834137
 
+## Hébergements
+
+### Tetaneutral
+
+Association tetaneutral.net\
+c/o Sylvain REVAULT\
+7 Impasse René Char\
+Logement 39\
+31600 Lherm
+
+### OVHcloud
+
+2 rue Kellermann\
+59100 Roubaix
+
 ## Contact
 
 **Nous contacter** : [contacter@polymny.studio](mailto:contacter@polymny.studio)
