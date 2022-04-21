@@ -7,10 +7,13 @@ template = "large-page.html"
 <div class="tile is-horizontal">
 
 <div class="tile is-parent">
-<div class="tile is-child has-background-primary" style="padding: 20px 2px 2px 2px;">
+<div class="tile is-child has-background-polymny-green" style="padding: 20px 2px 2px 2px;">
 <div class="has-background-white-ter" style="height: 100%">
+<figure class="image is-128x128 is-inline-block mt-3 mb-0">
+<img src="/img/logos/green.png">
+</figure>
 <h2 class="mt-0">Libre</h2>
-<h3 class="title is-1 has-text-primary mb-0 mt-0">Gratuit</h3>
+<h3 class="title is-1 has-text-polymny-green mb-0 mt-0">Gratuit</h3>
 <!--<p>HT, par utilisateur par mois</p>-->
 <ul class="ml-6 mr-6 has-text-left">
 <li>3 Go de stockage (≈ 30 min)</li>
@@ -21,16 +24,19 @@ template = "large-page.html"
 <li>Ajout de vidéos externes</li>
 <li>Texte de prompteur</li>
 </ul>
-<a class="button is-primary mb-3" href="/">Commencer</a>
+<a class="button is-polymny-green mb-3" href="/">Commencer</a>
 </div>
 </div>
 </div>
 
 <div class="tile is-parent">
-<div class="tile is-child has-background-info" style="padding: 20px 2px 2px 2px;">
+<div class="tile is-child has-background-polymny-blue" style="padding: 20px 2px 2px 2px;">
 <div class="has-background-white-ter" style="height: 100%">
+<figure class="image is-128x128 is-inline-block mt-3 mb-0">
+<img src="/img/logos/blue.png">
+</figure>
 <h2 class="mt-0">Standard</h2>
-<h3 class="title is-1 has-text-info mb-0 mt-0">12€</h3>
+<h3 class="title is-1 has-text-polymny-blue mb-0 mt-0">12€</h3>
 <p>HT, par utilisateur par mois<br/>sans engagement<br/>entre 1 et 3 utilisateurs</p>
 <ul class="ml-6 mr-6 has-text-left">
 <li>Tous les avantages de l'offre Libre</li>
@@ -40,16 +46,19 @@ template = "large-page.html"
 <li>Fond vert virtuel¹</li>
 <li>Amélioration sonore²</li>
 </ul>
-<a class="button is-info mb-3" href="mailto:contacter@polymny.studio">S'abonner</a>
+<a class="button is-polymny-blue mb-3" href="mailto:contacter@polymny.studio">S'abonner</a>
 </div>
 </div>
 </div>
 
 <div class="tile is-parent">
-<div class="tile is-child has-background-success" style="padding: 20px 2px 2px 2px;">
+<div class="tile is-child has-background-polymny-purple" style="padding: 20px 2px 2px 2px;">
 <div class="has-background-white-ter" style="height: 100%">
+<figure class="image is-128x128 is-inline-block mt-3 mb-0">
+<img src="/img/logos/purple.png">
+</figure>
 <h2 class="mt-0">Pro</h2>
-<h3 class="title is-1 has-text-success mb-0 mt-0">15€</h3>
+<h3 class="title is-1 has-text-polymny-purple mb-0 mt-0">15€</h3>
 <p>HT, par utilisateur par mois<br/>sans engagement<br/>entre 4 et 15 utilisateurs</p>
 <ul class="ml-6 mr-6 has-text-left">
 <li>Tous les avantages de l'offre Standard</li>
@@ -58,16 +67,19 @@ template = "large-page.html"
 <li>Intégration avancée LMS</li>
 <li>Learning analytics</li>
 </ul>
-<a class="button is-success mb-3" href="mailto:contacter@polymny.studio">Nous contacter</a>
+<a class="button is-polymny-purple mb-3" href="mailto:contacter@polymny.studio">Nous contacter</a>
 </div>
 </div>
 </div>
 
 <div class="tile is-parent">
-<div class="tile is-child has-background-link" style="padding: 20px 2px 2px 2px;">
+<div class="tile is-child has-background-polymny-red" style="padding: 20px 2px 2px 2px;">
 <div class="has-background-white-ter" style="height: 100%">
+<figure class="image is-128x128 is-inline-block mt-3 mb-0">
+<img src="/img/logos/red.png">
+</figure>
 <h2 class="mt-0">Entreprise</h2>
-<h3 class="title is-1 has-text-link mb-0 mt-0">15€</h3>
+<h3 class="title is-1 has-text-polymny-red mb-0 mt-0">15€</h3>
 <p>HT, par utilisateur par mois<br/>sans engagement<br/>plus de 16 utilisateurs</p>
 <ul class="ml-6 mr-6 has-text-left">
 <li>Tous les avantages de l'offre Pro</li>
@@ -76,7 +88,7 @@ template = "large-page.html"
 <li>Stockage dédié</li>
 <li>Learning analytics individualisées</li>
 </ul>
-<a class="button is-link mb-3" href="mailto:contacter@polymny.studio">Nous contacter</a>
+<a class="button is-polymny-red mb-3" href="mailto:contacter@polymny.studio">Nous contacter</a>
 </div>
 </div>
 </div>
