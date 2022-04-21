@@ -89,6 +89,8 @@ template = "large-page.html"
 
 ## Détails des offres
 
+<div class="table-container">
+
 |                                                   | Libre           | Standard               | Pro                       | Entreprise & Éducation        |
 |--------------------------------------------------:|:---------------:|:----------------------:|:-------------------------:|:-----------------------------:|
 | Tarif par utilisateur par mois                    | Gratuit         | 12€ HT                 | 15€ HT                    | 15€ HT                        |
@@ -145,6 +147,7 @@ template = "large-page.html"
 | Installation et formation studio fond vert fixe   | ✗               | En option              | En option                 | En option                     |
 | Installation et formation studio fond vert fixe   | ✗               | En option              | En option                 | En option                     |
 
+</div>
 
 **¹** : fonctionnalité disponible d'ici juillet 2022\
 **²** : fonctionnalité prévue pour 2023
