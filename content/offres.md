@@ -15,6 +15,7 @@ template = "large-page.html"
 <ul class="ml-6 mr-6 has-text-left">
 <li>3 Go de stockage (≈ 30 min)</li>
 <li>Production de vidéo avec ou sans webcam</li>
+<li>Modifications de vidéos</li>
 <li>Téléchargement en MP4 en HD</li>
 <li>URL de streaming pour partager les vidéos</li>
 <li>Ajout de vidéos externes</li>
@@ -30,7 +31,7 @@ template = "large-page.html"
 <div class="has-background-white-ter" style="height: 100%">
 <h2 class="mt-0">Standard</h2>
 <h3 class="title is-1 has-text-info mb-0 mt-0">12€</h3>
-<p>HT, par utilisateur par mois<br/>entre 1 et 3 utilisateurs</p>
+<p>HT, par utilisateur par mois<br/>sans engagement<br/>entre 1 et 3 utilisateurs</p>
 <ul class="ml-6 mr-6 has-text-left">
 <li>Tous les avantages de l'offre Libre</li>
 <li>15 Go /utilisateur de stockage (≈ 2h30)</li>
@@ -49,7 +50,7 @@ template = "large-page.html"
 <div class="has-background-white-ter" style="height: 100%">
 <h2 class="mt-0">Pro</h2>
 <h3 class="title is-1 has-text-success mb-0 mt-0">15€</h3>
-<p>HT, par utilisateur par mois<br/>entre 4 et 15 utilisateurs</p>
+<p>HT, par utilisateur par mois<br/>sans engagement<br/>entre 4 et 15 utilisateurs</p>
 <ul class="ml-6 mr-6 has-text-left">
 <li>Tous les avantages de l'offre Standard</li>
 <li>30 Go / utilisateur de stockage (≈ 5h)</li>
@@ -67,7 +68,7 @@ template = "large-page.html"
 <div class="has-background-white-ter" style="height: 100%">
 <h2 class="mt-0">Entreprise</h2>
 <h3 class="title is-1 has-text-link mb-0 mt-0">15€</h3>
-<p>HT, par utilisateur par mois<br/>plus de 16 utilisateurs</p>
+<p>HT, par utilisateur par mois<br/>sans engagement<br/>plus de 16 utilisateurs</p>
 <ul class="ml-6 mr-6 has-text-left">
 <li>Tous les avantages de l'offre Pro</li>
 <li>Instance individuelle</li>
