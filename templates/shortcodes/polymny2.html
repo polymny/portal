@@ -1,0 +1,19 @@
+<div>
+    <div style="position: relative; width: 100%; padding-top: 56.25%">
+        <iframe
+            allowfullscreen="true"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+            {% if muted and autoplay %}
+            src="https://polymny.studio/v/{{id}}?a&m"
+            {% elif muted %}
+            src="https://polymny.studio/v/{{id}}?m"
+            {% elif autoplay %}
+            src="https://polymny.studio/v/{{id}}?a"
+            {% else %}
+            src="https://polymny.studio/v/{{id}}"
+            {% endif %}
+            {% if title %}title="{{ title }}"{% endif %}
+        >
+        </iframe>
+    </div>
+</div>
