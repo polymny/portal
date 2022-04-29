@@ -14,7 +14,7 @@ template = "large-page.html"
 </figure>
 <h2 class="mt-0">Libre</h2>
 <h3 class="title is-1 has-text-polymny-green mb-0 mt-0">Gratuit</h3>
-<!--<p>HT, par utilisateur par mois</p>-->
+<!--<p>HT, par utilisateur et par mois</p>-->
 <ul class="ml-6 mr-6 has-text-left">
 <li>3 Go de stockage (≈ 1h de vidéo publiée)</li>
 <li>Production de vidéo avec ou sans webcam</li>
@@ -37,7 +37,7 @@ template = "large-page.html"
 </figure>
 <h2 class="mt-0">Standard</h2>
 <h3 class="title is-1 has-text-polymny-blue mb-0 mt-0">12€</h3>
-<p>HT, par utilisateur par mois<br/>sans engagement³<br/>entre 1 et 3 utilisateurs</p>
+<p>HT, par utilisateur et par mois<br/>sans engagement³<br/>entre 1 et 3 utilisateurs</p>
 <ul class="ml-6 mr-6 has-text-left">
 <li>Tous les avantages de l'offre Libre</li>
 <li>15 Go /utilisateur de stockage (≈ 5h)</li>
@@ -59,7 +59,7 @@ template = "large-page.html"
 </figure>
 <h2 class="mt-0">Pro</h2>
 <h3 class="title is-1 has-text-polymny-purple mb-0 mt-0">15€</h3>
-<p>HT, par utilisateur par mois<br/>sans engagement³<br/>entre 4 et 15 utilisateurs</p>
+<p>HT, par utilisateur et par mois<br/>sans engagement³<br/>entre 4 et 15 utilisateurs</p>
 <ul class="ml-6 mr-6 has-text-left">
 <li>Tous les avantages de l'offre Standard</li>
 <li>30 Go / utilisateur de stockage (≈ 10h)</li>
@@ -80,7 +80,7 @@ template = "large-page.html"
 </figure>
 <h2 class="mt-0">Entreprise</h2>
 <h3 class="title is-1 has-text-polymny-red mb-0 mt-0">15€</h3>
-<p>HT, par utilisateur par mois<br/>sans engagement³<br/>plus de 16 utilisateurs</p>
+<p>HT, par utilisateur et par mois<br/>sans engagement³<br/>plus de 16 utilisateurs</p>
 <ul class="ml-6 mr-6 has-text-left">
 <li>Tous les avantages de l'offre Pro</li>
 <li>Instance individuelle</li>
@@ -107,7 +107,7 @@ template = "large-page.html"
 
 |                                                   | Libre         | Standard               | Pro                       | Entreprise & Éducation        |
 |--------------------------------------------------:|:-------------:|:----------------------:|:-------------------------:|:-----------------------------:|
-| Tarif par utilisateur par mois                    | Gratuit       | 12€ HT                 | 15€ HT                    | 15€ HT                        |
+| Tarif par utilisateur et par mois                 | Gratuit       | 12€ HT                 | 15€ HT                    | 15€ HT                        |
 | Nombre d'utilisateurs                             | 1             | 1 à 3                  | 4 à 15                    | Plus de 16                    |
 |                                                   |               |                        |                           |                               |
 | **Fonctionnalités générales**                     |               |                        |                           |                               |
