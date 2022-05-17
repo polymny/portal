@@ -4,7 +4,7 @@ template = "news.html"
 date = 2022-05-15
 +++
 
-## English / Francais
+## English / Français
 
 Now Polymny Studio application is also available in English.
 
