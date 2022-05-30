@@ -64,8 +64,8 @@ template = "large-page.html"
 <li>Tous les avantages de l'offre Standard</li>
 <li>30 Go / utilisateur de stockage (≈ 10h)</li>
 <li>Intégration système d'authentification</li>
-<li>Intégration avancée LMS</li>
-<li>Learning analytics</li>
+<li>Intégration avancée LMS²</li>
+<li>Learning analytics²</li>
 </ul>
 <a class="button is-polymny-purple mb-3" href="mailto:contacter@polymny.studio">Nous contacter</a>
 </div>
@@ -86,7 +86,7 @@ template = "large-page.html"
 <li>Instance individuelle</li>
 <li>Logiciel en marque blanche</li>
 <li>Stockage dédié</li>
-<li>Learning analytics individualisées</li>
+<li>Learning analytics individualisées²</li>
 </ul>
 <a class="button is-polymny-red mb-3" href="mailto:contacter@polymny.studio">Nous contacter</a>
 </div>
