@@ -24,12 +24,6 @@ fonctionnalités développées, co-construites, opérées et évaluées par les
 clients partenaires de la SCIC ont vocation à être reversées dans le périmètre
 gratuit et ouvert à tous, à l'issue d’un cycle d’exploitation.
 
-> En tant qu'utilisateur de Polymny: vous pouvez adhérer à l'association.
-> L'assemblée générale constitutive aura lieu le 18 novembre à 18h à l'ENSEEIHT
-> à Toulouse. Venez nombreux!  Merci de nous confirmer votre venue à l'AG
-> constitutive en nous envoyant un mail à
-> [contacter@polymny.studio](mailto:contacter@polymny.studio).
-
 ## Un logiciel dont le socle ouvert et gratuit le restera !
 
 Le socle libre et gratuit de Polymny Studio est hébergé chez Tetaneutral

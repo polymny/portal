@@ -9,9 +9,9 @@ L'Association Polymny Studio est une association loi 1901 déclarée à la préf
 
 ## Siège social
 
-**Association Polymny Studio**\
-9 boulevard de la gare\
-31500 Toulouse
+**Polymny Studio**\
+7 chemin de bagatelle\
+31100 Toulouse
 
 ## Répertoire SIRENE
 
