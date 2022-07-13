@@ -223,6 +223,7 @@
         }));
     }
 
+
     let loginForm = document.getElementById('login');
     let loginUsername = document.getElementById('loginusername');
     let loginPassword = document.getElementById('loginpassword');
@@ -287,6 +288,11 @@
     let signUpSuccess = document.getElementById('signupsuccess');
     let openSignUp = document.getElementById('opensignup');
     let signUpButton = document.getElementById('signupbutton');
+    let signUpChecks = {};
+
+    function signUpRefresh(checks) {
+        signUpButton.disabled = !Object.values(checks).reduce((a, b) => a && b);
+    }
 
     signUpUsername.oninput = function() {
         let errors = [];
@@ -297,7 +303,9 @@
         errors.push(...testUsername(signUpUsername.value)
             .map((x) => "Le caractère " + x + " n'est pas accepté dans les noms d'utilisateurs"));
 
-        if (errors.length === 0) {
+        signUpChecks.username = errors.length === 0;
+
+        if (signUpChecks.username) {
             signUpUsername.classList.remove('is-danger');
             signUpUsernameError.style.visibility = 'hidden';
         } else {
@@ -305,20 +313,24 @@
             signUpUsernameError.style.visibility = 'visible';
             signUpUsernameError.innerHTML = errors[0];
         }
+
+        signUpRefresh(signUpChecks);
     };
 
     signUpUsername.oninput();
 
     signUpEmail.oninput = function() {
-        if (testEmail(signUpEmail.value)) {
+        signUpChecks.email = testEmail(signUpEmail.value);
+        if (signUpChecks.email) {
             signUpEmail.classList.remove('is-danger');
             signUpEmailError.style.visibility = 'hidden';
         } else {
             signUpEmail.classList.add('is-danger');
             signUpEmailError.innerHTML = "L'adresse e-mail est incorrecte";
             signUpEmailError.style.visibility = 'visible';
-
         }
+
+        signUpRefresh(signUpChecks);
     };
 
     signUpEmail.oninput();
@@ -354,12 +366,14 @@
             signUpPasswordLevelLabel.innerHTML = "Bonne complexité du mot de passe";
         }
 
+        signUpChecks.password = level >= 5;
         signUpPasswordConfirmation.oninput();
     };
 
 
     signUpPasswordConfirmation.oninput = function() {
-        if (signUpPassword.value === signUpPasswordConfirmation.value) {
+        signUpChecks.passwordConfirmation = signUpPassword.value === signUpPasswordConfirmation.value;
+        if (signUpChecks.passwordConfirmation) {
             signUpPasswordConfirmation.classList.remove('is-danger');
             signUpPasswordConfirmationError.style.visibility = 'hidden';
         } else {
@@ -367,12 +381,16 @@
             signUpPasswordConfirmationError.innerHTML = "Les deux mots de passe ne correspondent pas";
             signUpPasswordConfirmationError.style.visibility = 'visible';
         }
+
+        signUpRefresh(signUpChecks);
     };
 
     signUpPassword.oninput();
 
     signUpAccept.onchange = function() {
-        signUpAcceptError.style.visibility = signUpAccept.checked ? "hidden" : "visible";
+        signUpChecks.accepted = signUpAccept.checked;
+        signUpAcceptError.style.visibility = signUpChecks.accepted ? "hidden" : "visible";
+        signUpRefresh(signUpChecks);
     };
 
     signUpAccept.onchange();
