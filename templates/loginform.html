@@ -49,32 +49,40 @@
     </div>
     <div class="field">
         <p class="control">
-            <input id="signupusername" class="input" type="text" placeholder="Nom d'utilisateur" required>
+            <input id="signupusername" class="input is-danger" type="text" placeholder="Nom d'utilisateur" required>
         </p>
+        <p id="signupusernameerror" class="help has-text-left has-text-danger-dark">A</p>
     </div>
     <div class="field">
         <p class="control">
             <input id="signupemail" class="input" type="email" placeholder="Adresse e-mail" required>
         </p>
+        <p id="signupemailerror" class="help has-text-left has-text-danger-dark">A</p>
     </div>
     <div class="field">
         <p class="control">
             <input id="signuppassword" class="input" type="password" placeholder="Mot de passe" autocomplete="new-password" required>
         </p>
+        <p class="control mt-3">
+            <progress id="signuppasswordlevel" class="progress is-danger is-small" value="0" max="7"></progress>
+        </p>
+        <p id="signuppasswordlevellabel" class="help has-text-danger-dark has-text-left">A</p>
     </div>
     <div class="field">
         <p class="control">
             <input id="signuppasswordconfirmation" class="input" type="password" autocomplete="new-password" placeholder="Retapez votre mot de passe" required>
         </p>
+        <p id="signuppasswordconfirmationerrror" class="help has-text-left has-text-danger-dark">A</p>
     </div>
     <div class="field has-text-left">
         <label class="checkbox">
             <input id="signupaccept" checked=false type="checkbox" class="mr-1">J'ai lu les <a href="/cgu/">conditions d'utilisation</a> et les accepte
         </label>
+        <p id="signupaccepterror" class="help has-text-danger-dark has-text-left">Vous devez accepter les conditions d'utilisation pour vous inscrire</p>
     </div>
     <div class="field has-text-left">
         <label class="checkbox">
-            <input id="signupsubscribed" checked=true type="checkbox" class="mr-1">Je m'inscris à la newsletter de Polymny Studio
+            <input id="signupsubscribed" checked=false type="checkbox" class="mr-1">Je m'inscris à la newsletter de Polymny Studio
         </label>
     </div>
     <div class="field">
@@ -107,7 +115,7 @@
         let errored = [];
         for (let c of u) {
             if (!isAllowed(c)) {
-                errored.push(c);
+                errored.push("\"" + c + "\"" + (c === " " ? " (espace)" : ""));
             }
         }
 
@@ -140,6 +148,44 @@
         }
 
         return true;
+    }
+
+    function passwordStrength(password) {
+        let level = 1;
+
+        if (/[a-z]/.test(password)) {
+            level++;
+        }
+
+        if (/[A-Z]/.test(password)) {
+            level++;
+        }
+
+        if (/[0-9]/.test(password)) {
+            level++;
+        }
+
+        if (/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(password)) {
+            level++;
+        }
+
+        if (password.length > 9) {
+            level++;
+        }
+
+        if (password.length > 7) {
+            level++;
+        }
+
+        if (password.length < 6) {
+            level = 1;
+        }
+
+        if (password.length === 0) {
+            level = 0;
+        }
+
+        return level;
     }
 
     function signUp() {
@@ -225,16 +271,111 @@
     {% if not config.extra.disable_registration %}
     let signUpForm = document.getElementById('signup');
     let signUpUsername = document.getElementById('signupusername');
+    let signUpUsernameError = document.getElementById('signupusernameerror');
     let signUpEmail = document.getElementById('signupemail');
+    let signUpEmailError = document.getElementById('signupemailerror');
     let signUpPassword = document.getElementById('signuppassword');
+    let signUpPasswordLevel = document.getElementById('signuppasswordlevel');
+    let signUpPasswordLevelLabel = document.getElementById('signuppasswordlevellabel');
     let signUpPasswordConfirmation = document.getElementById('signuppasswordconfirmation');
+    let signUpPasswordConfirmationError = document.getElementById('signuppasswordconfirmationerrror');
     let signUpAccept = document.getElementById('signupaccept'); signUpAccept.checked = false;
-    let signUpSubscribed = document.getElementById('signupsubscribed'); signUpSubscribed.checked = true;
+    let signUpAcceptError = document.getElementById('signupaccepterror');
+    let signUpSubscribed = document.getElementById('signupsubscribed'); signUpSubscribed.checked = false;
     let signUpNotification = document.getElementById('signupnotification');
     let signUpNotificationContent = document.getElementById('signupnotificationcontent');
     let signUpSuccess = document.getElementById('signupsuccess');
     let openSignUp = document.getElementById('opensignup');
     let signUpButton = document.getElementById('signupbutton');
+
+    signUpUsername.oninput = function() {
+        let errors = [];
+        if (signUpUsername.value.length < 4) {
+            errors.push("Le nom d'utilisateur doit faire plus de 3 caractères");
+        }
+
+        errors.push(...testUsername(signUpUsername.value)
+            .map((x) => "Le caractère " + x + " n'est pas accepté dans les noms d'utilisateurs"));
+
+        if (errors.length === 0) {
+            signUpUsername.classList.remove('is-danger');
+            signUpUsernameError.style.visibility = 'hidden';
+        } else {
+            signUpUsername.classList.add('is-danger');
+            signUpUsernameError.style.visibility = 'visible';
+            signUpUsernameError.innerHTML = errors[0];
+        }
+    };
+
+    signUpUsername.oninput();
+
+    signUpEmail.oninput = function() {
+        if (testEmail(signUpEmail.value)) {
+            signUpEmail.classList.remove('is-danger');
+            signUpEmailError.style.visibility = 'hidden';
+        } else {
+            signUpEmail.classList.add('is-danger');
+            signUpEmailError.innerHTML = "L'adresse e-mail est incorrecte";
+            signUpEmailError.style.visibility = 'visible';
+
+        }
+    };
+
+    signUpEmail.oninput();
+
+    signUpPassword.oninput = function() {
+
+        let level = passwordStrength(signUpPassword.value);
+        signUpPasswordLevel.value = level;
+
+        signUpPassword.classList.remove('is-danger');
+        signUpPasswordLevel.classList.remove('is-danger');
+        signUpPasswordLevel.classList.remove('is-warning');
+        signUpPasswordLevel.classList.remove('is-success');
+        signUpPasswordLevelLabel.classList.remove('has-text-danger-dark');
+        signUpPasswordLevelLabel.classList.remove('has-text-warning-dark');
+        signUpPasswordLevelLabel.classList.remove('has-text-success-dark');
+
+        if (level < 5) {
+            signUpPassword.classList.add('is-danger');
+            signUpPasswordLevel.classList.add('is-danger');
+            signUpPasswordLevelLabel.classList.add('has-text-danger-dark');
+            signUpPasswordLevelLabel.innerHTML = "Complexité du mot de passe insuffisante";
+            if (signUpPassword.value.length < 5) {
+                signUpPasswordLevelLabel.innerHTML += " : le mot de passe doit contenir au moins 6 caractères";
+            }
+        } else if (level < 6) {
+            signUpPasswordLevel.classList.add('is-warning');
+            signUpPasswordLevelLabel.classList.add('has-text-warning-dark');
+            signUpPasswordLevelLabel.innerHTML = "Complexité du mot de passe acceptable";
+        } else {
+            signUpPasswordLevel.classList.add('is-success');
+            signUpPasswordLevelLabel.classList.add('has-text-success-dark');
+            signUpPasswordLevelLabel.innerHTML = "Bonne complexité du mot de passe";
+        }
+
+        signUpPasswordConfirmation.oninput();
+    };
+
+
+    signUpPasswordConfirmation.oninput = function() {
+        if (signUpPassword.value === signUpPasswordConfirmation.value) {
+            signUpPasswordConfirmation.classList.remove('is-danger');
+            signUpPasswordConfirmationError.style.visibility = 'hidden';
+        } else {
+            signUpPasswordConfirmation.classList.add('is-danger');
+            signUpPasswordConfirmationError.innerHTML = "Les deux mots de passe ne correspondent pas";
+            signUpPasswordConfirmationError.style.visibility = 'visible';
+        }
+    };
+
+    signUpPassword.oninput();
+
+    signUpAccept.onchange = function() {
+        signUpAcceptError.style.visibility = signUpAccept.checked ? "hidden" : "visible";
+    };
+
+    signUpAccept.onchange();
 
     signUpForm.onsubmit = function(event) {
         event.preventDefault();
