@@ -353,7 +353,7 @@
             signUpPasswordLevel.classList.add('is-danger');
             signUpPasswordLevelLabel.classList.add('has-text-danger-dark');
             signUpPasswordLevelLabel.innerHTML = "Complexité du mot de passe insuffisante";
-            if (signUpPassword.value.length < 5) {
+            if (signUpPassword.value.length < 6) {
                 signUpPasswordLevelLabel.innerHTML += " : le mot de passe doit contenir au moins 6 caractères";
             }
         } else if (level < 6) {
