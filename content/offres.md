@@ -113,7 +113,7 @@ template = "large-page.html"
 | **Fonctionnalités générales**                     |               |                        |                           |                               |
 | Création de vidéos                                | Illimité      | Illimité               | Illimité                  | Illimité                      |
 | Modification de vidéos                            | Illimité      | Illimité               | Illimité                  | Illimité                      |
-| Quantité de stockage par utilisateur              | 3 Go (≈ 30 h) | 15 Go (≈ 5h)           | 30 Go (≈ 10h)             | Dédié                         |
+| Quantité de stockage par utilisateur              | 3 Go (≈ 1 h)  | 15 Go (≈ 5h)           | 30 Go (≈ 10h)             | Dédié                         |
 | Durée de stockage                                 | Limité        | Illimité               | Illimité                  | Illimité                      |
 | Sauvegarde des données                            | ✗             | ✓                      | ✓                         | ✓                             |
 | Téléchargement en MP4 HD                          | ✓             | ✓                      | ✓                         | ✓                             |
