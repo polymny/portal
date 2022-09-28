@@ -1,5 +1,5 @@
 +++
-title = "La société coopérative Polymny Studio"
+title = "L'association Polymny Studio"
 template = "section.html"
 +++
 
@@ -7,77 +7,72 @@ template = "section.html"
 <a href="/statuts.pdf">Cliquez ici</a> pour voir les statuts.
 </h3>
 
-<h3>La SA Polymny Studio, EdTech conforme aux valeurs de l'Économie Sociale et Solidaire, est depuis l’été 2022, une
-Société Coopérative d’Intérêt Collectif (SCIC).</h3>
+## Une association qui préfigure une coopérative !
 
-<h4 class="has-text-centered">Une offre utile, vertueuse et rentable</h4>
 
-<p>
-Le socle du logiciel libre éducatif est ouvert, accessible à tous gratuitement. L’offre gratuite revendique 6000
-utilisateurs dont une majorité d’enseignants et formateurs non experts du numérique. C’est notre grande fierté :
-utiliser Polymny Studio pour produire des vidéos pédagogiques à partir de ressources existantes est simplissime !
-L'hébergement écoresponsable de l’offre gratuite est opéré par Tetaneutral.
-</p>
+Né à l'université et dans un laboratoire de recherche (l'IRIT à Toulouse), le
+projet Polymny Studio évolue ! Une association, dont l'AG constitutive est
+fixée au 18 novembre 2021, va être créée. Cette association préfigure la
+création d’une SCIC (Société Coopérative d'Intérêt Collectif) ancrée dans
+l'Économie Sociale et Solidaire (ESS). Le socle de Polymny Studio restera ainsi
+une offre libre, gratuite et respectueuse de vos données personnelles.
 
-<p>
-Des fonctionnalités additionnelles et services avancés soutiennent l’offre payante qui finance les développements. Les
-clients de l’offre payante bénéficient d’un hébergement à la fois robuste et sécurisé (niveau de service sous SLA) et
-respectueux de la planète (stockage et streaming adaptés). Les fonctionnalités correspondantes ont vocation à rejoindre
-progressivement le périmètre gratuit après un cycle d’exploitation.
-</p>
+La SCIC contribuera néanmoins au financement des futurs développements en
+commercialisant des services professionnalisés complémentaires de l'offre
+gratuite et ouverte à tous. Le mécanisme est vertueux : les nouvelles
+fonctionnalités développées, co-construites, opérées et évaluées par les
+clients partenaires de la SCIC ont vocation à être reversées dans le périmètre
+gratuit et ouvert à tous, à l'issue d’un cycle d’exploitation.
 
-<p>
-Une logique partenariale alimente la stratégie d’entreprise et le sociétariat qui mêle acteurs publics, privés,
-fondateurs, utilisateurs et salariés (dont des investisseurs en titres participatifs).
-</p>
+## Un logiciel dont le socle ouvert et gratuit le restera !
 
-<p>
-Les partenariats accompagnent également le déploiement de la solution dans le périmètre scolaire (financement Edu-up de
-la Direction du Numérique pour l’Education du MENJS et soutien de la DRANE Occitanie) et dans le périmètre universitaire
-(Polymny Studio est une jeune entreprise universitaire issue de l’Université de Toulouse, maturée par Toulouse Tech
-Transfer à partir des travaux initiaux du laboratoire de recherche IRIT).
-</p>
+Le socle libre et gratuit de Polymny Studio est hébergé chez Tetaneutral
+(fournisseur d'accès à internet associatif et Toulousain). Un serveur financé
+par les fondateurs de l’association est dédié à ce service, il dispose de 12 To
+de stockage utile. Entre l'hébergement et l'amortissement du serveur, le
+service Polymny Studio ouvert et gratuit coûte 1700 euros par an. Nous avons
+donc décidé de limiter à 3 Go les comptes gratuits. Cela permettra d'héberger
+plus de 4000 comptes. Un des objectifs de l'association puis de la SCIC sera de
+financer ce service ouvert d’hébergement au bénéfice de tous et dans le cadre
+de CGU précises. Des offres payantes permettront, en plus de fonctionnalités
+spécialisées, d'avoir un espace de stockage plus grand (jusqu’à 15 Go à ce
+stade), une sauvegarde robuste et un hébergement avec une qualité de service
+garantie. L'hébergement chez Tetaneutral est excellent mais le service est géré
+uniquement par des bénévoles, donc on ne peut garantir une continuité de
+service (qui, de fait, est toutefois assurée).
 
-<p>
-La R&D reste au cœur de la démarche pour alimenter la stratégie technologique et commerciale (Projets France Relance,
-Financements de la Région Occitanie, Projets CIR internes, Contrat Doctoral). La société contribue à différents projets
-collaboratifs et se place à l’écoute d’opportunités dans ce domaine.
-</p>
+## Un logiciel à diffuser dans différents périmètres publics et privés !
 
-<div class="columns is-desktop is-vcentered has-text-centered">
-<div class="column">
-<h4>La durabilité</h4>
-<p>
-Des modèles pensés pour être pérennes, peu coûteux en ressources naturelles et indépendants des effets de mode
-</p>
-</div>
-<div class="column">
-<h4>La solidarité</h4>
-<p>
-Des modèles inclusifs pensés pour être accessibles dans l'intérêt du plus grand nombre
-</p>
-</div>
-<div class="column">
-<h4>La démocratie</h4>
-<p>
-Des modèles pensés par et pour des citoyen·nes où chacun·e a le pouvoir de participer et d'agir sur les décisions
-</p>
-</div>
-<div class="column">
-<h4>Un modèle à profitabilité limitée</h4>
-<p>
-Réinvestissement direct et systématique de l'essentiel des bénéfices dans l'activité, encadrement des échelles de
-salaires pour réduire les inégalités...
-</p>
-</div>
-</div>
+Le développement d'une offre dédiée aux organismes de formation publics et
+privés, sous forme de machine virtuelle ou physique (hébergée ou pas dans
+l'organisme) permettra d’opérer des ressources et un stockage dédié. Un service
+adapté aux écosystèmes cibles est visé avec une intégration à l'existant
+(connexions à un LMS, stockage HDS, etc). Les universités, à travers leur
+datacenter auront également vocation à héberger leur(s) propre(s) instance(s)
+de Polymny Studio. Les contacts sont également pris avec des rectorats. Des
+centaines d’enseignants du secondaire ont salué le service et espèrent un
+déploiement « académique », dans tous les sens du terme.
+
+## Les gens qui croient au projet, la SATT Toulousaine en tête.
+
+Le développement préalable de Polymny a été financé par la Région Occitanie,
+l'IRIT et Toulouse INP. Nous sommes actuellement financés par la Société
+d’Accélération Toulouse Tech Transfer pour accroître la maturité du projet
+Polymny Studio et cofinancer le développement de nouvelles fonctionnalités. Il
+faudra que la SCIC rembourse cet investissement ! C'est pour cela que, dans un
+premier temps, certaines de ces nouveautés naîtront dans l'offre payante au
+début 2022. Dès la création de l'association, le 18 novembre 2021, les 3
+collèges d’adhérents (fondateurs, utilisateurs, partenaires) sont ouverts à
+tous les acteurs désireux de s’impliquer dans la définition de la trajectoire
+de Polymny Studio et de bénéficier d’avantages attenants.
+
 
 <div  class="title mt-6 has-text-centered">
 
 ## L'équipe Polymny Studio
 
 </div>
-{% sideface(img="./societe/thomas.png", side="left") %}
+{% sideface(img="./association/thomas.png", side="left") %}
 
 Thomas Forgione (PhD), est actuellement ingénieur de recherche
 contractuel à l'IRIT où il pilote la R&D de Polymny Studio.
@@ -100,7 +95,7 @@ il ne compte plus les élèves ingénieurs qu’il a encadrés.
 {% end %}
 
 
-{% sideface(img="./societe/nicolas.png", side="right") %}
+{% sideface(img="./association/nicolas.png", side="right") %}
 
 Nicolas Bertrand (PhD), est actuellement ingénieur de valorisation
 contractuel à TTT où il anime le développement de Polymny Studio.
@@ -126,7 +121,7 @@ Chateau-Terrisse qui complètent les compétences de ce collectif d’ingénieur
 
 {% end %}
 
-{% sideface(img="./societe/vincent.png", side="left") %}
+{% sideface(img="./association/vincent.png", side="left") %}
 
 Vincent Charvillat  est actuellement professeur des universités à
 l’ENSEEIHT, chercheur en informatique à l’IRIT, Vice-président recherche et
@@ -143,7 +138,7 @@ acteurs publics.
 
 {% end %}
 
-{% sideface(img="./societe/pascale.png", side="right") %}
+{% sideface(img="./association/pascale.png", side="right") %}
 
 
 Pascale Chateau-Terrisse est Maîtresse de Conférences en Sciences de Gestion à
@@ -159,7 +154,7 @@ plus encore, le pilotage coopératif de la société.
 
 {% end %}
 
-{% sideface(img="./societe/jean-paul.png", side="left") %}
+{% sideface(img="./association/jean-paul.png", side="left") %}
 
 Jean-paul Beyssen  est directeur du [CEPFOR](http://www.cepfor.com), centre de
 formation continue pour le monde de la santé (infirmiers, aides soignants,
@@ -177,7 +172,7 @@ formation professionnelle et continue, son domaine d’expertise depuis plus de
 
 {% end %}
 
-{% sideface(img="./societe/axel.png", side="right") %}
+{% sideface(img="./association/axel.png", side="right") %}
 
 Axel Carlier est Maître de Conférences en informatique à l’IRIT-ENSEEIHT,
 expert en Intelligence Artificielle (IA) appliquée au multimédia.
