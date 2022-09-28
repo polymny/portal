@@ -77,7 +77,7 @@ salaires pour réduire les inégalités...
 ## L'équipe Polymny Studio
 
 </div>
-{% sideface(img="./association/thomas.png", side="left") %}
+{% sideface(img="./societe/thomas.png", side="left") %}
 
 Thomas Forgione (PhD), est actuellement ingénieur de recherche
 contractuel à l'IRIT où il pilote la R&D de Polymny Studio.
@@ -100,7 +100,7 @@ il ne compte plus les élèves ingénieurs qu’il a encadrés.
 {% end %}
 
 
-{% sideface(img="./association/nicolas.png", side="right") %}
+{% sideface(img="./societe/nicolas.png", side="right") %}
 
 Nicolas Bertrand (PhD), est actuellement ingénieur de valorisation
 contractuel à TTT où il anime le développement de Polymny Studio.
@@ -126,7 +126,7 @@ Chateau-Terrisse qui complètent les compétences de ce collectif d’ingénieur
 
 {% end %}
 
-{% sideface(img="./association/vincent.png", side="left") %}
+{% sideface(img="./societe/vincent.png", side="left") %}
 
 Vincent Charvillat  est actuellement professeur des universités à
 l’ENSEEIHT, chercheur en informatique à l’IRIT, Vice-président recherche et
@@ -143,7 +143,7 @@ acteurs publics.
 
 {% end %}
 
-{% sideface(img="./association/pascale.png", side="right") %}
+{% sideface(img="./societe/pascale.png", side="right") %}
 
 
 Pascale Chateau-Terrisse est Maîtresse de Conférences en Sciences de Gestion à
@@ -159,7 +159,7 @@ plus encore, le pilotage coopératif de la société.
 
 {% end %}
 
-{% sideface(img="./association/jean-paul.png", side="left") %}
+{% sideface(img="./societe/jean-paul.png", side="left") %}
 
 Jean-paul Beyssen  est directeur du [CEPFOR](http://www.cepfor.com), centre de
 formation continue pour le monde de la santé (infirmiers, aides soignants,
@@ -177,7 +177,7 @@ formation professionnelle et continue, son domaine d’expertise depuis plus de
 
 {% end %}
 
-{% sideface(img="./association/axel.png", side="right") %}
+{% sideface(img="./societe/axel.png", side="right") %}
 
 Axel Carlier est Maître de Conférences en informatique à l’IRIT-ENSEEIHT,
 expert en Intelligence Artificielle (IA) appliquée au multimédia.
