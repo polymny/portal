@@ -13,7 +13,7 @@ Société Coopérative d’Intérêt Collectif (SCIC).</h3>
 Le socle du logiciel libre éducatif est ouvert, accessible à tous gratuitement. L’[offre gratuite](/offres/) revendique
 6000 utilisateurs dont une majorité d’enseignants et formateurs non experts du numérique. C’est notre grande fierté :
 utiliser Polymny Studio pour produire des vidéos pédagogiques à partir de ressources existantes est simplissime !
-L'hébergement écoresponsable de l’offre gratuite est opéré par Tetaneutral.
+L'hébergement écoresponsable de l’offre gratuite est opéré par [Tetaneutral](https://tetaneutral.net/).
 
 </p>
 
