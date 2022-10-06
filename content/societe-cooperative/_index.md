@@ -92,8 +92,8 @@ salaires pour réduire les inégalités...
 </div>
 {% sideface(img="./societe-cooperative/thomas.png", side="left") %}
 
-Thomas Forgione (PhD), est actuellement ingénieur de recherche
-contractuel à l'IRIT où il pilote la R&D de Polymny Studio.
+Thomas Forgione (PhD), depuis le 1er septembre 2022 est le tout premier salarié de la SCIC Polymny Studio.
+Il pilote, en toute sobriété, la R&D de Polymny Studio.
 
 Ingénieur en informatique et  spécialisé en multimédia, Thomas Forgione se
 lance dans un doctorat après son diplôme ENSEEIHT en collaboration entre l’IRIT
@@ -115,8 +115,7 @@ il ne compte plus les élèves ingénieurs qu’il a encadrés.
 
 {% sideface(img="./societe-cooperative/nicolas.png", side="right") %}
 
-Nicolas Bertrand (PhD), est actuellement ingénieur de valorisation
-contractuel à TTT où il anime le développement de Polymny Studio.
+Nicolas Bertrand (PhD), est actuellement le PDG (sic) de la SCIC.
 
 Nicolas a fait le tour du monde. Né en Argentine, il est passé par le Brésil,
 le Zaïre et Madagascar. Il a étudié en France, puis s’est expatrié à l'hôpital
@@ -139,7 +138,21 @@ Chateau-Terrisse qui complètent les compétences de ce collectif d’ingénieur
 
 {% end %}
 
-{% sideface(img="./societe-cooperative/vincent.png", side="left") %}
+{% sideface(img="./societe-cooperative/damien.png", side="left") %}
+
+Damien Guillotin a rejoint depuis le 1er septembre 2022 (en contrat de
+professionnalisation) la SCIC Polymny Studio.
+
+Damien est en dernière année d'école d'ingénieur à l'ENSEEIHT où il décide de
+se spécialiser en multimédia. Il a déjà une solide expérience en
+intelligence artificiel et en Deep Learning. Ces compétences auront
+un fort impact sur la R&D de la SCIC et les nouvelles fonctionnalités
+de Polymny Studio.
+
+
+{% end %}
+
+{% sideface(img="./societe-cooperative/vincent.png", side="right") %}
 
 Vincent Charvillat  est actuellement professeur des universités à
 l’ENSEEIHT, chercheur en informatique à l’IRIT, Vice-président recherche et
@@ -156,7 +169,7 @@ acteurs publics.
 
 {% end %}
 
-{% sideface(img="./societe-cooperative/pascale.png", side="right") %}
+{% sideface(img="./societe-cooperative/pascale.png", side="left") %}
 
 
 Pascale Chateau-Terrisse est Maîtresse de Conférences en Sciences de Gestion à
@@ -172,11 +185,9 @@ plus encore, le pilotage coopératif de la société.
 
 {% end %}
 
-{% sideface(img="./societe-cooperative/jean-paul.png", side="left") %}
+{% sideface(img="./societe-cooperative/jean-paul.png", side="right") %}
 
-Jean-paul Beyssen  est directeur du [CEPFOR](http://www.cepfor.com), centre de
-formation continue pour le monde de la santé (infirmiers, aides soignants,
-acteurs de l’hygiène, etc.).
+Jean-paul Beyssen  est entrepreneur dans la formation continue.
 
 Jean-paul accompagne et soutient, depuis plusieurs années, les recherches
 menées à l’IRIT-ENSEEIHT autour du studio audiovisuel et du logiciel de
@@ -190,7 +201,7 @@ formation professionnelle et continue, son domaine d’expertise depuis plus de
 
 {% end %}
 
-{% sideface(img="./societe-cooperative/axel.png", side="right") %}
+{% sideface(img="./societe-cooperative/axel.png", side="left") %}
 
 Axel Carlier est Maître de Conférences en informatique à l’IRIT-ENSEEIHT,
 expert en Intelligence Artificielle (IA) appliquée au multimédia.
