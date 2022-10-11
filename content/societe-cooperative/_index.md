@@ -145,7 +145,7 @@ professionnalisation) la SCIC Polymny Studio.
 
 Damien est en dernière année d'école d'ingénieur à l'ENSEEIHT où il décide de
 se spécialiser en multimédia. Il a déjà une solide expérience en
-intelligence artificiel et en Deep Learning. Ces compétences auront
+intelligence artificielle et en Deep Learning. Ces compétences auront
 un fort impact sur la R&D de la SCIC et les nouvelles fonctionnalités
 de Polymny Studio.
 
