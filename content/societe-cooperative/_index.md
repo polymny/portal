@@ -28,7 +28,7 @@ vocation à rejoindre progressivement le périmètre gratuit après un cycle d�
 
 <p>
 
-Une logique partenariale alimente la stratégie d’entreprise et le [sociétariat](/status-scic.pdf) qui mêle acteurs
+Une logique partenariale alimente la stratégie d’entreprise et le [sociétariat](/statuts-scic.pdf) qui mêle acteurs
 publics, privés, fondateurs, utilisateurs et salariés (dont des investisseurs en titres participatifs).
 
 </p>
