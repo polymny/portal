@@ -55,7 +55,7 @@ collaboratifs et se place à l’écoute d’opportunités dans ce domaine.
 </p>
 
 <h3 class="has-text-centered">Les valeurs d'une SCIC</h3>
-<h5 class="has-text-centered">Par <a href="https://www.licoornes.coop/">licornes.coop</a></h5>
+<h5 class="has-text-centered">Par <a href="https://www.licoornes.coop/">licoornes.coop</a></h5>
 
 <div class="columns is-desktop is-vcentered has-text-centered">
 <div class="column">
