@@ -61,6 +61,7 @@
     </div>
 </section>
 
+
 <section class="section hero is-polymny" style="overflow: hidden;">
     <div class="hero-body container">
         <div class="columns is-desktop is-centered">
@@ -106,6 +107,47 @@
         </div>
     </div>
 </section>
+
+<section class="hero is-large has-carousel">
+    <div id="clients" class="hero-carousel ">
+        <div class="columns is-vcentered is-desktop is-polymny-2 m-r4 item-1" style="width: 98%; height: 100%">
+            <div class="column">
+                <h2 class="title is-3">Ils nous font confiance</h2>
+            </div>
+
+            <div class="column">
+                          {% set image = resize_image(path="../static/img/logos/enfp.jpg", width=250, op="fit_width", format="webp") %}
+                <img src="{{ image.url }}" alt="Enfp" style="width: 100%">
+            </div>
+        </div>
+
+        <div class="columns is-vcentered is-desktop is-polymny-2 m-r4 item-2" style="width: 98%; height: 100%">
+            <div class="column">
+                <h2 class="title is-3">Ils nous font confiance</h2>
+            </div>
+
+            <div class="column">
+                          {% set image = resize_image(path="../static/img/logos/agroMontpellier.png", width=250, op="fit_width", format="webp") %}
+                <img src="{{ image.url }}" alt="Institut agro à Montpellier" style="width: 100%">
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-head"></div>
+    <div class="hero-body has-text-centered">
+    </div>
+</section>
+
+<script>
+    "
+    bulmaCarousel.attach('#clients', {
+        loop: true,
+        autoplay: true,
+        autoplaySpeed: 20000,
+        duration: 1000,
+    });
+</script>
+
 
 <section class="hero is-large has-carousel">
     <div id="features" class="hero-carousel">
