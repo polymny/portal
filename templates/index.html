@@ -63,6 +63,50 @@
 
 
 <section class="section hero is-polymny" style="overflow: hidden;">
+    l
+    <div class="hero-body container">
+        <div class="columns is-desktop is-centered">
+            <div class="column is-3 has-text-centered">
+                <p class="is-size-6">
+                Ils nous font confiance
+
+                           </div>
+
+            <div class="column is-3 has-text-centered">
+                {% set image = resize_image(path="../static/img/portability.png", height=64, op="fit_height", format="webp") %}
+                <img style="height: 64px; margin: 16px; filter: invert(1);" src="{{ image.url }}" alt="Windows, MacOS et Linux">
+                <h6 class="title is-6 is-polymny">Portabilité</h6>
+                <p class="is-size-6">
+                Polymny Studio fonctionne sous Windows, MacOS et Linux, un simple navigateur, Firefox ou Chrome, suffit
+                pour créer vos vidéos.
+                </p>
+            </div>
+
+            <div class="column is-3 has-text-centered">
+                {% set image = resize_image(path="../static/img/pdf.png", height=64, op="fit_height", format="webp") %}
+                <img style="height: 64px; margin: 16px; filter: invert(1);" src="{{ image.url }}" alt="Fichier PDF">
+                <h6 class="title is-6 is-polymny">Planches en PDF</h6>
+                <p class="is-size-6">
+                Utilisez votre outil préféré pour préparer vos contenus, exportez au format PDF et enregistrez-vous sur
+                Polymny Studio.
+                </p>
+            </div>
+
+            <div class="column is-3 has-text-centered">
+                {% set image = resize_image(path="../static/img/play.png", height=64, op="fit_height", format="webp") %}
+                <img style="height: 64px; margin: 16px; filter: invert(1);" src="{{ image.url }}" alt="Bouton de lecture vidéo">
+                <h6 class="title is-6 is-polymny">Production automatique</h6>
+                <p class="is-size-6">
+                Téléchargez votre vidéo finale au format MP4, ou publiez la directement sur le serveur de streaming de
+                Polymny Studio.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+section class="section hero is-polymny" style="overflow: hidden;">
     <div class="hero-body container">
         <div class="columns is-desktop is-centered">
             <div class="column is-3 has-text-centered">
@@ -107,46 +151,6 @@
         </div>
     </div>
 </section>
-
-<section class="hero is-large has-carousel">
-    <div id="clients" class="hero-carousel ">
-        <div class="columns is-vcentered is-desktop is-polymny-2 m-r4 item-1" style="width: 98%; height: 100%">
-            <div class="column">
-                <h2 class="title is-3">Ils nous font confiance</h2>
-            </div>
-
-            <div class="column">
-                          {% set image = resize_image(path="../static/img/logos/enfp.jpg", width=250, op="fit_width", format="webp") %}
-                <img src="{{ image.url }}" alt="Enfp" style="width: 100%">
-            </div>
-        </div>
-
-        <div class="columns is-vcentered is-desktop is-polymny-2 m-r4 item-2" style="width: 98%; height: 100%">
-            <div class="column">
-                <h2 class="title is-3">Ils nous font confiance</h2>
-            </div>
-
-            <div class="column">
-                          {% set image = resize_image(path="../static/img/logos/agroMontpellier.png", width=250, op="fit_width", format="webp") %}
-                <img src="{{ image.url }}" alt="Institut agro à Montpellier" style="width: 100%">
-            </div>
-        </div>
-    </div>
-
-    <div class="hero-head"></div>
-    <div class="hero-body has-text-centered">
-    </div>
-</section>
-
-<script>
-    "
-    bulmaCarousel.attach('#clients', {
-        loop: true,
-        autoplay: true,
-        autoplaySpeed: 20000,
-        duration: 1000,
-    });
-</script>
 
 
 <section class="hero is-large has-carousel">
@@ -293,19 +297,71 @@
     </div>
 </section>
 
+<section class="hero is-medium has-carousel">
+    <div id="clients" class="hero-carousel ">
+        <div class="columns is-vcentered is-desktop is-polymny-yellow" style="100%; height: 100%">
+            <div class="column " >
+                <h2 class="title is-12 ml-6">Ils nous font confiance</h2>
+            </div>
+
+            <div class="column is-6 ">
+                {% set image = resize_image(path="../static/img/partners/enfp.jpg", width=250, op="fit_width", format="webp") %}
+                <a href="https://enfp.fr/" >
+                <img src="{{ image.url }}" alt="Enfp" style="width: 50%">
+                </a>
+            </div>
+        </div>
+
+        <div class="columns is-vcentered is-desktop is-polymny-2" style="100%; height: 100%">
+            <div class="column is-6">
+                <h2 class="title is-12 ml-6">Ils nous font confiance</h2>
+            </div>
+
+            <div class="column">
+                {% set image = resize_image(path="../static/img/partners/agroMontpellier.png", width=250, op="fit_width", format="webp") %}
+                <img src="{{ image.url }}" alt="Institut agro à Montpellier" style="width: 50%">
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-head"></div>
+    <div class="hero-body has-text-centered">
+    </div>
+</section>
+
+<script>
+    bulmaCarousel.attach('#clients', {
+        loop: true,
+        autoplay: true,
+        autoplaySpeed: 20000,
+        duration: 1000,
+    });
+</script>
+
+
 <section class="section hero">
     <div class="has-text-centered">
         Polymny Studio est issu d'un programme de pré-maturation de la Région
         Occitanie.
     </div>
     <div class="has-text-centered">
-        Il se poursuit par un programme de maturation de Toulouse Tech Transfer
-        en 2022.
+        En 2022, Il se poursuit par un programme de maturation de Toulouse Tech Transfer.
+
     </div>
 
     <div class="columns is-mobile is-multiline is-vcentered is-centered">
         {{ partner::logo(img="/img/partners/regionoccitanie.webp", url="https://www.laregion.fr", alt="Logo Région Occitanie") }}
         {{ partner::logo(img="/img/partners/ttt.webp", url="https://www.toulouse-tech-transfer.com", alt="Logo TTT") }}
+    </div>
+
+    <div class="has-text-centered m-4">
+        Le projet Polymny studio bénéficie du soutien de la <a href="https://www.education.gouv.fr/direction-du-numerique-pour-l-education-dne-9983">  Direction du Numérique pour l'Éducation </a>
+        grâce au dispositif<a href="https://eduscol.education.fr/1603/le-dispositif-edu" > Edu-up </a>
+    </div>
+    <div class="columns is-mobile is-multiline is-vcentered is-centered">
+        {{ partner::logo(img="/img/partners/menjs.webp", url="https://www.education.gouv.fr", alt="Logo Ministère de l'éducation nationale") }}
+        {{ partner::logo(img="/img/partners/eduup.webp", url="https://eduscol.education.fr/1603/le-dispositif-edu", alt="Logo Edu-Up") }}
+
     </div>
 
     <div class="column is-8 is-offset-2 has-text-centered">
@@ -314,7 +370,6 @@
 
     <div class="columns is-mobile is-multiline is-vcentered is-centered">
         {{ partner::logo(img="/img/partners/irit.webp", url="https://www.irit.fr", alt="Logo IRIT") }}
-        {{ partner::logo(img="/img/partners/cepfor.webp", url="https://www.cepfor.com", alt="Logo CEPFOR") }}
         {{ partner::logo(img="/img/partners/ceresa.webp", url="http://www.ceresa.fr", alt="Logo CERESA") }}
         {{ partner::logo(img="/img/partners/dyp.webp", url="https://www.inp-toulouse.fr/fr/toulouse-inp/dynamique-pedagogique.html", alt="Logo DYP") }}
         {{ partner::logo(img="/img/partners/uft.webp", url="https://www.univ-toulouse.fr", alt="Logo UFT") }}
