@@ -21,7 +21,7 @@ par :
 **Numéro de TVA intracommunautaire** : FR23909834137\
 **E-mail** : [contacter@polymny.studio](mailto:contacter@polymny.studio)
 
-** Directeur de la publication: ** Nicolas Bertrand
+**Directeur de la publication:** Nicolas Bertrand
 
 Le site [https://polymny.studio](https://polymny.studio) est hébergé par les
 entités suivantes :
