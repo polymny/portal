@@ -44,5 +44,5 @@ Logement 39\
 
 ## Politique de confidentialité
 
-- *[Politique de confidentialité](/politique-de-confidentialite.pdf)*
+- *[Politique de confidentialité](/politique-de-confidentialite/)*
 
