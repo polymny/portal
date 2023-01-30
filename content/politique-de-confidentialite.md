@@ -1,6 +1,6 @@
 +++
 title = "Politique de confidentialité"
-template = "large-page.html"
+template = "extra-large-page.html"
 +++
 
 <div class="container">

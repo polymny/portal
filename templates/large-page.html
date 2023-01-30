@@ -1,25 +1,18 @@
 {% extends "base.html" %}
 
-{% block extracss %}
-<style>
-table > tbody > tr > td > ul {
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
-}
-</style>
-{% endblock extracss %}
-
 {% block title %}{{ config.title }} - {{ page.title }}{% endblock title %}
 
 
 {% block content %}
 <section class="section">
-    <div class="content">
-        {% if page.title %}<h1 class="title is-1 has-text-centered">{{ page.title }}</h1>{% endif %}
-        {% if page.date %}<p class="is-size-7 is-italic">Publié le {{ page.day }}/{{ page.month }}/{{ page.year }}</p>{% endif %}
-        {% block innercontent %}
-        {{ page.content | safe }}
-        {% endblock innercontent %}
+    <div class="container">
+        <div class="content has-text-justified">
+            {% if page.title %}<h1 class="title is-1 has-text-centered">{{ page.title }}</h1>{% endif %}
+            {% if page.date %}<p class="is-size-7 is-italic">Publié le {{ page.day }}/{{ page.month }}/{{ page.year }}</p>{% endif %}
+            {% block innercontent %}
+            {{ page.content | safe }}
+            {% endblock innercontent %}
+        </div>
     </div>
 </section>
 {% endblock content %}

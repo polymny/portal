@@ -1,6 +1,6 @@
 +++
 title = "Gérer mon compte"
-template = "large-page.html"
+template = "page.html"
 +++
 
 ## Modifier mes coordonnées
