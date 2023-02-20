@@ -156,7 +156,7 @@ de Polymny Studio.
 
 Vincent Charvillat  est actuellement professeur des universités à
 l’ENSEEIHT, chercheur en informatique à l’IRIT, Vice-président recherche et
-valorisation de Toulouse INP, co-fondateur de OneStock (70 salariés).
+valorisation de Toulouse INP, co-fondateur de OneStock (plus de 100 salariés).
 
 Vincent aime enseigner, même à distance. Il est passionné par l’innovation et
 la valorisation de ses recherches appliquées sous toutes les formes possibles
