@@ -78,9 +78,9 @@ template = "large-page.html"
 <figure class="image is-128x128 is-inline-block mt-3 mb-0">
 <img src="/img/logos/red.png">
 </figure>
-<h2 class="mt-0">Entreprise</h2>
-<h3 class="title is-1 has-text-polymny-red mb-0 mt-0">15€</h3>
-<p>HT, par utilisateur et par mois<br/>sans engagement³<br/>plus de 16 utilisateurs</p>
+<h2 class="mt-0">Établissement</h2>
+<h3 class="title is-1 has-text-polymny-red mb-0 mt-0">Demander un devis</h3>
+<!--<p>HT, par utilisateur et par mois<br/>sans engagement³<br/>plus de 16 utilisateurs</p>-->
 <ul class="ml-6 mr-6 has-text-left">
 <li>Tous les avantages de l'offre Pro</li>
 <li>Instance individuelle</li>
@@ -107,7 +107,7 @@ template = "large-page.html"
 
 |                                                   | Libre         | Standard               | Pro                       | Entreprise & Éducation        |
 |--------------------------------------------------:|:-------------:|:----------------------:|:-------------------------:|:-----------------------------:|
-| Tarif par utilisateur et par mois                 | Gratuit       | 12€ HT                 | 15€ HT                    | 15€ HT                        |
+| Tarif par utilisateur et par mois                 | Gratuit       | 12€ HT                 | 15€ HT                    | Demander un devis             |
 | Nombre d'utilisateurs                             | 1             | 1 à 3                  | 4 à 15                    | Plus de 16                    |
 |                                                   |               |                        |                           |                               |
 | **Fonctionnalités générales**                     |               |                        |                           |                               |
