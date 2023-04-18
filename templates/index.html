@@ -50,9 +50,21 @@
                 diapositives en PDF et enregistrez une vidéo pédagogique pour vos élèves, vos étudiants, vos clients ou
                 vos collègues.
                 </p>
-                <div class="has-text-centered">
-                    {% include "loginform.html" %}
-                </div>
+                <div id="login-form"></div>
+                <script src="/unlogged.js"></script>
+                <script>
+                    let app = Elm.Unlogged.init({
+                        node: document.getElementById('login-form'),
+                        flags: {
+                            root: "{{ config.extra.polymny_url | safe }}",
+                            lang: "fr-FR",
+                        },
+                    });
+
+                    app.ports.submitForm.subscribe(function(arg) {
+                        document.getElementById(arg).submit();
+                    });
+                </script>
             </div>
             <div class="column is-4 is-offset-2">
                 <img class="hide-mobile" src="/img/favicon.webp" alt="Polymny Logo">
