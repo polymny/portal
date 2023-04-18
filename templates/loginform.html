@@ -244,7 +244,7 @@
 
         xhr.onreadystatechange = function() {
             if (xhr.readyState === xhr.DONE) {
-                if (xhr.status === 200) {
+                if (xhr.status === 200 || xhr.status === 202) {
                     // Redirect to /login
                     hiddenUsername.value = loginUsername.value;
                     hiddenPassword.value = loginPassword.value;

@@ -39,15 +39,27 @@
                         <a class="is-polymny-2 navbar-item is-size-8 mr-8" href="{{ get_url(path="@/notes-de-versions/_index.md") | safe }}">
                             <strong>Nouveautés</strong>
                         </a>
-                        <a class="is-polymny-2 navbar-item is-size-8" href="{{ get_url(path="@/association/_index.md") | safe }}">
-                            <strong>L'association</strong>
+                        <a class="is-polymny-2 navbar-item is-size-8" href="{{ get_url(path="@/societe-cooperative/_index.md") | safe }}">
+                            <strong>La société coopérative</strong>
                         </a>
 
+
                         <div class="buttons">
-                            <a class="navbar-item is-size-6 button is-rounded" href="{{ config.extra.polymny_url | safe }}">
+                            <a class="navbar-item is-size-8 button is-rounded" href="{{ config.extra.polymny_url | safe }}">
                             <strong>Ouvrir Polymny</strong>
                         </a>
+
+                         <a class="is-polymny-2 navbar-item is-size-6 mb-4 mr-3" href="https://mastodon.tetaneutral.net/@PolymnyStudio">
+                            <img class="logo" alt="Logo Mastodon" src="{{ get_url(path="img/social/mastodon.webp") | safe }}" >
+                        </a>
+                         <a class="is-polymny-2 navbar-item is-size-6 mb-4 mr-3" href="https://www.linkedin.com/company/polymny/">
+                            <img class="logo" alt="Logo linkedIn" src="{{ get_url(path="img/social/linkedin.webp") | safe }}" >
+                        </a>
+                         <a class="is-polymny-2 navbar-item is-size-6 mb-4 mr-3" href="https://twitter.com/PolymnyStudio">
+                            <img class="logo" alt="Logo Twitter" src="{{ get_url(path="img/social/twitter.webp") | safe }}" >
+                        </a>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -72,9 +84,9 @@
                     <div class="column is-2">
                         <h6 class="title is-6 has-text-success">Ressources</h6>
                         <ul>
-                            <li><a href="{{ get_url(path="@/cgu.md") | safe }}#article-1-mentions-legales">Mentions légales</a></li>
-                            <li><a href="{{ get_url(path="@/cgu.md") | safe }}">Conditions d'utilisation</a></li>
-                            <li><a href="{{ get_url(path="@/cgu.md") | safe }}#article-3-collecte-des-donnees">Données personnelles</a></li>
+                            <li><a href="{{ get_url(path="@/cgu.md") | safe }}#mentions-legales">Mentions légales</a></li>
+                            <li><a href="{{ get_url(path="@/cgu.md") | safe }}#conditions-generales-d-utilisation">Conditions d'utilisation</a></li>
+                            <li><a href="{{ get_url(path="@/politique-de-confidentialite.md") | safe }}">Politique de confidentialité</a></li>
                             <li><a href="https://github.com/polymny/polymny/blob/master/LICENSE">License GNU Affero V3</a></li>
                             <li><a href="https://github.com/polymny/polymny/">Code source</a></li>
                             <li><a href="{{ get_url(path="@/tutoriels.md") | safe }}">Tutoriels</a></li>

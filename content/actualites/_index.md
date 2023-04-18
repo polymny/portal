@@ -33,7 +33,7 @@ open source.</em>
 [Jean-Noël Saintrapt](https://www.saintrapt.com/utiliser-polymny-studio-pour-creer-ses-videos-pedagogiques/)
 {% end %}
 
-{% media(icon="/img/logoCEPFOR.png") %}
+{% media(icon="/img/partners/cepfor.webp") %}
 
 <em>Le CEPFOR se doit de proposer toujours plus de numérique dans ses
 formations et la transition n'est pas toujours facile pour nos formateurs
