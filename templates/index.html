@@ -51,11 +51,12 @@
                 vos collègues.
                 </p>
                 <div id="login-form"></div>
-                <script src="/unlogged.js"></script>
+                <script src="{{ config.extra.polymny_url | safe }}dist/js/unlogged.js"></script>
                 <script>
                     let app = Elm.Unlogged.init({
                         node: document.getElementById('login-form'),
                         flags: {
+                            hasCookie: document.cookie.match(/^(.*;)?\s*EXAUTH2\s*=\s*[^;]+(.*)?$/) ? true : false,
                             root: "{{ config.extra.polymny_url | safe }}",
                             lang: "fr-FR",
                         },
