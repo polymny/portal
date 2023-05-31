@@ -11,7 +11,7 @@ attention toute particulière à rendre l'utilisation de Polymny Studio plus
 agréable, fluide et ... belle !
 
 
-Nous sommes à l'écoute de vos retous par [e-mail](mailto:contacter@polymny.studio)
+Nous sommes à l'écoute de vos retours par [e-mail](mailto:contacter@polymny.studio)
 
 ## Vumètre
 
@@ -31,11 +31,13 @@ frais, onglet Options.
 
 ## Prompteur
 
+{% sidelocal(img="./notes-de-versions/2.0.0/prompteur.png", side="left") %}
 Dorénavant, il est aussi possible de modifier le texte du prompteur durant les
 enregistrements. Plus besoin, de retourner dans la vue préparation pour
 corriger une coquille. Au sujet de la vue présentation, un aperçu du texte sur
 les planches permet de rapidement identifier si le prompteur est actif.
 
+{% end %}
 
 ## Détection des webcams et micros
 
@@ -46,8 +48,10 @@ Nouvel algorithme de détection de webcams et de micros. Il détecte plus rapide
 
 ##  Options de productions par défaut
 
+{% sidelocal(img="./notes-de-versions/2.0.0/productionParDefaut.png", side="left") %}
 Via l'onglet Options, vous pouvez choisir des options de positionnement de
 l'enregistrement vidéo qui seront commune  à toute les planches.
+{% end %}
 
 ## Nouveau profil
 
@@ -55,19 +59,38 @@ l'enregistrement vidéo qui seront commune  à toute les planches.
 Toutes les informations sur vôtre compte Polymny Studio: statistiques, email, suppression de compte, ....
 {% end %}
 
-{% sidelocal(img="./notes-de-versions/1.1.0/record.png", side="right") %}
-Lors des enregistrements, le pointeur virtuel permet de  pointer et montrer des éléments d'une planche.
-2 modes, un mode pointeur qui suis les mouvements de la souris et un
-mode dessin qui permet de dessiner sur la planche.
+## Fond Vert virtuel
 
-Il n'est pas facile de dessiner avec le pointeur virtuel et de lire le prompteur en même temps. L'interface
-d'acquisition permet alors de s'enregistrer une première fois, puis de relire la vidéo et utiliser le pointeur dans une
-deuxième passe.
+{% sidelocal(img="./notes-de-versions/2.0.0/fondVertVirtuel.png", side="left") %}
+
+Le fond vert virtuel bénéficie de nombreuses nouveautés. Un aperçu de la
+suppression du fond est maintenant disponible en temps réel. Afin de ne pas
+faire surconsommer la machine de l'utilisateur, la suppression  du fond vert
+lors de la production de la capsule vidéo est faite sur les serveur de Polymny
+Studio. Il est aussi possible de remplacer le fond de la webcam par un fond de
+vôtre choix.
+
+**La fonction fond vert virtuel est disponible dans les offres payante de Polymny Studio.
+Aller sur la page [offre](../../offres/)  pour connaitre le détail  de nos offres.**
 
 {% end %}
 
-La fonction pointeur virtuel est disponible dans les offres payante de Polymny Studio.
-Aller sur la page [offre](../../offres/)  pour connaitre le détail  de nos offres.
+## Pointeur Virtuel
+
+{% sidelocal(img="./notes-de-versions/2.0.0/pointer.png", side="right") %}
+
+L'utilisation du pointeur de planche virtuel a été refait. Il est plus simple
+d'utilisation et aussi mieux intégré dans la vue enregistrements.
+
+Des corrections sur l'intégration du pointeur lors de la production de la
+capsule ont été apportées.
+
+
+**La fonction pointeur virtuel est disponible dans les offres payante de Polymny Studio.
+Aller sur la page [offre](../../offres/)  pour connaitre le détail  de nos offres.**
+
+
+{% end %}
 
 
 
