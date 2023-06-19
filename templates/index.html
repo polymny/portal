@@ -50,21 +50,29 @@
                 diapositives en PDF et enregistrez une vidéo pédagogique pour vos élèves, vos étudiants, vos clients ou
                 vos collègues.
                 </p>
-                <div id="login-form"></div>
+                <div id="login-form">
+                    <div class="field is-grouped is-grouped-centered">
+                        <p class="control">
+                            <a href="{{ config.extra.polymny_url | safe }}" class="button is-polymny is-rounded"><strong>Ouvrir Polymny</strong></a>
+                        </p>
+                    </div>
+                </div>
                 <script src="{{ config.extra.polymny_url | safe }}dist/js/unlogged.min.js"></script>
                 <script>
-                    let app = Elm.Unlogged.init({
-                        node: document.getElementById('login-form'),
-                        flags: {
-                            hasCookie: document.cookie.match(/^(.*;)?\s*EXAUTH2\s*=\s*[^;]+(.*)?$/) ? true : false,
-                            root: "{{ config.extra.polymny_url | safe }}",
-                            lang: "fr-FR",
-                        },
-                    });
+                    if (typeof Elm !== "undefined") {
+                        let app = Elm.Unlogged.init({
+                            node: document.getElementById('login-form'),
+                            flags: {
+                                hasCookie: document.cookie.match(/^(.*;)?\s*EXAUTH2\s*=\s*[^;]+(.*)?$/) ? true : false,
+                                root: "{{ config.extra.polymny_url | safe }}",
+                                lang: "fr-FR",
+                            },
+                        });
 
-                    app.ports.submitForm.subscribe(function(arg) {
-                        document.getElementById(arg).submit();
-                    });
+                        app.ports.submitForm.subscribe(function(arg) {
+                            document.getElementById(arg).submit();
+                        });
+                    }
                 </script>
             </div>
             <div class="column is-4 is-offset-2">
