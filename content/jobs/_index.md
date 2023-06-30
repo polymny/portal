@@ -5,6 +5,8 @@ template = "section.html"
 
 {% media(icon="/img/logos/red.png") %}
 
+<p>Date de Parution: 1er Juillet 2023</p>
+
 <em>Polymny Studio recrute un.e commercial.e
 en alternance pour une durée d’un an dans le cadre de son expansion et de sa
 croissance. </em>
