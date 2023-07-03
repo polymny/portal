@@ -38,7 +38,7 @@ développer notre présence sur le marché et améliorer notre offre commerciale
 Le contrat d'alternance débutera le 1er septembre 2023, et nous encourageons
 les candidat.e.s motivé.e.s et dynamiques à nous faire parvenir leur CV et
 lettre de motivation à l'adresse suivante :
-[job@polymny.studio](https://polymny.studio). Un CV vidéo ou une candidature
+[job@polymny.studio](mailto:job@polymny.studio). Un CV vidéo ou une candidature
 réalisé avec Polymny Studio sont aussi le bienvenue. Nous étudierons chaque
 candidature avec attention et convierons les personnes sélectionnées pour des
 entretiens individuels. Le poste est basé à Toulouse. Télétravail possible.
