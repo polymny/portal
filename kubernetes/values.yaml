@@ -1,0 +1,11 @@
+ingress:
+  uri: https://kubernetes.polymny.net
+  tls:
+    secretName: portal-ssl-certificates
+
+registry:
+  host: exln6chq.gra7.container-registry.ovh.net
+
+letsencrypt:
+  enabled: "true"
+  issuer: letsencrypt-prod

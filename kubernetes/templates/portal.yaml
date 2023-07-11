@@ -1,0 +1,86 @@
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: portal
+  annotations:
+    kubernetes.io/ingress.class: {{ .Values.ingressClass | default "nginx" }}
+    {{- with .Values.letsencrypt }}
+    {{- if eq .enabled "true" }}
+    cert-manager.io/cluster-issuer: {{ .issuer }}
+    {{- end }}
+    {{- end }}
+{{- with .Values.ingress }}
+{{ $hostname := regexSplit "://" .uri -1 | last }}
+{{- $uri := .uri }}
+spec:
+  {{- with .tls }}
+  tls:
+  - hosts:
+    - {{ $hostname }}
+    secretName: {{ .secretName }}
+  {{- end }}
+  rules:
+    - host: {{ $hostname  }}
+      http:
+        paths:
+          - path: /
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: portal
+                port:
+                  number: 80
+{{- end }}
+
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: portal
+  labels:
+    run: portal
+spec:
+  ports:
+  - name: http
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: portal
+
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: portal
+spec:
+  selector:
+    matchLabels:
+      app: portal
+  template:
+    metadata:
+      labels:
+        app: portal
+    spec:
+      imagePullSecrets:
+        - name: registry-credentials
+      containers:
+      - name: portal
+        {{ with .Values.registry }}
+        image: {{ .host }}/{{ .imagePrefix | default "polymny" }}/portal:{{ .tag | default "latest" }}
+        {{- end }}
+
+---
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: portal
+spec:
+  minAvailable: 1
+  selector:
+    matchLabels:
+      app: portal
+
