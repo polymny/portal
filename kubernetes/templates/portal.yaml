@@ -57,6 +57,7 @@ kind: Deployment
 metadata:
   name: portal
 spec:
+  replica: 2
   selector:
     matchLabels:
       app: portal
