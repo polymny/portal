@@ -73,6 +73,19 @@ spec:
         {{ with .Values.registry }}
         image: {{ .host }}/{{ .imagePrefix | default "polymny" }}/portal:{{ .tag | default "latest" }}
         {{- end }}
+        env:
+          - name: TITLE
+            value: {{ .Values.portal.title }}
+          - name: PORTAL_URL
+            value: {{ .Values.ingress.uri }}
+          - name: POLYMNY_URL
+            value: {{ .Values.portal.polymnyUrl }}
+          - name: COOKIE_DOMAIN
+            value: {{ .Values.portal.cookieDomain }}
+          - name: DISABLE_REGISTRATION
+            value: {{ .Values.portal.disableRegistration | quote }}
+
+
 
 ---
 apiVersion: policy/v1

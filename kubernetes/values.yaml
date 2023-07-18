@@ -1,7 +1,13 @@
 ingress:
-  uri: https://kubernetes.polymny.net
+  uri: https://polymny.studio
   tls:
     secretName: portal-ssl-certificates
+
+portal:
+  title: Polymny Studio
+  polymnyUrl: https://z.polymny.studio
+  cookieDomain: polymny.studio
+  disableRegistration: "false"
 
 registry:
   host: exln6chq.gra7.container-registry.ovh.net
