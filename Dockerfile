@@ -17,6 +17,7 @@ WORKDIR /app
 
 ENV TITLE="Polymny Studio" \
     PORTAL_URL="https://kubernetes.polymny.net" \
+    SERVER_URL="http://localhost:8000" \
     POLYMNY_URL="https://z.kubernetes.polymny.net" \
     COOKIE_DOMAIN="kubernetes.polymny.net" \
     DISABLE_REGISTRATION="false"

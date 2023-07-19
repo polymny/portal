@@ -6,6 +6,7 @@ ingress:
 portal:
   title: Polymny Studio
   polymnyUrl: https://z.polymny.studio
+  serverUrl: http://server:8000
   cookieDomain: polymny.studio
   disableRegistration: "false"
 

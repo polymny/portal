@@ -80,6 +80,8 @@ spec:
             value: {{ .Values.ingress.uri }}
           - name: POLYMNY_URL
             value: {{ .Values.portal.polymnyUrl }}
+          - name: SERVER_URL
+            value: {{ .Values.portal.serverUrl }}
           - name: COOKIE_DOMAIN
             value: {{ .Values.portal.cookieDomain }}
           - name: DISABLE_REGISTRATION
