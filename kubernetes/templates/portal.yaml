@@ -86,7 +86,14 @@ spec:
             value: {{ .Values.portal.cookieDomain }}
           - name: DISABLE_REGISTRATION
             value: {{ .Values.portal.disableRegistration | quote }}
-
+        readinessProbe:
+          httpGet:
+            port: 80
+            path: /
+        livenessProbe:
+          httpGet:
+            port: 80
+            path: /
 
 
 ---
