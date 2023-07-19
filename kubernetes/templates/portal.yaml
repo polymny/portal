@@ -66,6 +66,27 @@ spec:
       labels:
         app: portal
     spec:
+      affinity:
+        nodeAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 100
+            preference:
+              matchExpressions:
+              - key: nodepool
+                operator: In
+                values:
+                - nodepool-monthly
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 100
+            podAffinityTerm:
+              labelSelector:
+                matchExpressions:
+                - key: app
+                  operator: In
+                  values:
+                  - portal
+              topologyKey: kubernetes.io/hostname
       imagePullSecrets:
         - name: registry-credentials
       containers:
