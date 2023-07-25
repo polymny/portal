@@ -91,8 +91,8 @@ spec:
         - name: registry-credentials
       containers:
       - name: portal
-        {{ with .Values.registry }}
-        image: {{ .host }}/{{ .imagePrefix | default "polymny" }}/portal:{{ .tag | default "latest" }}
+        {{ with .Values.image }}
+        image: {{ .registry }}/{{ .imagePrefix | default "polymny" }}/portal:{{ .tag | default "latest" }}
         {{- end }}
         env:
           - name: TITLE
