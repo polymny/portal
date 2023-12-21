@@ -31,6 +31,7 @@ COPY templates ./templates
 COPY Makefile ./Makefile
 COPY config.tpl.toml ./config.tpl.toml
 COPY nginx.tpl.conf ./nginx.tpl.conf
+COPY glob-nginx.conf /etc/nginx/nginx.conf
 
 CMD envsubst < config.tpl.toml > config.toml && \
     envsubst < nginx.tpl.conf > /etc/nginx/conf.d/default.conf && \

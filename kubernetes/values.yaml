@@ -1,7 +1,7 @@
 image:
   app: portal
   registry: exln6chq.gra7.container-registry.ovh.net
-  tag: 1.0.2
+  tag: 1.0.4
 
 ingress:
   uri: https://polymny.studio
