@@ -20,7 +20,7 @@ Nous avons aussi en projet aussi le financement d'une thèse sur la création et
 
 Le financement des ces projets a un coût. Le développement de logiciel ne se fait par magie (même pour le logiciel libre, si, si, je vous assure).
 Polymny Studio, par choix éthique et politique, n'est pas une Startup de l'Edtech : c'est une société coopérative (une SCIC pour être précis).
-Nous sommes engagés dans l'économie sociale et solidaire : lucrativité limitée, durabilité et sobriété sont les 3 valeurs qui portent le système Polymny.
+Nous sommes engagés dans l'économie sociale et solidaire : lucrativité limitée, durabilité et sobriété sont les 3 valeurs qui portent l'aventure Polymny.
 Les levées de fond, VCs et autres mécanismes financiers capitalistiques, par construction, ce n'est pas pour nous.
 
 Il existe des mécanismes raisonnés de financement des sociétés coopératives.
