@@ -6,29 +6,32 @@ date = 2024-03-15
 
 
 Nouvelle version majeure de Polymny Studio.
-Des nouveautés à découvrir ci-dessous. Mais pas que!
+Des nouveautés à découvrir ci-dessous, mais pas que !
 L'application Polymny Studio est aussi toujours plus sobre.
-Nous veillons à fournir un service léger, sans surcharger de votre navigateur.
+Nous veillons à fournir un service léger, sans surcharger votre navigateur.
 Vous ne retrouverez pas non plus de tracker surveillant faits et clics pour mieux placer des produits inutiles.
 De plus, vous ne trouverez pas non plus dans Polymny Studio des machins IA à l'intérêt douteux et extrêmement énergivore.
 
+Évidemment, Polymny a dans ses cartons plein de nouvelles idées : modification à la volée de planches (sans passer par PowerPoint ou autres), génération automatisée de prompteur à partir de l'analyse du support de cours, génération d'avatars vidéo à partir des enregistrements (voire même à partir des sous-titres), etc.
 
-Évidemment, Polymny a dans ses cartons plein de nouvelles idées:  Modification à la volée de planches (sans passer par PowerPoint ou autres), génération automatisée de prompteur à partir de l'analyse du support de cours, génération d'avatars vidéo à partir des enregistrements (voire même à partir des sous titres),etc.
+Néanmoins pas de fuite en avant innovante sans maitrise des données, sans minimisation de la consommation et sans mise en commun des savoirs.
+L'inclusion de toutes et de tous, voilà un autre axe de développement de Polymny Studio.
+Nous avons aussi en projet aussi le financement d'une thèse sur la création et la lecture de contenus pédagogiques vidéos adaptées aux troubles d'apprentissage des étudiants neuroatypiques.
 
-Néanmoins pas de fuite en avant innovante sans maitrise des données,  sans minimisation de la consommation  et sans mise en commun des savoirs.
-L'inclusion de toutes et de tous, voilà un autre axe de développement de Polymny Studio. En projet aussi le financement d'une thèse sur la création et la lecture de contenus pédagogiques vidéos adaptées aux troubles d'apprentissage des étudiants neuroatypiques.
+Le financement des ces projets a un coût. Le développement de logiciel ne se fait par magie (même pour le logiciel libre, si, si, je vous assure).
+Polymny Studio, par choix éthique et politique, n'est pas une Startup de l'Edtech : c'est une société coopérative (une SCIC pour être précis).
+Nous sommes engagés dans l'économie sociale et solidaire : lucrativité limitée, durabilité et sobriété sont les 3 valeurs qui portent le système Polymny.
+Les levées de fond, VCs et autres mécanismes financiers capitalistiques, par construction, ce n'est pas pour nous.
 
-Le financement des ses projets a un cout. Le développement de logiciel ne se fait par magie (même pour le logiciel libre, si, si je vous assure). Polymny Studio par choix éthique et politique  n'est pas une Startup l'Edtech: c'est une société coopérative (une SCIC pour être précis). Nous sommes engagé dans l'économie sociale et solidaire: profitabilité limitée,durabilité et sobriété sont les 3 valeurs qui portent le système Polymny.
-Les levées de fond, VCs et autres mécanismes financiers capitalistiques, par construction ce n'est pas pour nous.
+Il existe des mécanismes raisonnés de financement des sociétés coopératives.
+Et cela tombe bien, nous avons mis en place les titres participatifs.
+Vous pouvez prendre un ou plusieurs titres (100 € le titre). Un placement à 4% par an pendant 7 ans.
+Avec un crédit d'impôt de 30% à la clef.
+Tous les details et bulletin de souscription sur [https://polymny.studio/titres.pdf](https://polymny.studio/titres.pdf).
 
-Il existe des mécanismes raisonnés de financement des sociétés coopératives. Et cela tombe bien, nous avons mis en place les titres participatifs. Vous pouvez prendre un ou plusieurs titres (100 € le titre). Un placement à 4% par an pendant 7 ans. Et un crédit d'impôt de 30% à la clef.  Tout les details et bulletin de souscription sur [https://polymny.studio/titres.pdf](https://polymny.studio/titres.pdf)
+Oui, pour Polymny Studio ce printemps 2023 est difficile, nous sommes à la recherche de prestations et de financements pour continuer l'aventure, mais pas à n'importe quelles conditions.
 
-Oui  pour Polymny Studio ce printemps 2023 est difficile, nous sommes à la recherche de prestation et de financement pour continuer l'aventure mais pas à n'importe quelles conditions.
-
-
-
-
-Nous sommes à l'écoute de vos retours par [e-mail](mailto:contacter@polymny.studio)
+Nous sommes à l'écoute de vos retours par [e-mail](mailto:contacter@polymny.studio).
 
 ## Incrustation ronde
 
