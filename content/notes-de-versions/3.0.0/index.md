@@ -10,7 +10,8 @@ Des nouveautés à découvrir ci-dessous, mais pas que !
 L'application Polymny Studio est aussi toujours plus sobre.
 Nous veillons à fournir un service léger, sans surcharger votre navigateur.
 Vous ne retrouverez pas non plus de tracker surveillant faits et clics pour mieux placer des produits inutiles.
-De plus, vous ne trouverez pas non plus dans Polymny Studio des machins IA à l'intérêt douteux et extrêmement énergivore.
+
+De plus, vous ne trouverez pas non plus dans Polymny Studio des machins IA à l'intérêt douteux et extrêmement énergivore. Nous développons des fonctionnalités utiles au créateur qui facilite la création de contenus pédagogiques. Nous veillons à ce que c'est fonctions soit frugales aussi bien sur votre navigateur web que sur nos serveurs. 
 
 Évidemment, Polymny a dans ses cartons plein de nouvelles idées : modification à la volée de planches (sans passer par PowerPoint ou autres), génération automatisée de prompteur à partir de l'analyse du support de cours, génération d'avatars vidéo à partir des enregistrements (voire même à partir des sous-titres), etc.
 
@@ -35,7 +36,7 @@ Nous sommes à l'écoute de vos retours par [e-mail](mailto:contacter@polymny.st
 
 ## Incrustation ronde
 
-{% sidelocal(img="./notes-de-versions/2.0.0/vumetre.png", side="left") %}
+{% sidelocal(img="./notes-de-versions/3.0.0/ronde.png", side="left") %}
 
 Un effet simple et sobre pour améliorer le rendu de la vidéo produite: incrustation ronde de la webcam.
 Lors de l'enregistrement, il suffit de se positionner au centre de la captation (une zone active est affichée).
@@ -43,24 +44,28 @@ Lors la production, placer et dimensionner  la "pastille" vidéo où vous le sou
 
 Fonctionnalité disponible dans l'offre pro. .
 
-
 {% end %}
 
-## Commentaire de vidéos
+## Commentaire de vidéos resources 
 
-{% sidelocal(img="./notes-de-versions/2.0.0/musiqueDeFond.png", side="right") %}
-TODO
+{% sidelocal(img="./notes-de-versions/3.0.0/record.png", side="right") %}
+Lors de l’enregistrement: une vidéo ressource peut-être commentée. Très pratiqua quand on souhaite commentée une resource et l'inclure dans une vidéo. 
+
+Pour cela: téléversez une vidéo à commenter sur une planche dans l'onglet *Préparer* . 
+Puis allez sur l'onglet *Enregistrer*, tout en bas de la page une barre de lecture apparait. 
+Lancez l'enregistrement, et utilisez la barre de lecture, pour jouez et pausez la vidéo à votre rythme. 
+
 {% end %}
 
 ## Nouveau rendu de vidéos
 
-{% sidelocal(img="./notes-de-versions/2.0.0/prompteur.png", side="left") %}
+{% sidelocal(img="./notes-de-versions/3.0.0/production.png", side="left") %}
 
 Bienvenue a Popy, notre nouvel outil de production de vidéos.
 A première vue rien ne change, mais avec cette nouvelle tuyauterie la vitesse
 de production de vidéos est décuplée. Et il est malin Popy: il ne va produire
 que les nouveaux enregistrement, donc plus besoin de régénérer toute la vidéo.
-Économise de temps et aussi d'énergie consommée.
+Économie de temps et aussi d'énergie consommée.
 
 {% end %}
 
