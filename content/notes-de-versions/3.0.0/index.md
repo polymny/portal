@@ -36,7 +36,14 @@ Nous sommes à l'écoute de vos retours par [e-mail](mailto:contacter@polymny.st
 ## Incrustation ronde
 
 {% sidelocal(img="./notes-de-versions/2.0.0/vumetre.png", side="left") %}
-TODO
+
+Un effet simple et sobre pour améliorer le rendu de la vidéo produite: incrustation ronde de la webcam.
+Lors de l'enregistrement, il suffit de se positionner au centre de la captation (une zone active est affichée).
+Lors la production, placer et dimensionner  la "pastille" vidéo où vous le souhaitez. Le tour est jouer.
+
+Fonctionnalité disponible dans l'offre pro. .
+
+
 {% end %}
 
 ## Commentaire de vidéos
