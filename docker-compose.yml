@@ -4,11 +4,11 @@ services:
 
   portal:
     # image: $${DOCKER_REGISTRY:?}/polymny/server:$${GIT_TAG:latest}
-    image: exln6chq.gra7.container-registry.ovh.net/polymny/portal:${TAG}
+    image: registry.polymny.studio/polymny/portal:${TAG}
     build:
       context: .
       target: portal
     ports:
-      - 80
+      - 8000:80
     restart: unless-stopped
 

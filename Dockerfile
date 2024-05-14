@@ -1,14 +1,4 @@
 #######################################################################################################################
-# BUILD
-#######################################################################################################################
-FROM rust:slim AS build
-
-RUN apt-get update -y && \
-    apt-get install -y make g++ libssl-dev gettext && \
-    rustup target add x86_64-unknown-linux-gnu && \
-    cargo install --git https://github.com/getzola/zola
-
-#######################################################################################################################
 # PORTAL
 #######################################################################################################################
 FROM nginx AS portal
@@ -22,7 +12,11 @@ ENV TITLE="Polymny Studio" \
     COOKIE_DOMAIN="kubernetes.polymny.net" \
     DISABLE_REGISTRATION="false"
 
-COPY --from=build /usr/local/cargo/bin/zola /bin/zola
+RUN curl -L https://github.com/getzola/zola/releases/download/v0.18.0/zola-v0.18.0-x86_64-unknown-linux-gnu.tar.gz -o zola.tar.gz && \
+    tar xvf zola.tar.gz && \
+    mv zola /bin/zola && \
+    rm zola.tar.gz
+
 COPY bulma ./bulma
 COPY content ./content
 COPY sass ./sass
